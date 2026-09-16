@@ -1,0 +1,335 @@
+{
+    "id": "radio_14_dance_02",
+    "type": "static",
+    "info": {
+        "title": "FlyLo FM",
+        "genre": "IDM and Midwest hip hop",
+        "dj": "Flying Lotus",
+        "icon": {
+            "color": "FlyLo_FM.svg",
+            "cover": "FlyLo_FM_cover.png"
+        }
+    },
+    "common": {},
+    "fileGroups": {
+        "track": [
+            {
+                "path": "flylo_part1.m4a",
+                "duration": 2607.22,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Getting There",
+                            "artist": "FLYING LOTUS FEAT. NIKI RANDA"
+                        },
+                        {
+                            "offset": 139453,
+                            "title": "Crystals",
+                            "artist": "CLAMS CASINO"
+                        },
+                        {
+                            "offset": 216627,
+                            "title": "Crosswerved",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 256537,
+                            "title": "Be Spin",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 355465,
+                            "title": "See Thru To U (ft Erykah Badu)",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 404707,
+                            "title": "The Diddler",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 472438,
+                            "title": "Computer Face RMX",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 563485,
+                            "title": "100hm",
+                            "artist": "HUDSON MOHAWKE"
+                        },
+                        {
+                            "offset": 634519,
+                            "title": "The Kill",
+                            "artist": "FLYING LOTUS FEAT. NIKI RANDA"
+                        },
+                        {
+                            "offset": 832497,
+                            "title": "Garbage",
+                            "artist": "TYLER, THE CREATOR"
+                        },
+                        {
+                            "offset": 1023488,
+                            "title": "Elevators (Me & You)",
+                            "artist": "OUTKAST"
+                        },
+                        {
+                            "offset": 1175397,
+                            "title": "Evil Grin",
+                            "artist": "CAPTAIN MURPHY"
+                        },
+                        {
+                            "offset": 1286456,
+                            "title": "Catapult Man",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 1392419,
+                            "title": "Encoded Flow",
+                            "artist": "DABRYE"
+                        },
+                        {
+                            "offset": 1469331,
+                            "title": "She Died There",
+                            "artist": "MACHINEDRUM"
+                        },
+                        {
+                            "offset": 1605388,
+                            "title": "It's Wack",
+                            "artist": "DJ RASHAD & HEAVEE"
+                        },
+                        {
+                            "offset": 1780566,
+                            "title": "O Sheit It's X",
+                            "artist": "THUNDERCAT"
+                        },
+                        {
+                            "offset": 1945532,
+                            "title": "Stonecutters",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 2074345,
+                            "title": "23",
+                            "artist": "SHADOW CHILD"
+                        },
+                        {
+                            "offset": 2242589,
+                            "title": "Stalker Ha",
+                            "artist": "KINGDOM"
+                        },
+                        {
+                            "offset": 2336463,
+                            "title": "Windowlicker",
+                            "artist": "APHEX TWIN"
+                        },
+                        {
+                            "offset": 2472798,
+                            "title": "Eddie You Should Know Better",
+                            "artist": "CURTIS MAYFIELD"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "flylo_part2.m4a",
+                "duration": 1691.16,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "You Never Come Closer",
+                            "artist": "DORIS"
+                        },
+                        {
+                            "offset": 247807,
+                            "title": "Medication Medication",
+                            "artist": "FLYING LOTUS FT. KRAYZIE BONE"
+                        },
+                        {
+                            "offset": 404991,
+                            "title": "What We Want",
+                            "artist": "XXYYXX"
+                        },
+                        {
+                            "offset": 571733,
+                            "title": "Make Money",
+                            "artist": "LAPALUX"
+                        },
+                        {
+                            "offset": 659968,
+                            "title": "Shred You To Bits",
+                            "artist": "GASLAMP KILLER"
+                        },
+                        {
+                            "offset": 753055,
+                            "title": "B Adams",
+                            "artist": "MONO/POLY AND THUNDERCAT"
+                        },
+                        {
+                            "offset": 840297,
+                            "title": "Osaka Trade",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 974251,
+                            "title": "Masquatch",
+                            "artist": "DOOM"
+                        },
+                        {
+                            "offset": 1085440,
+                            "title": "Early Mountain",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 1202005,
+                            "title": "Into Vogon Skulls",
+                            "artist": "DIMLITE"
+                        },
+                        {
+                            "offset": 1345023,
+                            "title": "F--- The Makeup, Skip The Shower",
+                            "artist": "KNOWER"
+                        },
+                        {
+                            "offset": 1479680,
+                            "title": "4AM/AraabMuzik Streetz Tonight Remix",
+                            "artist": "KASKADE"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "flylo_island_update_part_1.m4a",
+                "duration": 1683.624,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 36,
+                            "title": "Possessed",
+                            "artist": "CAPTAIN MURPHY"
+                        },
+                        {
+                            "offset": 158961,
+                            "title": "Fuck The Police",
+                            "artist": "J DILLA"
+                        },
+                        {
+                            "offset": 311694,
+                            "title": "Black Heaven",
+                            "artist": "FLYING LOTUS, RAS G"
+                        },
+                        {
+                            "offset": 389642,
+                            "title": "Been Cosmic",
+                            "artist": "RAS G"
+                        },
+                        {
+                            "offset": 448200,
+                            "title": "The Daisy",
+                            "artist": "ROSS FROM FRIENDS"
+                        },
+                        {
+                            "offset": 571338,
+                            "title": "Topdown",
+                            "artist": "CHANNEL TRES"
+                        },
+                        {
+                            "offset": 734983,
+                            "title": "Spiritual",
+                            "artist": "SMOKE DZA"
+                        },
+                        {
+                            "offset": 874409,
+                            "title": "Afterlife Currency",
+                            "artist": "DAVID FIRTH"
+                        },
+                        {
+                            "offset": 911184,
+                            "title": "Lunch Break",
+                            "artist": "FLYING LOTUS, MF DOOM"
+                        },
+                        {
+                            "offset": 1061260,
+                            "title": "Dragonball Durag",
+                            "artist": "THUNDERCAT"
+                        },
+                        {
+                            "offset": 1226930,
+                            "title": "GLOMERULONEPHROPATHY",
+                            "artist": "SYUNSUKE ONO"
+                        },
+                        {
+                            "offset": 1349663,
+                            "title": "The Bean Kicked In",
+                            "artist": "ZACK FOX"
+                        },
+                        {
+                            "offset": 1451246,
+                            "title": "Black Balloons Reprise",
+                            "artist": "FLYING LOTUS FEAT. DENZEL CURRY"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "flylo_island_update_part_2.m4a",
+                "duration": 1786.848,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 1272,
+                            "title": "Automatic",
+                            "artist": "FREDDIE GIBBS"
+                        },
+                        {
+                            "offset": 143245,
+                            "title": "Homicidal Thoughts",
+                            "artist": "LITTLE SNAKE"
+                        },
+                        {
+                            "offset": 295143,
+                            "title": "Arrogant",
+                            "artist": "TIERRA WHACK"
+                        },
+                        {
+                            "offset": 428408,
+                            "title": "You're Untouchable",
+                            "artist": "DORIAN CONCEPT"
+                        },
+                        {
+                            "offset": 536129,
+                            "title": "U Have To Be Odd",
+                            "artist": "FLYING LOTUS"
+                        },
+                        {
+                            "offset": 697167,
+                            "title": "Planet X",
+                            "artist": "LOUIS COLE"
+                        },
+                        {
+                            "offset": 863054,
+                            "title": "Itkanbe [Sonice]",
+                            "artist": "KNXWLEDGE FEAT. ANDERSON .PAAK, NXWORRIES"
+                        },
+                        {
+                            "offset": 957876,
+                            "title": "Shine A Light",
+                            "artist": "SHABAZZ PALACES"
+                        },
+                        {
+                            "offset": 1114427,
+                            "title": "Road Of The Lonely Ones",
+                            "artist": "MADLIB"
+                        },
+                        {
+                            "offset": 1319218,
+                            "title": "In The Wake Of Poseidon",
+                            "artist": "KING CRIMSON"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
