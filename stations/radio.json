@@ -1,0 +1,2687 @@
+{
+  "stations": [
+    {
+      "path": "radio_01_class_rock"
+    },
+    {
+      "path": "radio_02_pop"
+    },
+    {
+      "path": "radio_03_hiphop_new"
+    },
+    {
+      "path": "radio_04_punk"
+    },
+    {
+      "path": "radio_06_country"
+    },
+    {
+      "path": "radio_07_dance_01"
+    },
+    {
+      "path": "radio_08_mexican"
+    },
+    {
+      "path": "radio_09_hiphop_old"
+    },
+    {
+      "path": "radio_12_reggae"
+    },
+    {
+      "path": "radio_13_jazz"
+    },
+    {
+      "path": "radio_14_dance_02"
+    },
+    {
+      "path": "radio_15_motown"
+    },
+    {
+      "path": "radio_20_thelab"
+    },
+    {
+      "path": "radio_16_silverlake"
+    },
+    {
+      "path": "radio_34_dlc_hei4_kult"
+    },
+    {
+      "path": "radio_17_funk"
+    },
+    {
+      "path": "radio_18_90s_rock"
+    },
+    {
+      "path": "radio_21_dlc_xm17"
+    },
+    {
+      "path": "radio_22_dlc_battle_mix1_radio"
+    },
+    {
+      "path": "radio_27_dlc_prhei4"
+    },
+    {
+      "path": "radio_05_talk_01"
+    },
+    {
+      "path": "radio_11_talk_02"
+    }
+  ],
+  "common": {
+    "general_adverts": [
+      {
+        "path": "common/promos/mono_ad001_life_invader.m4a",
+        "duration": 31.05,
+        "audibleDuration": 30.462,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Life Invader",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad002_righteous_slaughter_nuke.m4a",
+        "duration": 27.93,
+        "audibleDuration": 27.177,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Righteous Slaughter \"Nuke\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad003_righteous_slaughter_russian.m4a",
+        "duration": 55.09,
+        "audibleDuration": 54.48,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Righteous Slaughter \"Russians\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad004_righteous_slaughter_levels.m4a",
+        "duration": 48.34,
+        "audibleDuration": 47.63,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Righteous Slaughter \"Levels\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad005_sa_tourism_board.m4a",
+        "duration": 51.73,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "San Andreas Tourism Board",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad009_prop_43.m4a",
+        "duration": 32.25,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Proposition 43",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad010_toeshoes.m4a",
+        "duration": 25.17,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Toeshoes",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad011_implant_outsource.m4a",
+        "duration": 35.41,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Implant Outsource",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad014_prop208_dad.m4a",
+        "duration": 31.11,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Proposition 208 \"Dad\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad017_queensbury_boxing.m4a",
+        "duration": 45.92,
+        "audibleDuration": 45.566,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Queensbury Boxing",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad021_rectify_holistic.m4a",
+        "duration": 45.66,
+        "audibleDuration": 44.777,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Rectify Holistic",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad023_ovine_human_resources.m4a",
+        "duration": 47.2,
+        "audibleDuration": 46.462,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Ovine Human Resources",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad027_sa_labotomy.m4a",
+        "duration": 37.05,
+        "audibleDuration": 36.329,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "San Andreas Lobotomy",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad028_darwinian_yoga.m4a",
+        "duration": 39.34,
+        "audibleDuration": 37.566,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Darwinian Yoga",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad034_head_shots.m4a",
+        "duration": 61.95,
+        "audibleDuration": 61.01,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Head Shots",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad037_stop_paying_mortgage.m4a",
+        "duration": 42.15,
+        "audibleDuration": 41.193,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Stop Paying Your Mortgage",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad044_hipsters_for_hire.m4a",
+        "duration": 54.32,
+        "audibleDuration": 53.58,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Hipsters For Hire",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad048_windsor_immigrant.m4a",
+        "duration": 41.01,
+        "audibleDuration": 40.425,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Windsor Real Estate \"Immigrant\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad049_windsor_swinger_grotto.m4a",
+        "duration": 58.47,
+        "audibleDuration": 57.42,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Windsor Real Estate 2 \"Swinger\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad050_cuckold_theraphy.m4a",
+        "duration": 60.51,
+        "audibleDuration": 60.009,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Cuckold Therapy",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad051_digifarm_daughter.m4a",
+        "duration": 47.43,
+        "audibleDuration": 46.313,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Digifarm \"Digifarm\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad052_digifarm_other_games.m4a",
+        "duration": 54.69,
+        "audibleDuration": 54.03,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Digifarm \"Games\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad054_lombank.m4a",
+        "duration": 61.57,
+        "audibleDuration": 60.62,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Lombank",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad056_vinewood_health.m4a",
+        "duration": 57.04,
+        "audibleDuration": 55.849,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Vinewood Health",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad006_desert_tourism.m4a",
+        "duration": 37.03,
+        "audibleDuration": 36.286,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Grand Senora Desert",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad007_sa_water_power.m4a",
+        "duration": 35.04,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "San Andreas Water And Power",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad008_up_n_atom.m4a",
+        "duration": 22.84,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Up-n-Atom",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad012_donate_your_car.m4a",
+        "duration": 38.35,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Donate Your Car",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad013_race_to_pluto.m4a",
+        "duration": 27.81,
+        "audibleDuration": 26.96,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Race To Pluto",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad015_prop208_jungle.m4a",
+        "duration": 23.09,
+        "audibleDuration": 21.993,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Proposition 208 \"Jungle\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad016_pisswasser.m4a",
+        "duration": 82.05,
+        "audibleDuration": 81.577,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Pisswasser",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad018_lottery_starving_children.m4a",
+        "duration": 23.87,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Lottery \"Solving Hunger\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad019_lottery_really_addicted.m4a",
+        "duration": 20.66,
+        "audibleDuration": 19.98,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Lottery 2 \"Bugle\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad020_whiz_wirless.m4a",
+        "duration": 39.77,
+        "audibleDuration": 38.334,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Whiz Wireless",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad022_bail_bonds.m4a",
+        "duration": 39.18,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Jay's Bail Bonds",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad024_proposition_14.m4a",
+        "duration": 33.95,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Proposition 14",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad025_pic_officer.m4a",
+        "duration": 36.94,
+        "audibleDuration": 36.43,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Prison Industrial Complex \"Officer\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad026_pic_franchise.m4a",
+        "duration": 66.35,
+        "audibleDuration": 65.42,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Prison Industrial Complex 2 \"Franchise\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad029_gastro_band.m4a",
+        "duration": 57.29,
+        "audibleDuration": 56.702,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Gastro Band",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad030_economic_recovery_group.m4a",
+        "duration": 33.18,
+        "audibleDuration": 32.041,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Economic Recovery Group",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad031_rehab_island.m4a",
+        "duration": 47.12,
+        "audibleDuration": 46.078,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Rehab Island",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad033_night_lights.m4a",
+        "duration": 51.77,
+        "audibleDuration": 51.369,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Night Lights",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad035_electrotoke.m4a",
+        "duration": 47.81,
+        "audibleDuration": 46.7,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Electrotoke",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad036_toilet_cleaner.m4a",
+        "duration": 28.12,
+        "audibleDuration": 27.433,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Toilet Cleaner",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad040_fleeca_interest_fees.m4a",
+        "duration": 41.1,
+        "audibleDuration": 40.254,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Fleeca \"Interest Fees\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad041_fleeca_bedroom.m4a",
+        "duration": 44.36,
+        "audibleDuration": 43.561,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Fleeca 2 \"Bedroom\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad042_shark.m4a",
+        "duration": 45.26,
+        "audibleDuration": 44.69,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Shark",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad043_smoked_dreams.m4a",
+        "duration": 60.78,
+        "audibleDuration": 60.03,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Smoked Dreams",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad045_preservex.m4a",
+        "duration": 39.34,
+        "audibleDuration": 38.569,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Preservex",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad047_proposition_45.m4a",
+        "duration": 48.54,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Proposition 45",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad055_hitting_kids_works_wonders.m4a",
+        "duration": 40.96,
+        "audibleDuration": 39.89,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Hitting Kids Works Wonders",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad057_benders_wanker.m4a",
+        "duration": 48.9,
+        "audibleDuration": 48.361,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "LS Benders \"Wanker\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad058_benders_pies.m4a",
+        "duration": 55.57,
+        "audibleDuration": 55.038,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "LS Benders \"Fat Bastard\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad059_youtool.m4a",
+        "duration": 53.71,
+        "audibleDuration": 52.88,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Youtool",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad060_amunation_gardening.m4a",
+        "duration": 69.89,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Ammunation \"Gardening\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad061_amunation_apocolypse.m4a",
+        "duration": 79.99,
+        "audibleDuration": 79.017,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Ammunation \"Apocalypse\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad062_flow_water.m4a",
+        "duration": 50.1,
+        "audibleDuration": 49.662,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Flow Water",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad063_sex_addiction_opportunity.m4a",
+        "duration": 58.23,
+        "audibleDuration": 57.449,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "13 Steps To Heaven \"Opportunity\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad064_serious_cougar.m4a",
+        "duration": 28.22,
+        "audibleDuration": 27.79,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Serious Cougar",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad065_cloud_computing.m4a",
+        "duration": 64.6,
+        "audibleDuration": 63.614,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Cloud Computing",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad067_pride_prej_grain_alcohol.m4a",
+        "duration": 47.86,
+        "audibleDuration": 47.337,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Pride Not Prejudice \"Grain Alcohol\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad068_pride_prej_tornado.m4a",
+        "duration": 57.73,
+        "audibleDuration": 57.129,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Pride Not Prejudice \"Tornado\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad069_hitting_kids_pot.m4a",
+        "duration": 22.85,
+        "audibleDuration": 22.057,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Hitting Kids Works Wonders \"Pot\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad070_hammerstein_faust.m4a",
+        "duration": 42.6,
+        "audibleDuration": 41.87,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Hammerstein And Faust",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad071_grain_of_truth.m4a",
+        "duration": 61.46,
+        "audibleDuration": 60.478,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Grain Of Truth",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad072_fly_us_choice.m4a",
+        "duration": 19.18,
+        "audibleDuration": 18.302,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "FlyUS \"Choices\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad073_fly_us_drunk.m4a",
+        "duration": 15.41,
+        "audibleDuration": 14.61,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "FlyUS \"Drunk\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad074_fly_us_planes.m4a",
+        "duration": 18.9,
+        "audibleDuration": 18.45,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "FlyUS \"Planes\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad075_refinance_ls_commerce.m4a",
+        "duration": 57.66,
+        "audibleDuration": 56.51,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Refinance Your Home",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad076_rebranding_jerking.m4a",
+        "duration": 57.23,
+        "audibleDuration": 56.21,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Unlock The Power \"Jerking\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad077_rebranding_abyss.m4a",
+        "duration": 43.75,
+        "audibleDuration": 42.96,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Unlock The Power \"Abyss\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad078_sex_addict_drowning.m4a",
+        "duration": 22.23,
+        "audibleDuration": 21.054,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "13 Steps To Heaven \"Drowning\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad079_sex_addict_train.m4a",
+        "duration": 26.84,
+        "audibleDuration": 25.961,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "13 Steps To Heaven \"Train\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad080_sex_manopause.m4a",
+        "duration": 68.1,
+        "audibleDuration": 67.09,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Manopause Adventures",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad081_mma.m4a",
+        "duration": 39.67,
+        "audibleDuration": 38.825,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "MMA",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad083_egochaser.m4a",
+        "duration": 50.56,
+        "audibleDuration": 49.406,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Egochaser",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad084_chains_intmacy_throb.m4a",
+        "duration": 34.8,
+        "audibleDuration": 34.089,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Chains Of Intimacy \"Throbbing\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad085_chains_intmacy_diamonds.m4a",
+        "duration": 46.34,
+        "audibleDuration": 45.7,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Chains Of Intimacy \"Diamonds\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad086_bravado_farms.m4a",
+        "duration": 61.41,
+        "audibleDuration": 60.606,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Bravado \"Farms\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad087_bravado_cruise_control.m4a",
+        "duration": 31.59,
+        "audibleDuration": 30.334,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Bravado \"Cruise Control\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad088_sa_flight_school.m4a",
+        "duration": 54.5,
+        "audibleDuration": 53.822,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "SA Flight School",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad090_crevis_everest.m4a",
+        "duration": 37.47,
+        "audibleDuration": 36.457,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Crevis \"Everest\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad091_epsilon_antartica.m4a",
+        "duration": 24.74,
+        "audibleDuration": 24.105,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Epsilon \"Antarctica\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad092_epsilon_famous_people.m4a",
+        "duration": 27.5,
+        "audibleDuration": 26.558,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Epsilon \"Famous People\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad093_sex_addiction_victim.m4a",
+        "duration": 24.81,
+        "audibleDuration": 24.169,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "13 Steps To Heaven \"Victims\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/ad082_alcoholia.m4a",
+        "duration": 48.32,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Alcoholla",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad094_pontius.m4a",
+        "duration": 50.81,
+        "audibleDuration": 50.13,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Pontius",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad089_crevis_nature_revised.m4a",
+        "duration": 40.69,
+        "audibleDuration": 39.0,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Crevis \"Nature\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad095_sue_murry.m4a",
+        "duration": 43.97,
+        "audibleDuration": 43.561,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Sue Murry",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad096_jock_cranley1.m4a",
+        "duration": 55.63,
+        "audibleDuration": 55.038,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Jock Cranley \"Vote Jock\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad097_jock_cranley2.m4a",
+        "duration": 44.75,
+        "audibleDuration": 43.41,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Jock Cranley \"Your Jock\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_001_extpal.m4a",
+        "duration": 49.941,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Extreme Paleo TM \"Get Extreme\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_002_extpal.m4a",
+        "duration": 48.341,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Extreme Paleo TM 2 \"Real Paleo\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_003_macrac.m4a",
+        "duration": 47.658,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Machiavelli Race \"Win\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_004_macrac2.m4a",
+        "duration": 47.658,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Machiavelli Race \"The Race\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_005_mysta.m4a",
+        "duration": 55.717,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Mystaspot",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_006_phachi.m4a",
+        "duration": 54.576,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Phat Chips",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_007_tcse.m4a",
+        "duration": 60.842,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "TCS Energy Pro 1",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_008_tcse2.m4a",
+        "duration": 48.344,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "TCS Energy Pro 2",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_009_vislib.m4a",
+        "duration": 52.266,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Visit Liberty City",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      }
+    ],
+    "country_adverts": [
+      {
+        "path": "common/promos/mono_ad006_desert_tourism.m4a",
+        "duration": 37.03,
+        "audibleDuration": 36.286,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Grand Senora Desert",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad007_sa_water_power.m4a",
+        "duration": 35.04,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "San Andreas Water And Power",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad008_up_n_atom.m4a",
+        "duration": 22.84,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Up-n-Atom",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad012_donate_your_car.m4a",
+        "duration": 38.35,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Donate Your Car",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad013_race_to_pluto.m4a",
+        "duration": 27.81,
+        "audibleDuration": 26.96,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Race To Pluto",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad015_prop208_jungle.m4a",
+        "duration": 23.09,
+        "audibleDuration": 21.993,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Proposition 208 \"Jungle\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad016_pisswasser.m4a",
+        "duration": 82.05,
+        "audibleDuration": 81.577,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Pisswasser",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad018_lottery_starving_children.m4a",
+        "duration": 23.87,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Lottery \"Solving Hunger\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad019_lottery_really_addicted.m4a",
+        "duration": 20.66,
+        "audibleDuration": 19.98,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Lottery 2 \"Bugle\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad020_whiz_wirless.m4a",
+        "duration": 39.77,
+        "audibleDuration": 38.334,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Whiz Wireless",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad022_bail_bonds.m4a",
+        "duration": 39.18,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Jay's Bail Bonds",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad024_proposition_14.m4a",
+        "duration": 33.95,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Proposition 14",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad025_pic_officer.m4a",
+        "duration": 36.94,
+        "audibleDuration": 36.43,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Prison Industrial Complex \"Officer\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad026_pic_franchise.m4a",
+        "duration": 66.35,
+        "audibleDuration": 65.42,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Prison Industrial Complex 2 \"Franchise\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad029_gastro_band.m4a",
+        "duration": 57.29,
+        "audibleDuration": 56.702,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Gastro Band",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad030_economic_recovery_group.m4a",
+        "duration": 33.18,
+        "audibleDuration": 32.041,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Economic Recovery Group",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad031_rehab_island.m4a",
+        "duration": 47.12,
+        "audibleDuration": 46.078,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Rehab Island",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad032_larrys_rv_sales.m4a",
+        "duration": 51.32,
+        "audibleDuration": 50.622,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Larry's RV Sales",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad033_night_lights.m4a",
+        "duration": 51.77,
+        "audibleDuration": 51.369,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Night Lights",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad035_electrotoke.m4a",
+        "duration": 47.81,
+        "audibleDuration": 46.7,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Electrotoke",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad036_toilet_cleaner.m4a",
+        "duration": 28.12,
+        "audibleDuration": 27.433,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Toilet Cleaner",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad038_floyds_scrap_metal.m4a",
+        "duration": 51.92,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Floyd's Scrap Metal",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad039_buddys_trucking.m4a",
+        "duration": 49.41,
+        "audibleDuration": 48.78,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Buddy's Trucking",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad040_fleeca_interest_fees.m4a",
+        "duration": 41.1,
+        "audibleDuration": 40.254,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Fleeca \"Interest Fees\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad041_fleeca_bedroom.m4a",
+        "duration": 44.36,
+        "audibleDuration": 43.561,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Fleeca 2 \"Bedroom\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad042_shark.m4a",
+        "duration": 45.26,
+        "audibleDuration": 44.69,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Shark",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad043_smoked_dreams.m4a",
+        "duration": 60.78,
+        "audibleDuration": 60.03,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Smoked Dreams",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad045_preservex.m4a",
+        "duration": 39.34,
+        "audibleDuration": 38.569,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Preservex",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad046_dons_country_store.m4a",
+        "duration": 42.47,
+        "audibleDuration": 41.577,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Don's Country Store",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad047_proposition_45.m4a",
+        "duration": 48.54,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Proposition 45",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad053_blaine_county_bank.m4a",
+        "duration": 32.08,
+        "audibleDuration": 31.422,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Blaine County Bank",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad055_hitting_kids_works_wonders.m4a",
+        "duration": 40.96,
+        "audibleDuration": 39.89,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Hitting Kids Works Wonders",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad064_serious_cougar.m4a",
+        "duration": 28.22,
+        "audibleDuration": 27.79,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Serious Cougar",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad069_hitting_kids_pot.m4a",
+        "duration": 22.85,
+        "audibleDuration": 22.057,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Hitting Kids Works Wonders \"Pot\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad081_mma.m4a",
+        "duration": 39.67,
+        "audibleDuration": 38.825,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "MMA",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad084_chains_intmacy_throb.m4a",
+        "duration": 34.8,
+        "audibleDuration": 34.089,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Chains Of Intimacy \"Throbbing\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad085_chains_intmacy_diamonds.m4a",
+        "duration": 46.34,
+        "audibleDuration": 45.7,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Chains Of Intimacy \"Diamonds\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad093_sex_addiction_victim.m4a",
+        "duration": 24.81,
+        "audibleDuration": 24.169,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "13 Steps To Heaven \"Victims\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad094_pontius.m4a",
+        "duration": 50.81,
+        "audibleDuration": 50.13,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Pontius",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad095_sue_murry.m4a",
+        "duration": 43.97,
+        "audibleDuration": 43.561,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Sue Murry",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad096_jock_cranley1.m4a",
+        "duration": 55.63,
+        "audibleDuration": 55.038,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Jock Cranley \"Vote Jock\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad097_jock_cranley2.m4a",
+        "duration": 44.75,
+        "audibleDuration": 43.41,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Jock Cranley \"Your Jock\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_009_vislib.m4a",
+        "duration": 52.266,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Visit Liberty City",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_008_tcse2.m4a",
+        "duration": 48.344,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "TCS Energy Pro 2",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_007_tcse.m4a",
+        "duration": 60.842,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "TCS Energy Pro 1",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_006_phachi.m4a",
+        "duration": 54.576,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Phat Chips",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_005_mysta.m4a",
+        "duration": 55.717,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Mystaspot",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_004_macrac2.m4a",
+        "duration": 47.658,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Machiavelli Race \"The Race\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_003_macrac.m4a",
+        "duration": 47.658,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Machiavelli Race \"Win\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_002_extpal.m4a",
+        "duration": 48.341,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Extreme Paleo TM 2 \"Real Paleo\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      },
+      {
+        "path": "common/promos/mono_ad_ng_001_extpal.m4a",
+        "duration": 49.941,
+        "markers": {
+          "track": [
+            {
+              "offset": 0,
+              "title": "Extreme Paleo TM \"Get Extreme\"",
+              "artist": "Commercial"
+            }
+          ]
+        }
+      }
+    ],
+    "news": [
+      {
+        "path": "common/news/mono_news_01.m4a",
+        "duration": 150.21,
+        "audibleDuration": 148.41
+      },
+      {
+        "path": "common/news/mono_news_02.m4a",
+        "duration": 151.38,
+        "audibleDuration": 149.84
+      },
+      {
+        "path": "common/news/mono_news_03.m4a",
+        "duration": 104.79,
+        "audibleDuration": 103.27
+      },
+      {
+        "path": "common/news/mono_news_04.m4a",
+        "duration": 148.35,
+        "audibleDuration": 146.49
+      },
+      {
+        "path": "common/news/mono_news_05.m4a",
+        "duration": 121.83,
+        "audibleDuration": 120.19
+      },
+      {
+        "path": "common/news/mono_news_06.m4a",
+        "duration": 141.74,
+        "audibleDuration": 140.11
+      },
+      {
+        "path": "common/news/mono_news_07.m4a",
+        "duration": 100.26,
+        "audibleDuration": 98.814
+      },
+      {
+        "path": "common/news/mono_news_08.m4a",
+        "duration": 131.75,
+        "audibleDuration": 130.13
+      },
+      {
+        "path": "common/news/mono_news_09.m4a",
+        "duration": 125.59,
+        "audibleDuration": 124.05
+      },
+      {
+        "path": "common/news/mono_news_10.m4a",
+        "duration": 104.22,
+        "audibleDuration": 102.35
+      },
+      {
+        "path": "common/news/mono_news_11.m4a",
+        "duration": 121.81,
+        "audibleDuration": 120.27
+      },
+      {
+        "path": "common/news/mono_news_12.m4a",
+        "duration": 123.36,
+        "audibleDuration": 122.04
+      },
+      {
+        "path": "common/news/mono_news_13.m4a",
+        "duration": 83.12,
+        "audibleDuration": 81.705
+      },
+      {
+        "path": "common/news/mono_news_14.m4a",
+        "duration": 149.25,
+        "audibleDuration": 147.96
+      },
+      {
+        "path": "common/news/mono_news_15.m4a",
+        "duration": 131.42,
+        "audibleDuration": 129.96
+      },
+      {
+        "path": "common/news/mono_news_16.m4a",
+        "duration": 73.84,
+        "audibleDuration": 72.382
+      },
+      {
+        "path": "common/news/mono_news_17.m4a",
+        "duration": 87.31,
+        "audibleDuration": 86.078
+      },
+      {
+        "path": "common/news/mono_news_18.m4a",
+        "duration": 101.33,
+        "audibleDuration": 99.881
+      },
+      {
+        "path": "common/news/mono_news_19.m4a",
+        "duration": 111.93,
+        "audibleDuration": 110.35
+      },
+      {
+        "path": "common/news/mono_news_20.m4a",
+        "duration": 66.84,
+        "audibleDuration": 65.1
+      },
+      {
+        "path": "common/news/mono_news_21.m4a",
+        "duration": 121.85,
+        "audibleDuration": 120.23
+      },
+      {
+        "path": "common/news/mono_news_22.m4a",
+        "duration": 115.83,
+        "audibleDuration": 115.0
+      },
+      {
+        "path": "common/news/mono_news_23.m4a",
+        "duration": 118.02,
+        "audibleDuration": 116.0
+      },
+      {
+        "path": "common/news/mono_news_24.m4a",
+        "duration": 88.27,
+        "audibleDuration": 86.846
+      },
+      {
+        "path": "common/news/mono_news_25.m4a",
+        "duration": 98.26,
+        "audibleDuration": 96.51
+      },
+      {
+        "path": "common/news/mono_news_26.m4a",
+        "duration": 90.45,
+        "audibleDuration": 88.702
+      },
+      {
+        "path": "common/news/mono_news_27.m4a",
+        "duration": 82.3,
+        "audibleDuration": 80.489
+      },
+      {
+        "path": "common/news/mono_news_28.m4a",
+        "duration": 106.93,
+        "audibleDuration": 105.32
+      },
+      {
+        "path": "common/news/mono_news_29.m4a",
+        "duration": 114.66,
+        "audibleDuration": 113.04
+      },
+      {
+        "path": "common/news/mono_news_30.m4a",
+        "duration": 81.23,
+        "audibleDuration": 79.785
+      },
+      {
+        "path": "common/news/mono_news_31.m4a",
+        "duration": 105.35,
+        "audibleDuration": 103.89
+      },
+      {
+        "path": "common/news/mono_news_32.m4a",
+        "duration": 49.58,
+        "audibleDuration": 48.78
+      },
+      {
+        "path": "common/news/mono_news_33.m4a",
+        "duration": 50.31,
+        "audibleDuration": 48.937
+      },
+      {
+        "path": "common/news/mono_news_34.m4a",
+        "duration": 102.99,
+        "audibleDuration": 101.54
+      },
+      {
+        "path": "common/news/mono_news_35.m4a",
+        "duration": 98.59,
+        "audibleDuration": 97.726
+      },
+      {
+        "path": "common/news/mono_news_36.m4a",
+        "duration": 79.08,
+        "audibleDuration": 77.65
+      },
+      {
+        "path": "common/news/mono_news_37.m4a",
+        "duration": 86.81,
+        "audibleDuration": 85.4
+      },
+      {
+        "path": "common/news/mono_news_38.m4a",
+        "duration": 64.07,
+        "audibleDuration": 62.825
+      },
+      {
+        "path": "common/news/mono_news_39.m4a",
+        "duration": 92.73,
+        "audibleDuration": 91.134
+      },
+      {
+        "path": "common/news/mono_news_40.m4a",
+        "duration": 92.72,
+        "audibleDuration": 91.134
+      },
+      {
+        "path": "common/news/mono_news_41.m4a",
+        "duration": 87.81,
+        "audibleDuration": 86.185
+      },
+      {
+        "path": "common/news/mono_news_42.m4a",
+        "duration": 46.36,
+        "audibleDuration": 44.542
+      },
+      {
+        "path": "common/news/mono_news_43.m4a",
+        "duration": 72.04,
+        "audibleDuration": 70.35
+      },
+      {
+        "path": "common/news/mono_news_44.m4a",
+        "duration": 57.45,
+        "audibleDuration": 55.849
+      },
+      {
+        "path": "common/news/mono_news_45.m4a",
+        "duration": 59.5,
+        "audibleDuration": 57.918
+      },
+      {
+        "path": "common/news/mono_news_46.m4a",
+        "duration": 60.35,
+        "audibleDuration": 58.494
+      },
+      {
+        "path": "common/news/mono_news_47.m4a",
+        "duration": 49.17,
+        "audibleDuration": 47.25
+      },
+      {
+        "path": "common/news/mono_news_48.m4a",
+        "duration": 59.58,
+        "audibleDuration": 57.598
+      },
+      {
+        "path": "common/news/mono_news_49.m4a",
+        "duration": 65.73,
+        "audibleDuration": 63.785
+      },
+      {
+        "path": "common/news/mono_news_50.m4a",
+        "duration": 50.02,
+        "audibleDuration": 48.105
+      },
+      {
+        "path": "common/news/mono_news_51.m4a",
+        "duration": 65.56,
+        "audibleDuration": 63.657
+      },
+      {
+        "path": "common/news/mono_news_52.m4a",
+        "duration": 56.51,
+        "audibleDuration": 55.12
+      },
+      {
+        "path": "common/news/mono_news_53.m4a",
+        "duration": 49.68,
+        "audibleDuration": 47.678
+      },
+      {
+        "path": "common/news/mono_news_54.m4a",
+        "duration": 59.07,
+        "audibleDuration": 57.214
+      },
+      {
+        "path": "common/news/mono_news_55.m4a",
+        "duration": 59.41,
+        "audibleDuration": 58.43
+      },
+      {
+        "path": "common/news/mono_news_56.m4a",
+        "duration": 52.0,
+        "audibleDuration": 50.217
+      },
+      {
+        "path": "common/news/mono_news_57.m4a",
+        "duration": 53.93,
+        "audibleDuration": 51.92
+      },
+      {
+        "path": "common/news/mono_news_58.m4a",
+        "duration": 63.77,
+        "audibleDuration": 61.758
+      },
+      {
+        "path": "common/news/mono_news_59.m4a",
+        "duration": 59.7,
+        "audibleDuration": 57.662
+      },
+      {
+        "path": "common/news/mono_news_60.m4a",
+        "duration": 72.76,
+        "audibleDuration": 70.782
+      },
+      {
+        "path": "common/news/mono_news_61.m4a",
+        "duration": 49.17,
+        "audibleDuration": 47.465
+      },
+      {
+        "path": "common/news/mono_news_62.m4a",
+        "duration": 77.09,
+        "audibleDuration": 74.985
+      },
+      {
+        "path": "common/news/mono_news_63.m4a",
+        "duration": 56.6,
+        "audibleDuration": 55.76
+      },
+      {
+        "path": "common/news/mono_news_64.m4a",
+        "duration": 57.29,
+        "audibleDuration": 56.062
+      },
+      {
+        "path": "common/news/mono_news_81.m4a",
+        "duration": 59.75,
+        "audibleDuration": 58.046
+      },
+      {
+        "path": "common/news/mono_news_82.m4a",
+        "duration": 65.51,
+        "audibleDuration": 63.0
+      },
+      {
+        "path": "common/news/mono_news_83.m4a",
+        "duration": 65.3,
+        "audibleDuration": 63.57
+      },
+      {
+        "path": "common/news/mono_news_84.m4a",
+        "duration": 63.51,
+        "audibleDuration": 61.63
+      },
+      {
+        "path": "common/news/mono_news_85.m4a",
+        "duration": 64.79,
+        "audibleDuration": 63.358
+      },
+      {
+        "path": "common/news/mono_news_86.m4a",
+        "duration": 55.32,
+        "audibleDuration": 53.52
+      },
+      {
+        "path": "common/news/mono_news_87.m4a",
+        "duration": 48.83,
+        "audibleDuration": 47.145
+      },
+      {
+        "path": "common/news/mono_news_88.m4a",
+        "duration": 78.44,
+        "audibleDuration": 76.62
+      },
+      {
+        "path": "common/news/mono_news_89.m4a",
+        "duration": 67.09,
+        "audibleDuration": 65.257
+      },
+      {
+        "path": "common/news/mono_news_90.m4a",
+        "duration": 64.1,
+        "audibleDuration": 62.462
+      },
+      {
+        "path": "common/news/mono_news_91.m4a",
+        "duration": 37.18,
+        "audibleDuration": 35.39
+      },
+      {
+        "path": "common/news/mono_news_92.m4a",
+        "duration": 57.02,
+        "audibleDuration": 55.5
+      },
+      {
+        "path": "common/news/mono_news_93.m4a",
+        "duration": 64.02,
+        "audibleDuration": 62.61
+      },
+      {
+        "path": "common/news/mono_news_94.m4a",
+        "duration": 69.74,
+        "audibleDuration": 68.3
+      },
+      {
+        "path": "common/news/mono_news_95.m4a",
+        "duration": 63.0,
+        "audibleDuration": 61.353
+      },
+      {
+        "path": "common/news/mono_news_96.m4a",
+        "duration": 56.51,
+        "audibleDuration": 54.889
+      },
+      {
+        "path": "common/news/mono_news_97.m4a",
+        "duration": 61.37,
+        "audibleDuration": 59.838
+      },
+      {
+        "path": "common/news/mono_news_98.m4a",
+        "duration": 66.58,
+        "audibleDuration": 65.022
+      },
+      {
+        "path": "common/news/mono_news_99.m4a",
+        "duration": 61.29,
+        "audibleDuration": 59.73
+      },
+      {
+        "path": "common/news/mono_news_100.m4a",
+        "duration": 50.88,
+        "audibleDuration": 49.0
+      },
+      {
+        "path": "common/news/mono_news_101.m4a",
+        "duration": 68.63,
+        "audibleDuration": 67.07
+      },
+      {
+        "path": "common/news/mono_news_102.m4a",
+        "duration": 58.56,
+        "audibleDuration": 56.702
+      },
+      {
+        "path": "common/news/mono_news_103.m4a",
+        "duration": 67.43,
+        "audibleDuration": 66.558
+      },
+      {
+        "path": "common/news/mono_news_104.m4a",
+        "duration": 49.43,
+        "audibleDuration": 47.422
+      },
+      {
+        "path": "common/news/mono_news_105.m4a",
+        "duration": 45.76,
+        "audibleDuration": 43.79
+      },
+      {
+        "path": "common/news/mono_news_106.m4a",
+        "duration": 56.42,
+        "audibleDuration": 55.422
+      },
+      {
+        "path": "common/news/mono_news_107.m4a",
+        "duration": 70.42,
+        "audibleDuration": 68.542
+      },
+      {
+        "path": "common/news/mono_news_108.m4a",
+        "duration": 63.08,
+        "audibleDuration": 61.01
+      },
+      {
+        "path": "common/news/mono_news_109.m4a",
+        "duration": 71.02,
+        "audibleDuration": 69.694
+      },
+      {
+        "path": "common/news/mono_news_110.m4a",
+        "duration": 46.44,
+        "audibleDuration": 44.521
+      },
+      {
+        "path": "common/news/mono_news_111.m4a",
+        "duration": 66.49,
+        "audibleDuration": 65.04
+      },
+      {
+        "path": "common/news/mono_news_112.m4a",
+        "duration": 65.64,
+        "audibleDuration": 64.361
+      },
+      {
+        "path": "common/news/mono_news_113.m4a",
+        "duration": 48.15,
+        "audibleDuration": 46.29
+      },
+      {
+        "path": "common/news/mono_news_114.m4a",
+        "duration": 38.76,
+        "audibleDuration": 37.033
+      },
+      {
+        "path": "common/news/mono_news_115.m4a",
+        "duration": 76.82,
+        "audibleDuration": 74.814
+      },
+      {
+        "path": "common/news/mono_news_116.m4a",
+        "duration": 46.44,
+        "audibleDuration": 45.1
+      },
+      {
+        "path": "common/news/mono_news_117.m4a",
+        "duration": 56.77,
+        "audibleDuration": 55.337
+      },
+      {
+        "path": "common/news/mono_news_118.m4a",
+        "duration": 63.42,
+        "audibleDuration": 61.993
+      },
+      {
+        "path": "common/news/mono_news_119.m4a",
+        "duration": 59.92,
+        "audibleDuration": 58.473
+      },
+      {
+        "path": "common/news/mono_news_120.m4a",
+        "duration": 72.38,
+        "audibleDuration": 70.4
+      },
+      {
+        "path": "common/news/mono_news_121.m4a",
+        "duration": 74.77,
+        "audibleDuration": 73.257
+      },
+      {
+        "path": "common/news/mono_news_122.m4a",
+        "duration": 36.76,
+        "audibleDuration": 35.47
+      },
+      {
+        "path": "common/news/mono_news_123.m4a",
+        "duration": 62.06,
+        "audibleDuration": 60.0
+      }
+    ]
+  }
+}
