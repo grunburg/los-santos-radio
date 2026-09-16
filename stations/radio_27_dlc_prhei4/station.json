@@ -1,0 +1,235 @@
+{
+    "id": "radio_27_dlc_prhei4",
+    "type": "static",
+    "info": {
+        "title": "Still Slipping Los Santos",
+        "genre": "Electronic, house and techno",
+        "dj": "Joy Orbison",
+        "icon": {
+            "color": "Still_Slipping.svg",
+            "cover": "Still_Slipping_cover.png"
+        }
+    },
+    "common": {},
+    "fileGroups": {
+        "track": [
+            {
+                "path": "hei4_still_slipping_p1.m4a",
+                "duration": 1383.816,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "5 Violinos",
+                            "artist": "DJ NIGGA FOX"
+                        },
+                        {
+                            "offset": 159006,
+                            "title": "Feediback",
+                            "artist": "MR. MANKWA"
+                        },
+                        {
+                            "offset": 294336,
+                            "title": "Not Modular",
+                            "artist": "MR. MITCH"
+                        },
+                        {
+                            "offset": 368441,
+                            "title": "The Devil's Dance",
+                            "artist": "JOSI DEVIL"
+                        },
+                        {
+                            "offset": 524858,
+                            "title": "A Wah!",
+                            "artist": "KEMIKAL"
+                        },
+                        {
+                            "offset": 747874,
+                            "title": "COYP",
+                            "artist": "JOY ORBISON"
+                        },
+                        {
+                            "offset": 840260,
+                            "title": "Sparky / Hi Press (Dub)",
+                            "artist": "CRUEL SANTINO / ROBERT FLECK"
+                        },
+                        {
+                            "offset": 848658,
+                            "title": "Sparky / Hi Press (Dub)",
+                            "artist": "CRUEL SANTINO / ROBERT FLECK"
+                        },
+                        {
+                            "offset": 961963,
+                            "title": "No Warnin'",
+                            "artist": "PA SALIEU"
+                        },
+                        {
+                            "offset": 1098681,
+                            "title": "Almost Blue",
+                            "artist": "L U C Y"
+                        },
+                        {
+                            "offset": 1255201,
+                            "title": "Elephant Man",
+                            "artist": "TIME COW & RTKAL"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "hei4_still_slipping_p2.m4a",
+                "duration": 1283.232,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 1018,
+                            "title": "Elephant Man",
+                            "artist": "TIME COW & RTKAL"
+                        },
+                        {
+                            "offset": 24896,
+                            "title": "Cayendo (Sango Remix)",
+                            "artist": "FRANK OCEAN"
+                        },
+                        {
+                            "offset": 159297,
+                            "title": "Mirror Park Tavern",
+                            "artist": "Commercial"
+                        },
+                        {
+                            "offset": 170919,
+                            "title": "No Love",
+                            "artist": "DJ SCUD"
+                        },
+                        {
+                            "offset": 316335,
+                            "title": "Trimmers (INSTINCT Remix)",
+                            "artist": "FRANKEL & HARPER"
+                        },
+                        {
+                            "offset": 517496,
+                            "title": "Givin' Up On Love",
+                            "artist": "HORSEPOWER PRODUCTIONS"
+                        },
+                        {
+                            "offset": 742083,
+                            "title": "Shippuden",
+                            "artist": "BLANCO"
+                        },
+                        {
+                            "offset": 858217,
+                            "title": "Polar",
+                            "artist": "PEARLY"
+                        },
+                        {
+                            "offset": 975510,
+                            "title": "Digdim Patrol 2016",
+                            "artist": "BYANO DJ"
+                        },
+                        {
+                            "offset": 1092527,
+                            "title": "Operation",
+                            "artist": "INSTINCT"
+                        },
+                        {
+                            "offset": 1112417,
+                            "title": "Whip (Acapella)",
+                            "artist": "KO"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "hei4_still_slipping_p3.m4a",
+                "duration": 1390.44,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 1011,
+                            "title": "Whip (Acapella)",
+                            "artist": "KO"
+                        },
+                        {
+                            "offset": 17548,
+                            "title": "Pieces Of 8",
+                            "artist": "OVERMONO"
+                        },
+                        {
+                            "offset": 182797,
+                            "title": "Bromley",
+                            "artist": "JOY ORBISON & OVERMONO"
+                        },
+                        {
+                            "offset": 412467,
+                            "title": "Babylon",
+                            "artist": "MEZ"
+                        },
+                        {
+                            "offset": 565949,
+                            "title": "Joyride",
+                            "artist": "SPOOKY"
+                        },
+                        {
+                            "offset": 619761,
+                            "title": "Wealthy Humans",
+                            "artist": "CELINE GILLAIN"
+                        },
+                        {
+                            "offset": 733574,
+                            "title": "Mad About Bars",
+                            "artist": "KWENGFACE"
+                        },
+                        {
+                            "offset": 824348,
+                            "title": "No Rap Cap",
+                            "artist": "M1LLIONZ"
+                        },
+                        {
+                            "offset": 982913,
+                            "title": "Party Popper",
+                            "artist": "BACKROAD GEE"
+                        },
+                        {
+                            "offset": 1129157,
+                            "title": "Shower Hour",
+                            "artist": "WAIFER"
+                        },
+                        {
+                            "offset": 1218494,
+                            "title": "Movements",
+                            "artist": "KO & JOY ORBISON"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "hei4_still_slipping_p4.m4a",
+                "duration": 460.632,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 1041,
+                            "title": "Movements",
+                            "artist": "KO & JOY ORBISON"
+                        },
+                        {
+                            "offset": 2834,
+                            "title": "Mad Friday",
+                            "artist": "RAP"
+                        },
+                        {
+                            "offset": 224714,
+                            "title": "Presence: Martin",
+                            "artist": "THOMAS BUSH"
+                        },
+                        {
+                            "offset": 333798,
+                            "title": "Submission",
+                            "artist": "POISON ANNA"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
