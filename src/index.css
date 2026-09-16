@@ -468,11 +468,16 @@
     position: absolute;
     top: 14px;
     right: 14px;
-    transition: opacity 450ms var(--ease-out);
+    transition:
+      opacity 450ms var(--ease-out),
+      visibility 0s linear 0s;
   }
 
+  /* Only the card in the middle offers the button; the others fade it out. */
   .card:not([aria-current]) .card__fav {
-    opacity: 0.35;
+    opacity: 0;
+    visibility: hidden;
+    transition-delay: 0s, 450ms;
   }
 
   /* Cards shrink and dim as they leave the middle, driven by the scroll position itself. */

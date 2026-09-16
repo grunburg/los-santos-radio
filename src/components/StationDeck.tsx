@@ -139,6 +139,7 @@ export function StationDeck({
               favorite={favorites.includes(station.id)}
               onToggle={onFavorite}
               className="card__fav"
+              tabIndex={focused ? 0 : -1}
             />
           </li>
         )

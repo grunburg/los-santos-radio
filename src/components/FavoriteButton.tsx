@@ -6,14 +6,16 @@ interface Props {
   favorite: boolean
   onToggle: (id: string) => void
   className?: string
+  tabIndex?: number
 }
 
 /** A plus that marks a station as a favourite, and turns into a tick once it is. */
-export function FavoriteButton({ station, favorite, onToggle, className = '' }: Props) {
+export function FavoriteButton({ station, favorite, onToggle, className = '', tabIndex }: Props) {
   return (
     <button
       type="button"
       className={`fav ${className}`.trim()}
+      tabIndex={tabIndex}
       aria-pressed={favorite}
       aria-label={favorite ? `Remove ${station.name} from favourites` : `Add ${station.name} to favourites`}
       onClick={(event) => {
