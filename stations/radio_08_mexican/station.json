@@ -1,0 +1,101 @@
+{
+    "id": "radio_08_mexican",
+    "type": "static",
+    "info": {
+        "title": "East Los FM",
+        "genre": "Mexican music and Latin music",
+        "dj": "DJ Camilo and Don Cheto",
+        "icon": {
+            "color": "East_Los_FM.svg",
+            "cover": "East_Los_FM_cover.png"
+        }
+    },
+    "common": {},
+    "fileGroups": {
+        "track": [
+            {
+                "path": "mex_final_mix_32.m4a",
+                "duration": 2465.17,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "El Cocaino",
+                            "artist": "LOS BUITRES DE CULIACAN SINALOA"
+                        },
+                        {
+                            "offset": 157400,
+                            "title": "Es-Toy",
+                            "artist": "MEXICAN INSTITUTE OF SOUND"
+                        },
+                        {
+                            "offset": 257744,
+                            "title": "Criminal Sound",
+                            "artist": "NINA DIOZ"
+                        },
+                        {
+                            "offset": 352571,
+                            "title": "Radio Capital",
+                            "artist": "LA VIDA BOHEME"
+                        },
+                        {
+                            "offset": 504437,
+                            "title": "Autos, Moda Y Rock And Roll",
+                            "artist": "FANDANGO"
+                        },
+                        {
+                            "offset": 638376,
+                            "title": "El Tatuado",
+                            "artist": "DON CHETO"
+                        },
+                        {
+                            "offset": 840446,
+                            "title": "Se Me Perdio La Cadenita",
+                            "artist": "LA SONORA DINAMITA"
+                        },
+                        {
+                            "offset": 990528,
+                            "title": "Fiebre De Jack",
+                            "artist": "SHE'S A TEASE"
+                        },
+                        {
+                            "offset": 1211792,
+                            "title": "Pachuco",
+                            "artist": "MALDITA VECINDAD"
+                        },
+                        {
+                            "offset": 1396449,
+                            "title": "El Sonidito",
+                            "artist": "HECHIZEROS BAND"
+                        },
+                        {
+                            "offset": 1566485,
+                            "title": "Fresco",
+                            "artist": "MILKMAN"
+                        },
+                        {
+                            "offset": 1780498,
+                            "title": "Maldito",
+                            "artist": "JESSY BULBO"
+                        },
+                        {
+                            "offset": 1959047,
+                            "title": "Yo Tengo El Don",
+                            "artist": "LA LIGA FEAT. ALIKA"
+                        },
+                        {
+                            "offset": 2124076,
+                            "title": "La Granja",
+                            "artist": "LOS TIGRES DEL NORTE"
+                        },
+                        {
+                            "offset": 2347584,
+                            "title": "El Rey Y Yo",
+                            "artist": "LOS ANGELES NEGROS"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
