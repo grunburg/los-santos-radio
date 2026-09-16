@@ -1,4 +1,5 @@
 import { Play, Square, Volume2 } from 'lucide-react'
+import { AnimatePresence, motion } from 'motion/react'
 import type { CSSProperties } from 'react'
 import type { Track } from '../schedule'
 import type { Station } from '../stations'
@@ -34,10 +35,33 @@ export function PlayerIsland({ station, track, isCurrent, status, volume, accent
   return (
     <footer className={`island island--${shownStatus}`} style={{ '--accent': accent } as CSSProperties}>
       <div className="island__row">
-        <StationBadge station={station} className="island__thumb" />
+        {/* Thumbnail and text both crossfade in place. */}
+        <div className="island__art">
+          <AnimatePresence initial={false}>
+            <motion.div
+              key={station.id}
+              className="island__art-frame"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+            >
+              <StationBadge station={station} className="island__thumb" />
+            </motion.div>
+          </AnimatePresence>
+        </div>
         <div className="island__text" aria-live="polite">
-          <p className="island__name">{station.name}</p>
-          <Marquee className="island__track" text={line} />
+          <AnimatePresence initial={false}>
+            <motion.div
+              key={station.id}
+              className="island__text-frame"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+            >
+              <p className="island__name">{station.name}</p>
+              <Marquee className="island__track" text={line} />
+            </motion.div>
+          </AnimatePresence>
         </div>
         <button
           type="button"

@@ -305,6 +305,7 @@
   }
 
   .views__option {
+    position: relative;
     display: grid;
     place-items: center;
     width: 30px;
@@ -315,19 +316,27 @@
     background: none;
     color: var(--ink-faint);
     cursor: pointer;
-    transition:
-      background-color 200ms var(--ease-out),
-      color 200ms var(--ease-out);
+    isolation: isolate;
+    transition: color 200ms var(--ease-out);
     -webkit-tap-highlight-color: transparent;
   }
 
   .views__option svg {
+    position: relative;
+    z-index: 1;
     width: 15px;
     height: 15px;
   }
 
-  .views__option[aria-checked='true'] {
+  /* The highlight behind the chosen option; it slides across when the other is chosen. */
+  .views__thumb {
+    position: absolute;
+    inset: 0;
+    border-radius: 999px;
     background: color-mix(in oklch, white 14%, transparent);
+  }
+
+  .views__option[aria-checked='true'] {
     color: var(--ink);
   }
 
@@ -638,25 +647,11 @@
     color: var(--ink-dim);
   }
 
-  /* Badge top right, heart below it. */
-  .row__pill {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    gap: 5px;
-    padding: 4px 7px 4px 6px;
-    font-size: 0.5625rem;
-  }
-
-  .row__pill .pill__dot {
-    width: 5px;
-    height: 5px;
-  }
-
   .row__fav {
     position: absolute;
+    top: 50%;
     right: 10px;
-    bottom: 8px;
+    translate: 0 -50%;
     width: 30px;
     height: 30px;
     background: transparent;
@@ -673,21 +668,18 @@
   .row__fav[aria-pressed='true'] {
     color: var(--accent-tint);
   }
-
-  /* With no badge, the heart sits in the middle. */
-  .row:not(:has(.row__pill)) .row__fav {
-    top: 50%;
-    bottom: auto;
-    translate: 0 -50%;
-  }
 }
 
 @layer meta {
   .meta {
-    display: grid;
-    gap: 6px;
+    position: relative;
     padding-inline: 32px;
     text-align: center;
+  }
+
+  .meta__body {
+    display: grid;
+    gap: 6px;
   }
 
   .meta__name {
@@ -762,13 +754,26 @@
   }
 
   .island__row {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 12px;
   }
 
-  .island__thumb {
+  /* A fixed slot the thumbnails crossfade in; the one leaving sits under the one arriving. */
+  .island__art {
+    position: relative;
     flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+  }
+
+  .island__art-frame {
+    position: absolute;
+    inset: 0;
+  }
+
+  .island__thumb {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -782,9 +787,16 @@
 
   .island__text {
     /* Sized by the row, never by its text, so a long line can't push the button out. */
+    position: relative;
     flex: 1 1 0;
     min-width: 0;
     overflow: hidden;
+  }
+
+  /* While crossfading, the text leaving keeps the row's height and the text arriving sits on it. */
+  .island__text-frame ~ .island__text-frame {
+    position: absolute;
+    inset: 0;
   }
 
   .island__name {

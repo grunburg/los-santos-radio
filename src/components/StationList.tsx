@@ -1,17 +1,13 @@
 import { useEffect, useRef, type CSSProperties } from 'react'
 import type { Station } from '../stations'
-import { nowPlaying, type RadioStatus } from '../useRadio'
+import { nowPlaying } from '../useRadio'
 import { FavoriteButton } from './FavoriteButton'
 import { StationBadge } from './StationBadge'
-import { StatusPill } from './StatusPill'
 
 interface Props {
   stations: Station[]
   /** The focused station, highlighted in the list. */
   index: number
-  /** The station that is on, if any, and how it's doing. */
-  current: Station | null
-  status: RadioStatus
   colors: Record<string, string>
   fallback: string
   favorites: string[]
@@ -24,8 +20,6 @@ interface Props {
 export function StationList({
   stations,
   index,
-  current,
-  status,
   colors,
   fallback,
   favorites,
@@ -73,7 +67,6 @@ export function StationList({
             {group.items.map((station, offset) => {
               const i = group.from + offset
               const focused = i === index
-              const isOn = current?.id === station.id && status !== 'off'
               const track = nowPlaying(station)
               return (
                 <li key={station.id} className="row" style={{ '--accent': colors[station.id] ?? fallback } as CSSProperties}>
@@ -95,7 +88,6 @@ export function StationList({
                       </span>
                     </span>
                   </button>
-                  {isOn && <StatusPill status={status} className="row__pill" />}
                   <FavoriteButton
                     station={station}
                     favorite={favorites.includes(station.id)}

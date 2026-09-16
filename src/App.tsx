@@ -1,10 +1,12 @@
 import { GalleryHorizontal, List } from 'lucide-react'
+import { AnimatePresence, MotionConfig, motion } from 'motion/react'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { DebugPanel } from './components/DebugPanel'
 import { PlayerIsland } from './components/PlayerIsland'
 import { StationDeck } from './components/StationDeck'
 import { StationList } from './components/StationList'
 import { barColor } from './logoColor'
+import { FADE, SLIDE } from './motion'
 import { loadSchedule } from './schedules'
 import { DEBUG, STATIONS } from './stations'
 import { useFavorites, withFavoritesFirst } from './useFavorites'
@@ -14,6 +16,17 @@ import { nowPlaying, useRadio } from './useRadio'
 type View = 'cards' | 'list'
 
 const VIEW_KEY = 'gta5radio:view'
+const STATION_KEY = 'gta5radio:station'
+
+/** The station focused last time, if it's still one of ours. */
+function loadStationId(fallback: string) {
+  try {
+    const id = localStorage.getItem(STATION_KEY)
+    return id && STATIONS.some((s) => s.id === id) ? id : fallback
+  } catch {
+    return fallback
+  }
+}
 
 function loadView(): View {
   try {
@@ -30,7 +43,7 @@ export default function App() {
   // Favourites first, then the rest: the order of the deck and the list.
   const stations = useMemo(() => withFavoritesFirst(STATIONS, favorites), [favorites])
   // The focused station: the card in the middle of the deck, or the highlighted row.
-  const [focusedId, setFocusedId] = useState(stations[0].id)
+  const [focusedId, setFocusedId] = useState(() => loadStationId(stations[0].id))
   const [view, setView] = useState<View>(loadView)
   // Re-render every second so the now-playing text and debug panel follow the clock.
   const [, setSecond] = useState(0)
@@ -49,6 +62,15 @@ export default function App() {
       // The view just won't be remembered.
     }
   }, [view])
+
+  // Remembered, so a reload comes back to the same station.
+  useEffect(() => {
+    try {
+      localStorage.setItem(STATION_KEY, focusedId)
+    } catch {
+      // The station just won't be remembered.
+    }
+  }, [focusedId])
 
   const index = Math.max(0, stations.findIndex((s) => s.id === focusedId))
   const focused = stations[index]
@@ -90,94 +112,107 @@ export default function App() {
   }
 
   return (
-    <div className="app">
-      <header className="top">
-        <h1 className="brand">Los Santos Radio</h1>
-        <div className="top__tools">
-          <div className="views" role="radiogroup" aria-label="View">
-            <button
-              type="button"
-              role="radio"
-              aria-checked={view === 'cards'}
-              aria-label="Cards"
-              className="views__option"
-              onClick={() => setView('cards')}
-            >
-              <GalleryHorizontal aria-hidden="true" />
-            </button>
-            <button
-              type="button"
-              role="radio"
-              aria-checked={view === 'list'}
-              aria-label="List"
-              className="views__option"
-              onClick={() => setView('list')}
-            >
-              <List aria-hidden="true" />
-            </button>
+    <MotionConfig reducedMotion="user" transition={FADE}>
+      <div className="app">
+        <header className="top">
+          <h1 className="brand">Los Santos Radio</h1>
+          <div className="top__tools">
+            <div className="views" role="radiogroup" aria-label="View">
+              <button
+                type="button"
+                role="radio"
+                aria-checked={view === 'cards'}
+                aria-label="Cards"
+                className="views__option"
+                onClick={() => setView('cards')}
+              >
+                {view === 'cards' && <motion.span layoutId="views-thumb" className="views__thumb" transition={SLIDE} />}
+                <GalleryHorizontal aria-hidden="true" />
+              </button>
+              <button
+                type="button"
+                role="radio"
+                aria-checked={view === 'list'}
+                aria-label="List"
+                className="views__option"
+                onClick={() => setView('list')}
+              >
+                {view === 'list' && <motion.span layoutId="views-thumb" className="views__thumb" transition={SLIDE} />}
+                <List aria-hidden="true" />
+              </button>
+            </div>
           </div>
-        </div>
-      </header>
+        </header>
 
-      <main className={`stage stage--${view}`}>
-        {view === 'cards' ? (
-          <>
-            <StationDeck
+        <main className={`stage stage--${view}`}>
+          {view === 'cards' ? (
+            <>
+              <StationDeck
+                stations={stations}
+                index={index}
+                current={station}
+                status={status}
+                colors={colors}
+                fallback={FALLBACK_ACCENT}
+                favorites={favorites}
+                onChange={change}
+                onActivate={() => toggle()}
+                onFavorite={toggleFavorite}
+              />
+
+              <section className="meta" aria-live="polite">
+                {/* The station's text crossfades in place; the one leaving is lifted out of the flow. */}
+                <AnimatePresence mode="popLayout" initial={false}>
+                  <motion.div
+                    key={focused.id}
+                    className="meta__body"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                  >
+                    <h2 className="meta__name">{focused.name}</h2>
+                    <p className="meta__genre">{focused.genre}</p>
+                    {track ? (
+                      <p className="meta__track">
+                        <span className="meta__artist">{track.artist || 'Now playing'}</span>
+                        <span className="meta__title">{track.title}</span>
+                      </p>
+                    ) : (
+                      <p className="meta__track meta__track--empty">
+                        <span className="meta__artist">Now playing</span>
+                        <span className="meta__title">Loading schedule…</span>
+                      </p>
+                    )}
+                  </motion.div>
+                </AnimatePresence>
+              </section>
+            </>
+          ) : (
+            <StationList
               stations={stations}
               index={index}
-              current={station}
-              status={status}
               colors={colors}
               fallback={FALLBACK_ACCENT}
               favorites={favorites}
-              onChange={change}
-              onActivate={() => toggle()}
+              onSelect={select}
               onFavorite={toggleFavorite}
             />
+          )}
+        </main>
 
-            <section className="meta" aria-live="polite">
-              <h2 className="meta__name">{focused.name}</h2>
-              <p className="meta__genre">{focused.genre}</p>
-              {track ? (
-                <p className="meta__track">
-                  <span className="meta__artist">{track.artist || 'Now playing'}</span>
-                  <span className="meta__title">{track.title}</span>
-                </p>
-              ) : (
-                <p className="meta__track meta__track--empty">
-                  <span className="meta__artist">Now playing</span>
-                  <span className="meta__title">Loading schedule…</span>
-                </p>
-              )}
-            </section>
-          </>
-        ) : (
-          <StationList
-            stations={stations}
-            index={index}
-            current={station}
-            status={status}
-            colors={colors}
-            fallback={FALLBACK_ACCENT}
-            favorites={favorites}
-            onSelect={select}
-            onFavorite={toggleFavorite}
-          />
-        )}
-      </main>
+        <PlayerIsland
+          station={islandStation}
+          track={islandStation === focused ? track : nowPlaying(islandStation)}
+          isCurrent={islandStation === station}
+          status={status}
+          volume={volume}
+          accent={colors[islandStation.id] ?? FALLBACK_ACCENT}
+          onToggle={toggle}
+          onVolume={setVolume}
+        />
 
-      <PlayerIsland
-        station={islandStation}
-        track={islandStation === focused ? track : nowPlaying(islandStation)}
-        isCurrent={islandStation === station}
-        status={status}
-        volume={volume}
-        accent={colors[islandStation.id] ?? FALLBACK_ACCENT}
-        onToggle={toggle}
-        onVolume={setVolume}
-      />
-
-      {DEBUG && <DebugPanel player={player} status={status} />}
-    </div>
+        {DEBUG && <DebugPanel player={player} status={status} />}
+      </div>
+    </MotionConfig>
   )
 }

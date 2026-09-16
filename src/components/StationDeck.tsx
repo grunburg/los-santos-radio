@@ -85,13 +85,16 @@ export function StationDeck({
     }
   }, [stations, onChange])
 
-  // Keyboard or island changed the station: bring its card into the middle.
+  // Keyboard or island changed the station: bring its card into the middle. On first showing,
+  // the deck opens straight on the card (the remembered station) rather than scrolling to it.
+  const shownRef = useRef(false)
   useEffect(() => {
     const scroller = scrollerRef.current
     const card = cardsRef.current[index]
     if (!scroller || !card) return
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (Math.abs(scroller.scrollLeft - offsetOf(card, scroller)) > 2) scrollTo(index, reduce ? 'instant' : 'smooth')
+    const instant = !shownRef.current || window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    shownRef.current = true
+    if (Math.abs(scroller.scrollLeft - offsetOf(card, scroller)) > 2) scrollTo(index, instant ? 'instant' : 'smooth')
   }, [index])
 
   // Arrow keys move through the deck while focus is on the page or a card.
