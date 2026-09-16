@@ -1,0 +1,194 @@
+{
+    "id": "radio_21_dlc_xm17",
+    "type": "static",
+    "info": {
+        "title": "Blonded Los Santos 97.8 FM",
+        "genre": "R&B, soul, hip hop and electronic",
+        "dj": "Frank Ocean",
+        "icon": {
+            "color": "Blonded_Los_Santos.svg",
+            "cover": "Blonded_Los_Santos_cover.png"
+        }
+    },
+    "common": {},
+    "fileGroups": {
+        "track": [
+            {
+                "path": "radio_xm17_p1.m4a",
+                "duration": 1863.72,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 26816,
+                            "title": "International Feel",
+                            "artist": "TODD RUNDGREN"
+                        },
+                        {
+                            "offset": 204986,
+                            "title": "Mr Noah",
+                            "artist": "PANDA BEAR"
+                        },
+                        {
+                            "offset": 413856,
+                            "title": "Provider",
+                            "artist": "FRANK OCEAN"
+                        },
+                        {
+                            "offset": 653461,
+                            "title": "Kno Ya Wrong",
+                            "artist": "SCHOOLBOY Q FEAT. LANCE SKIIIWALKER"
+                        },
+                        {
+                            "offset": 983828,
+                            "title": "Rain",
+                            "artist": "SWV"
+                        },
+                        {
+                            "offset": 1230002,
+                            "title": "On a Farm",
+                            "artist": "JOY AGAIN"
+                        },
+                        {
+                            "offset": 1318069,
+                            "title": "Ivy",
+                            "artist": "FRANK OCEAN"
+                        },
+                        {
+                            "offset": 1556509,
+                            "title": "So In Love",
+                            "artist": "CURTIS MAYFIELD"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "radio_xm17_p2.m4a",
+                "duration": 2356.968,
+                "audibleDuration": 2356.229,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 2710,
+                            "title": "When Did You Stop Loving Me, When Did I Stop Loving You",
+                            "artist": "MARVIN GAYE"
+                        },
+                        {
+                            "offset": 378006,
+                            "title": "Je ne bois pas beaucoup",
+                            "artist": "LES YA TOUPAS DU ZAIRE"
+                        },
+                        {
+                            "offset": 590998,
+                            "title": "Andreaen Sand Dunes",
+                            "artist": "DREXCIYA"
+                        },
+                        {
+                            "offset": 739051,
+                            "title": "Dead Presidents II",
+                            "artist": "JAY-Z"
+                        },
+                        {
+                            "offset": 952202,
+                            "title": "Crack Rock",
+                            "artist": "FRANK OCEAN"
+                        },
+                        {
+                            "offset": 1178304,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 1242794,
+                            "title": "EZ Come, EZ Go",
+                            "artist": "M.C. MACK"
+                        },
+                        {
+                            "offset": 1467506,
+                            "title": "IZ-US",
+                            "artist": "APHEX TWIN"
+                        },
+                        {
+                            "offset": 1621920,
+                            "title": "Hiders",
+                            "artist": "BURIAL"
+                        },
+                        {
+                            "offset": 1821973,
+                            "title": "Codeine Crazy",
+                            "artist": "FUTURE"
+                        },
+                        {
+                            "offset": 2144549,
+                            "title": "Chanel",
+                            "artist": "FRANK OCEAN"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "radio_xm17_p3.m4a",
+                "duration": 1919.256,
+                "audibleDuration": 1917.716,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 1833,
+                            "title": "For Real",
+                            "artist": "LIL UZI VERT"
+                        },
+                        {
+                            "offset": 170281,
+                            "title": "First 48",
+                            "artist": "MIGOS"
+                        },
+                        {
+                            "offset": 368255,
+                            "title": "FBG",
+                            "artist": "SUSPECT"
+                        },
+                        {
+                            "offset": 553818,
+                            "title": "Nights",
+                            "artist": "FRANK OCEAN"
+                        },
+                        {
+                            "offset": 861080,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 913715,
+                            "title": "YSL",
+                            "artist": "GUNNA FEAT. PLAYBOI CARTI"
+                        },
+                        {
+                            "offset": 1069978,
+                            "title": "Winnin",
+                            "artist": "CHIEF KEEF FEAT. KING LOUIE"
+                        },
+                        {
+                            "offset": 1307698,
+                            "title": "Miss White Cocaine",
+                            "artist": "LIL SKO"
+                        },
+                        {
+                            "offset": 1451537,
+                            "title": "Man Don't Care",
+                            "artist": "JME FEAT. GIGGS"
+                        },
+                        {
+                            "offset": 1655068,
+                            "title": "Master",
+                            "artist": "(SANDY) ALEX G"
+                        },
+                        {
+                            "offset": 1767769,
+                            "title": "Pretty Sweet",
+                            "artist": "FRANK OCEAN"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
