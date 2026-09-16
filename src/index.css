@@ -1,0 +1,1070 @@
+@layer reset, base, layout, deck, list, meta, island, debug;
+
+/* The accent is animatable so a swipe fades the whole page from one station's colour to the next. */
+@property --accent {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: rgb(120 128 150);
+}
+
+@layer reset {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body,
+  h1,
+  h2,
+  p,
+  ul {
+    margin: 0;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  button,
+  input {
+    font: inherit;
+    color: inherit;
+  }
+
+  img,
+  svg {
+    display: block;
+  }
+}
+
+@layer base {
+  :root {
+    --font-display: 'Inter Tight', 'Inter', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+    --ink: oklch(97% 0.004 260);
+    --ink-dim: oklch(78% 0.01 260);
+    --ink-faint: oklch(60% 0.012 260);
+    --ground: oklch(13% 0.012 260);
+
+    --live: oklch(80% 0.2 145);
+    --tuning: oklch(85% 0.17 85);
+    --error: oklch(72% 0.19 25);
+
+    --radius-card: 28px;
+    --radius-island: 24px;
+    --island-height: 132px;
+
+    --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+    color-scheme: dark;
+    font-family: var(--font-body);
+    font-optical-sizing: auto;
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /*
+   * Shades of the accent with the lightness pinned, so text stays readable whatever the logo
+   * gives us. Declared on each element that sets its own --accent: a custom property resolves
+   * its var() where it is declared, so these can't live on :root.
+   */
+  html,
+  .app,
+  .card,
+  .island {
+    --accent-glow: oklch(from var(--accent) 0.55 min(c, 0.2) h);
+    --accent-tint: oklch(from var(--accent) 0.82 min(c, 0.15) h);
+    --accent-deep: oklch(from var(--accent) 0.3 min(c, 0.13) h);
+    --accent-card: oklch(from var(--accent) 0.6 min(c, 0.22) h);
+    --accent-button: oklch(from var(--accent) 0.68 min(c, 0.2) h);
+  }
+
+  /*
+   * The document never scrolls: the app shell below does. That keeps the glow, painted on the
+   * root background, perfectly still. --accent is set on <html> by the app.
+   *
+   * The document is a *large* viewport tall, not the layout viewport: on iPhone the layout
+   * viewport stops where Safari's translucent bar begins, and only what the document renders
+   * beyond it shows through the bar. Sized to the small viewport, the page simply ended there.
+   */
+  html {
+    height: 100lvh;
+    overflow: hidden;
+    background-color: var(--ground);
+    /*
+     * The glows are anchored to the large viewport and the image runs on far past the box: the
+     * root background paints the whole canvas, so whatever Safari shows beyond the document,
+     * under its bar and the home indicator, gets the glow's tail rather than a bare black band.
+     */
+    background-image:
+      radial-gradient(70% 45lvh at 50% -5lvh, color-mix(in oklch, var(--accent-glow) 55%, transparent), transparent 70%),
+      radial-gradient(90% 45lvh at 50% 108lvh, color-mix(in oklch, var(--accent-deep) 70%, transparent), transparent 70%);
+    background-repeat: no-repeat;
+    background-size: 100% 250lvh;
+    transition: --accent 600ms var(--ease-out);
+  }
+
+  body,
+  #root {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* The "Live" badge on the station that's on. */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px 6px 8px;
+    border-radius: 999px;
+    background: rgb(0 0 0 / 0.42);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+
+  .pill__dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--live);
+    box-shadow: 0 0 8px var(--live);
+  }
+
+  .pill--tuning .pill__dot {
+    background: var(--tuning);
+    box-shadow: 0 0 8px var(--tuning);
+    animation: blink 700ms steps(2, jump-none) infinite;
+  }
+
+  .pill--error .pill__dot {
+    background: var(--error);
+    box-shadow: 0 0 8px var(--error);
+  }
+
+  /* The favourite button: a plus that becomes a tick. */
+  .fav {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgb(0 0 0 / 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: var(--ink-dim);
+    cursor: pointer;
+    transition:
+      color 200ms var(--ease-out),
+      scale 200ms var(--ease-out);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .fav__icon {
+    grid-area: 1 / 1;
+    width: 18px;
+    height: 18px;
+    transition:
+      transform 380ms cubic-bezier(0.34, 1.4, 0.64, 1),
+      opacity 200ms var(--ease-out);
+  }
+
+  .fav__icon--check {
+    opacity: 0;
+    transform: rotate(-45deg) scale(0.3);
+  }
+
+  .fav:hover {
+    color: var(--ink);
+  }
+
+  .fav:active {
+    scale: 0.9;
+  }
+
+  .fav[aria-pressed='true'] {
+    color: var(--accent-tint);
+    animation: fav-pop 380ms var(--ease-out);
+  }
+
+  /* Pressed: the plus spins away as the tick springs in. */
+  .fav[aria-pressed='true'] .fav__icon--plus {
+    opacity: 0;
+    transform: rotate(90deg) scale(0.3);
+  }
+
+  .fav[aria-pressed='true'] .fav__icon--check {
+    opacity: 1;
+    transform: none;
+  }
+
+  @keyframes fav-pop {
+    50% {
+      scale: 1.18;
+    }
+  }
+
+  .fav:focus-visible {
+    outline: 2px solid var(--accent-tint);
+    outline-offset: 2px;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+@layer layout {
+  /*
+   * A three-column grid: the 384px column in the middle, and the space either side of it. Text
+   * and controls sit in the column; the card deck spans the full width, so the cards bleed out
+   * past the column to the edges of the screen.
+   */
+  .app {
+    --column: 384px;
+    position: relative;
+    display: grid;
+    grid-template-columns:
+      [full-start] minmax(0, 1fr)
+      [content-start] min(100%, var(--column))
+      [content-end] minmax(0, 1fr)
+      [full-end];
+    grid-template-rows: auto 1fr;
+    height: 100%;
+    /* Room at the end for the island, and for the part of the page that sits under the bar. */
+    padding-block:
+      max(20px, env(safe-area-inset-top))
+      calc(var(--island-height) + max(28px, env(safe-area-inset-bottom)) + (100lvh - 100svh));
+    /* The one thing that scrolls, with no rubber-banding or pull-to-refresh. */
+    overflow-y: auto;
+    overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .app > * {
+    grid-column: content;
+  }
+
+  .top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    padding-inline: 24px;
+  }
+
+  .brand {
+    font-family: var(--font-display);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+
+  .top__tools {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .views {
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+    border-radius: 999px;
+    background: color-mix(in oklch, white 8%, transparent);
+    box-shadow: inset 0 0 0 1px color-mix(in oklch, white 6%, transparent);
+  }
+
+  .views__option {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 24px;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    background: none;
+    color: var(--ink-faint);
+    cursor: pointer;
+    transition:
+      background-color 200ms var(--ease-out),
+      color 200ms var(--ease-out);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .views__option svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .views__option[aria-checked='true'] {
+    background: color-mix(in oklch, white 14%, transparent);
+    color: var(--ink);
+  }
+
+  .views__option:focus-visible {
+    outline: 2px solid var(--accent-tint);
+    outline-offset: 2px;
+  }
+
+  .counter {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .counter__of {
+    margin-inline-start: 2px;
+    color: var(--ink-faint);
+  }
+
+  .stage {
+    grid-column: full;
+    display: grid;
+    grid-template-columns: subgrid;
+    align-content: center;
+    row-gap: 24px;
+    padding-block: 20px;
+  }
+
+  .stage > * {
+    grid-column: content;
+  }
+
+  .stage--list {
+    align-content: start;
+  }
+}
+
+@layer deck {
+  .deck {
+    --peek: 40px;
+    --gap: 14px;
+    /* Cards are sized to the column; the strip itself runs edge to edge. */
+    --card: calc(min(100vw, var(--column)) - var(--peek) * 2);
+    grid-column: full;
+    display: flex;
+    gap: var(--gap);
+    /* Room for the cards' glow, which the scroller would otherwise clip; pulled back so it costs no space. */
+    padding-block: 56px 72px;
+    margin-block: -56px -52px;
+    padding-inline: calc((100% - var(--card)) / 2);
+    overflow-x: auto;
+    overscroll-behavior: none;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .deck::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card {
+    position: relative;
+    flex: 0 0 var(--card);
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    aspect-ratio: 1;
+  }
+
+  .card__face {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 12%;
+    border: 0;
+    border-radius: var(--radius-card);
+    background:
+      radial-gradient(120% 90% at 20% 0%, color-mix(in oklch, white 22%, transparent), transparent 55%),
+      linear-gradient(155deg, var(--accent-card), var(--accent-deep));
+    box-shadow:
+      inset 0 1px 0 color-mix(in oklch, white 30%, transparent),
+      inset 0 0 0 1px color-mix(in oklch, white 8%, transparent);
+    cursor: pointer;
+    isolation: isolate;
+    transition: opacity 450ms var(--ease-out);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Inactive stations fade back. */
+  .card:not([aria-current]) .card__face {
+    opacity: 0.35;
+  }
+
+  /* The coloured glow belongs to the active station only, and fades in as it settles. */
+  .card__face::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    box-shadow:
+      0 24px 50px -18px var(--accent-glow),
+      0 18px 40px -20px rgb(0 0 0 / 0.8);
+    opacity: 0;
+    transition: opacity 700ms var(--ease-out);
+  }
+
+  .card[aria-current] .card__face::before {
+    opacity: 1;
+  }
+
+  /* A soft grain so the flat colour doesn't band. */
+  .card__face::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    opacity: 0.12;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .card__face:focus-visible {
+    outline: 3px solid var(--accent-tint);
+    outline-offset: 4px;
+  }
+
+  .card__logo {
+    width: 100%;
+    max-width: 210px;
+    aspect-ratio: 1;
+    object-fit: contain;
+    filter: drop-shadow(0 18px 30px rgb(0 0 0 / 0.45));
+    user-select: none;
+  }
+
+  .badge--plate {
+    padding: 24px;
+    border-radius: 50%;
+  }
+
+  .badge--plate-dark {
+    background: oklch(20% 0.01 260);
+  }
+
+  .badge--plate-light {
+    background: oklch(95% 0.006 80);
+  }
+
+  .card__pill {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+  }
+
+  .card__fav {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    transition: opacity 450ms var(--ease-out);
+  }
+
+  .card:not([aria-current]) .card__fav {
+    opacity: 0.35;
+  }
+
+  /* Cards shrink and dim as they leave the middle, driven by the scroll position itself. */
+  @supports (animation-timeline: view()) {
+    .card__face {
+      animation: card-focus linear both;
+      animation-timeline: view(inline);
+      animation-range: cover 0% cover 100%;
+    }
+
+    @keyframes card-focus {
+      0%,
+      100% {
+        scale: 0.86;
+      }
+
+      50% {
+        scale: 1;
+      }
+    }
+  }
+
+  @supports not (animation-timeline: view()) {
+    .card__face {
+      transition:
+        scale 350ms var(--ease-out),
+        opacity 450ms var(--ease-out);
+    }
+
+    .card:not([aria-current]) .card__face {
+      scale: 0.86;
+    }
+  }
+}
+
+@layer list {
+  .list,
+  .row {
+    --accent-deep: oklch(from var(--accent) 0.3 min(c, 0.13) h);
+    --accent-tint: oklch(from var(--accent) 0.82 min(c, 0.15) h);
+    --accent-glow: oklch(from var(--accent) 0.55 min(c, 0.2) h);
+  }
+
+  .list {
+    display: grid;
+    gap: 22px;
+    padding-inline: 12px;
+  }
+
+  .list__title {
+    margin: 0 0 8px 14px;
+    font-family: var(--font-display);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  .list__rows {
+    display: grid;
+    gap: 6px;
+  }
+
+  .row {
+    position: relative;
+  }
+
+  .row__body {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    padding: 10px 56px 10px 10px;
+    border: 0;
+    border-radius: 18px;
+    background: transparent;
+    text-align: start;
+    color: var(--ink);
+    cursor: pointer;
+    transition:
+      background-color 250ms var(--ease-out),
+      box-shadow 250ms var(--ease-out);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .row__body:hover {
+    background: color-mix(in oklch, white 5%, transparent);
+  }
+
+  .row__body--focused {
+    background: color-mix(in oklch, var(--accent-deep) 65%, transparent);
+    box-shadow:
+      inset 0 0 0 1px color-mix(in oklch, var(--accent-tint) 25%, transparent),
+      0 14px 30px -18px var(--accent-glow);
+  }
+
+  .row__body:focus-visible {
+    outline: 2px solid var(--accent-tint);
+    outline-offset: 2px;
+  }
+
+  .row__logo {
+    flex: 0 0 auto;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 6px 16px rgb(0 0 0 / 0.4);
+  }
+
+  .row__logo.badge--plate {
+    padding: 6px;
+  }
+
+  .row__text {
+    flex: 1 1 0;
+    display: grid;
+    gap: 1px;
+    min-width: 0;
+  }
+
+  .row__name,
+  .row__genre,
+  .row__track {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .row__name {
+    font-family: var(--font-display);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .row__genre {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: var(--accent-tint);
+  }
+
+  .row__track {
+    margin-top: 2px;
+    font-size: 0.75rem;
+    color: var(--ink-dim);
+  }
+
+  /* Badge top right, heart below it. */
+  .row__pill {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    gap: 5px;
+    padding: 4px 7px 4px 6px;
+    font-size: 0.5625rem;
+  }
+
+  .row__pill .pill__dot {
+    width: 5px;
+    height: 5px;
+  }
+
+  .row__fav {
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    color: var(--ink-faint);
+  }
+
+  .row__fav .fav__icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .row__fav[aria-pressed='true'] {
+    color: var(--accent-tint);
+  }
+
+  /* With no badge, the heart sits in the middle. */
+  .row:not(:has(.row__pill)) .row__fav {
+    top: 50%;
+    bottom: auto;
+    translate: 0 -50%;
+  }
+}
+
+@layer meta {
+  .meta {
+    display: grid;
+    gap: 6px;
+    padding-inline: 32px;
+    text-align: center;
+  }
+
+  .meta__name {
+    font-family: var(--font-display);
+    font-size: 1.625rem;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+  }
+
+  .meta__genre {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--accent-tint);
+    text-wrap: pretty;
+  }
+
+  .meta__track {
+    display: grid;
+    gap: 3px;
+    margin-top: 12px;
+  }
+
+  .meta__artist,
+  .meta__title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .meta__artist {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  .meta__title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .meta__track--empty .meta__title {
+    color: var(--ink-faint);
+  }
+}
+
+@layer island {
+  .island {
+    position: fixed;
+    inset-inline: 0;
+    bottom: max(16px, env(safe-area-inset-bottom));
+    z-index: 2;
+    display: grid;
+    gap: 10px;
+    width: min(100% - 32px, 352px);
+    margin-inline: auto;
+    padding: 12px 14px 12px 12px;
+    border-radius: var(--radius-island);
+    background: color-mix(in oklch, var(--accent-deep) 82%, oklch(14% 0.005 260 / 0.6));
+    -webkit-backdrop-filter: blur(24px) saturate(1.4);
+    backdrop-filter: blur(24px) saturate(1.4);
+    box-shadow:
+      inset 0 1px 0 color-mix(in oklch, white 18%, transparent),
+      inset 0 0 0 1px color-mix(in oklch, white 7%, transparent),
+      0 20px 50px -18px rgb(0 0 0 / 0.9);
+    transition: --accent 600ms var(--ease-out);
+  }
+
+  .island__row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .island__thumb {
+    flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 6px 16px rgb(0 0 0 / 0.45);
+  }
+
+  .island__thumb.badge--plate {
+    padding: 5px;
+  }
+
+  .island__text {
+    /* Sized by the row, never by its text, so a long line can't push the button out. */
+    flex: 1 1 0;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .island__name {
+    overflow: hidden;
+    font-family: var(--font-display);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .island__track {
+    margin-top: 2px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--ink-dim);
+  }
+
+  .island--error .island__track {
+    color: var(--error);
+  }
+
+  /* Ticker: two copies of the text glide left, only when the line doesn't fit. */
+  .marquee {
+    --gap: 40px;
+    display: flex;
+    gap: var(--gap);
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    /* The text has no say in how wide the line is. */
+    contain: inline-size;
+  }
+
+  .marquee__text {
+    flex: 0 0 auto;
+    min-width: 0;
+  }
+
+  .marquee:not(.marquee--scrolling) .marquee__text:first-child {
+    flex-basis: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .marquee:not(.marquee--scrolling) .marquee__text + .marquee__text {
+    display: none;
+  }
+
+  .marquee--scrolling {
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 12px, #000 calc(100% - 12px), transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 12px, #000 calc(100% - 12px), transparent);
+  }
+
+  .marquee--scrolling .marquee__text {
+    animation: marquee var(--duration, 8s) linear infinite;
+  }
+
+  @keyframes marquee {
+    to {
+      translate: calc(-100% - var(--gap)) 0;
+    }
+  }
+
+  .island__play {
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: var(--accent-button);
+    color: white;
+    box-shadow:
+      inset 0 1px 0 color-mix(in oklch, white 35%, transparent),
+      0 8px 20px -6px var(--accent-glow);
+    cursor: pointer;
+    transition:
+      scale 150ms var(--ease-out),
+      background-color 600ms var(--ease-out);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .island__play svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* The play triangle reads as centred when nudged right a touch. */
+  .island__play-icon {
+    translate: 2px 0;
+  }
+
+  .island__play:hover {
+    scale: 1.05;
+  }
+
+  .island__play:active {
+    scale: 0.95;
+  }
+
+  .island__play:focus-visible {
+    outline: 2px solid var(--accent-tint);
+    outline-offset: 3px;
+  }
+
+  .island__volume {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 4px;
+    color: var(--ink-faint);
+  }
+
+  .island__volume svg {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+  }
+
+  .island__volume input {
+    appearance: none;
+    flex: 1 1 auto;
+    height: 4px;
+    margin: 8px 0;
+    border-radius: 2px;
+    background: linear-gradient(to right, var(--accent-tint) var(--fill), rgb(255 255 255 / 0.16) var(--fill));
+    cursor: pointer;
+  }
+
+  .island__volume input::-webkit-slider-thumb {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 0.5);
+  }
+
+  .island__volume input::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border: 0;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .island__volume input:focus-visible {
+    outline: 2px solid var(--accent-tint);
+    outline-offset: 6px;
+  }
+
+  /* Phones have volume buttons; the slider only gets in the way. */
+  @media (hover: none) and (pointer: coarse) {
+    :root {
+      --island-height: 72px;
+    }
+
+    .island__volume {
+      display: none;
+    }
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: 0.2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html,
+  .island,
+  .fav,
+  .fav__icon,
+  .card__face,
+  .card__face::before,
+  .island__play {
+    transition: none;
+    animation-duration: 0s;
+  }
+
+  .deck {
+    scroll-behavior: auto;
+  }
+
+  .pill--tuning .pill__dot {
+    animation: none;
+  }
+
+  /* No ticker: the line is clipped with an ellipsis instead. */
+  .marquee--scrolling {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .marquee--scrolling .marquee__text {
+    animation: none;
+  }
+
+  .marquee--scrolling .marquee__text:first-child {
+    flex-basis: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .marquee--scrolling .marquee__text + .marquee__text {
+    display: none;
+  }
+}
+
+/* Debug panel (VITE_DEBUG=true) */
+
+@layer debug {
+  .debug {
+    position: fixed;
+    top: max(12px, env(safe-area-inset-top));
+    right: 12px;
+    z-index: 3;
+    max-width: min(420px, calc(100vw - 24px));
+    padding: 10px 12px;
+    border: 1px solid color-mix(in oklch, var(--accent-tint) 50%, transparent);
+    border-radius: 10px;
+    background: rgb(10 10 14 / 0.9);
+    font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+    font-size: 11px;
+    line-height: 1.45;
+    color: var(--ink-dim);
+  }
+
+  .debug button {
+    border: 1px solid color-mix(in oklch, var(--accent-tint) 50%, transparent);
+    border-radius: 6px;
+    padding: 1px 6px;
+    background: none;
+    font: inherit;
+    color: var(--accent-tint);
+    cursor: pointer;
+  }
+
+  .debug__toggle {
+    padding: 4px 10px;
+  }
+
+  .debug__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 6px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-tint);
+  }
+
+  .debug__list {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2px 10px;
+    margin: 0;
+  }
+
+  .debug__list dt {
+    color: var(--ink-faint);
+  }
+
+  .debug__list dd {
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .debug__note {
+    display: block;
+    color: var(--ink-faint);
+  }
+
+  .debug__skips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+  }
+}

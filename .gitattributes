@@ -1,0 +1,4 @@
+# Station audio and artwork: never diffed or line-ending converted.
+*.m4a binary
+*.png binary
+* text=auto eol=lf

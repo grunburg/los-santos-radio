@@ -1,0 +1,128 @@
+import { useState } from 'react'
+import { clockOffset, now, setClockOffset } from '../clock'
+import type { Player } from '../player'
+import { locate, voiceLines } from '../schedule'
+import { STATIONS_URL } from '../stations'
+import type { RadioStatus } from '../useRadio'
+
+interface Props {
+  player: Player
+  status: RadioStatus
+}
+
+/** Jumps offered by the skip buttons, in seconds. */
+const SKIPS: [string, number][] = [
+  ['-1h', -3600],
+  ['-5m', -300],
+  ['-30s', -30],
+  ['+30s', 30],
+  ['+5m', 300],
+  ['+1h', 3600],
+  ['+1d', 86400],
+]
+
+const name = (file: string) => file.split('/').pop()!
+
+function clock(offset: number) {
+  if (!offset) return 'device time'
+  const sign = offset < 0 ? '-' : '+'
+  const s = Math.abs(Math.round(offset))
+  const h = Math.floor(s / 3600)
+  const m = Math.floor((s % 3600) / 60)
+  return `${sign}${h ? `${h}h ` : ''}${m ? `${m}m ` : ''}${s % 60 ? `${s % 60}s` : ''}`.trim()
+}
+
+/**
+ * Shown only when VITE_DEBUG is "true": where the player is in the schedule, and a clock that
+ * can be moved to test other moments of the broadcast.
+ */
+export function DebugPanel({ player, status }: Props) {
+  const [open, setOpen] = useState(true)
+  const [offset, setOffset] = useState(clockOffset)
+
+  const skip = (seconds: number) => {
+    const next = seconds ? offset + seconds : 0
+    setClockOffset(next)
+    setOffset(next)
+    player.resync()
+  }
+
+  if (!open) {
+    return (
+      <button type="button" className="debug debug__toggle" onClick={() => setOpen(true)}>
+        Debug
+      </button>
+    )
+  }
+
+  const t = now()
+  const station = player.station
+  const { current, next } = station ? locate(station, t) : { current: null, next: null }
+  const position = current ? t - current.start : 0
+  const lines = station && current ? voiceLines(station, current) : []
+
+  return (
+    <aside className="debug">
+      <p className="debug__head">
+        Debug
+        <button type="button" onClick={() => setOpen(false)} aria-label="Hide debug panel">
+          Hide
+        </button>
+      </p>
+      <dl className="debug__list">
+        <dt>Files</dt>
+        <dd>{STATIONS_URL}</dd>
+
+        <dt>Clock</dt>
+        <dd>
+          {new Date(t * 1000).toISOString().replace('T', ' ').slice(0, 19)} UTC
+          <span className="debug__note">{clock(offset)}</span>
+          <span className="debug__skips">
+            {SKIPS.map(([label, seconds]) => (
+              <button key={label} type="button" onClick={() => skip(seconds)}>
+                {label}
+              </button>
+            ))}
+            {offset !== 0 && (
+              <button type="button" onClick={() => skip(0)}>
+                reset
+              </button>
+            )}
+          </span>
+        </dd>
+
+        <dt>Station</dt>
+        <dd>
+          {station ? station.id : '(radio off)'}
+          <span className="debug__note">playback: {status}</span>
+        </dd>
+
+        {station && (
+          <>
+            <dt>On air</dt>
+            <dd>
+              {current ? name(current.file) : '(silence)'}
+              {current && (
+                <span className="debug__note">
+                  {position.toFixed(1)} / {current.length.toFixed(1)} s, deck at {player.deckTime.toFixed(1)} s (
+                  {(player.deckTime - position).toFixed(2)} s off)
+                </span>
+              )}
+              {lines.map((line) => (
+                <span key={line.at} className="debug__note">
+                  DJ: {name(line.clip.file)} at {line.at.toFixed(1)} s
+                </span>
+              ))}
+            </dd>
+
+            <dt>Next</dt>
+            <dd>
+              {next ? `${name(next.file)} in ${(next.start - t).toFixed(0)} s` : '(nothing)'}
+              <span className="debug__note">{player.preloaded ? 'preloaded' : 'not loaded yet'}</span>
+            </dd>
+          </>
+        )}
+      </dl>
+    </aside>
+  )
+}
