@@ -1,0 +1,133 @@
+{
+    "id": "radio_11_talk_02",
+    "type": "talkshow",
+    "info": {
+        "title": "Blaine County Talk Radio",
+        "genre": "Public Talk Radio",
+        "icon": {
+            "color": "Blaine_County_Talk_Radio.svg",
+            "full": "Blaine_County_Talk_Radio_full.svg",
+            "cover": "Blaine_County_Talk_Radio_full_cover.png"
+        }
+    },
+    "common": {
+        "adverts": [
+            "country_adverts"
+        ]
+    },
+    "fileGroups": {
+        "track": [
+            {
+                "path": "mono_bcr_community_hour.m4a",
+                "duration": 1196.49,
+                "audibleDuration": 1195.0,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": null,
+                            "artist": "BCR Community Hour"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "mono_beyond_insemination_part_1.m4a",
+                "duration": 871.27,
+                "audibleDuration": 870.69,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": null,
+                            "artist": "Beyond Insemination"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "mono_beyond_insemination_part_2.m4a",
+                "duration": 918.45,
+                "audibleDuration": 917.4,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": null,
+                            "artist": "Beyond Insemination"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "mono_bless_your_heart.m4a",
+                "duration": 1748.08,
+                "audibleDuration": 1747.7,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": null,
+                            "artist": "BLESS YOUR HEART"
+                        }
+                    ]
+                }
+            }
+        ],
+        "id": [
+            {
+                "path": "id/id_01.m4a",
+                "duration": 12.59,
+                "audibleDuration": 12.11
+            },
+            {
+                "path": "id/id_02.m4a",
+                "duration": 14.35,
+                "audibleDuration": 13.737
+            },
+            {
+                "path": "id/id_03.m4a",
+                "duration": 29.95,
+                "audibleDuration": 29.502
+            },
+            {
+                "path": "id/id_04.m4a",
+                "duration": 11.36
+            },
+            {
+                "path": "id/id_05.m4a",
+                "duration": 8.21,
+                "audibleDuration": 7.5933
+            },
+            {
+                "path": "id/id_06.m4a",
+                "duration": 13.16,
+                "audibleDuration": 12.3
+            },
+            {
+                "path": "id/id_07.m4a",
+                "duration": 14.09,
+                "audibleDuration": 13.289
+            },
+            {
+                "path": "id/id_08.m4a",
+                "duration": 11.17
+            },
+            {
+                "path": "id/id_09.m4a",
+                "duration": 15.9,
+                "audibleDuration": 15.25
+            },
+            {
+                "path": "id/id_10.m4a",
+                "duration": 18.93,
+                "audibleDuration": 18.046
+            },
+            {
+                "path": "id/id_11.m4a",
+                "duration": 11.55,
+                "audibleDuration": 10.96
+            }
+        ]
+    }
+}
