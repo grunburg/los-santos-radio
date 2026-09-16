@@ -49,7 +49,7 @@ export function PlayerIsland({ station, track, isCurrent, status, volume, accent
           {playing ? (
             <Square fill="currentColor" strokeWidth={0} aria-hidden="true" />
           ) : (
-            <Play className="island__play-icon" fill="currentColor" strokeWidth={0} aria-hidden="true" />
+            <Play fill="currentColor" strokeWidth={0} aria-hidden="true" />
           )}
         </button>
       </div>

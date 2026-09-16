@@ -876,10 +876,6 @@
     height: 22px;
   }
 
-  .island__play-icon {
-    translate: -1px 0;
-  }
-
   .island__play:hover {
     scale: 1.05;
   }
