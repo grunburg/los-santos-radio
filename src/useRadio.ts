@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { clockSync, keepClockSynced, now } from './clock'
+import { now } from './clock'
 import { Player, type PlayerStatus } from './player'
 import { loadSchedule, scheduleOf } from './schedules'
 import { locate, trackAt, type Track } from './schedule'
@@ -61,17 +61,6 @@ export function useRadio() {
       noise.stop(0)
     }
   }, [player, noise])
-
-  // Keep the clock in step with the time API; if it moved by more than the player would let
-  // slide, put the playback back where the corrected clock says it should be.
-  useEffect(() => {
-    let lastDrift = clockSync()?.drift ?? 0
-    return keepClockSynced((sync) => {
-      if (Math.abs(sync.drift - lastDrift) > 0.3) player.resync()
-      lastDrift = sync.drift
-      setTick((n) => n + 1)
-    })
-  }, [player])
 
   useEffect(() => {
     player.setVolume(volume)

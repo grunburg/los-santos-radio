@@ -66,21 +66,13 @@ nudged back into place if it drifts more than a second from the schedule.
 Set `VITE_DEBUG=true` in `.env` to show a panel with the position in the schedule, and buttons
 to move the clock (±30 s to +1 day) to test other moments of the broadcast.
 
-## Keeping clocks in step
-
-Devices whose clocks disagree would play different things. With `VITE_TIME_API_URL` set to a
-time API such as `https://time.now/developer/api/timezone` (asked for `VITE_TIMEZONE`, e.g.
-`Europe/Riga`), the app measures how far the device's clock is off and corrects every reading
-by that much: on load, every ten minutes, and whenever the page comes back into view. The debug
-panel shows the drift. Without it, the device's clock is trusted as it is.
-
 ## Layout
 
 | Path | Purpose |
 | --- | --- |
 | `src/schedule.ts` | Builds each station's timeline from its files; finds what's on at a time |
 | `src/player.ts` | Plays the timeline: decks, preloading, DJ lines, drift correction |
-| `src/clock.ts` | The broadcast clock: device time corrected against a time API, shiftable for debugging |
+| `src/clock.ts` | The broadcast clock (device time, shiftable for debugging) |
 | `src/schedules.ts` | Loads and caches each station's `station.json` |
 | `src/useRadio.ts` | React hook: tuning, status, volume, media session |
 | `src/stations.ts` | The stations in the deck, and where their files are |
