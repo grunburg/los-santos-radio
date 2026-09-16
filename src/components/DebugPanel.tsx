@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { clockOffset, now, setClockOffset } from '../clock'
+import { clockOffset, clockSync, now, setClockOffset, TIME_API_URL, TIMEZONE } from '../clock'
 import type { Player } from '../player'
 import { locate, voiceLines } from '../schedule'
 import { STATIONS_URL } from '../stations'
@@ -23,13 +23,36 @@ const SKIPS: [string, number][] = [
 
 const name = (file: string) => file.split('/').pop()!
 
-function clock(offset: number) {
-  if (!offset) return 'device time'
+/** The clock as a local time in the configured zone, e.g. "2026-09-16 23:52:05 EEST". */
+const localTime = new Intl.DateTimeFormat('sv-SE', {
+  timeZone: TIMEZONE,
+  dateStyle: 'short',
+  timeStyle: 'medium',
+})
+const zoneName = new Intl.DateTimeFormat('en', { timeZone: TIMEZONE, timeZoneName: 'short' })
+
+function formatClock(t: number) {
+  const date = new Date(t * 1000)
+  const zone = zoneName.formatToParts(date).find((part) => part.type === 'timeZoneName')?.value ?? TIMEZONE
+  return `${localTime.format(date)} ${zone}`
+}
+
+/** Where the time comes from: the API and how far the device was off, or the device itself. */
+function source() {
+  const sync = clockSync()
+  if (!TIME_API_URL) return 'device time'
+  if (!sync) return `device time, waiting for ${new URL(TIME_API_URL).host}`
+  const sign = sync.drift >= 0 ? '+' : '−'
+  return `${new URL(TIME_API_URL).host}: device ${sign}${Math.abs(sync.drift).toFixed(2)} s (±${(sync.roundTrip / 2000).toFixed(2)} s)`
+}
+
+function shift(offset: number) {
+  if (!offset) return ''
   const sign = offset < 0 ? '-' : '+'
   const s = Math.abs(Math.round(offset))
   const h = Math.floor(s / 3600)
   const m = Math.floor((s % 3600) / 60)
-  return `${sign}${h ? `${h}h ` : ''}${m ? `${m}m ` : ''}${s % 60 ? `${s % 60}s` : ''}`.trim()
+  return `shifted ${sign}${h ? `${h}h ` : ''}${m ? `${m}m ` : ''}${s % 60 ? `${s % 60}s` : ''}`.trim()
 }
 
 /**
@@ -75,8 +98,9 @@ export function DebugPanel({ player, status }: Props) {
 
         <dt>Clock</dt>
         <dd>
-          {new Date(t * 1000).toISOString().replace('T', ' ').slice(0, 19)} UTC
-          <span className="debug__note">{clock(offset)}</span>
+          {formatClock(t)}
+          <span className="debug__note">{source()}</span>
+          {offset !== 0 && <span className="debug__note">{shift(offset)}</span>}
           <span className="debug__skips">
             {SKIPS.map(([label, seconds]) => (
               <button key={label} type="button" onClick={() => skip(seconds)}>

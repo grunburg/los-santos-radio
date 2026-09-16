@@ -48,6 +48,8 @@ jobs:
           # "/<repo>" for a project site, "" for a user site.
           BASE_PATH: ${{ steps.pages.outputs.base_path }}/
           VITE_STATIONS_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/stations/
+          VITE_TIME_API_URL: https://time.now/developer/api/timezone
+          VITE_TIMEZONE: Europe/Riga
 
       - uses: actions/upload-pages-artifact@v5
         with:
