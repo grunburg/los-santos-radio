@@ -1,0 +1,1747 @@
+{
+    "id": "radio_03_hiphop_new",
+    "info": {
+        "title": "Radio Los Santos",
+        "genre": "Modern contemporary hip hop, trap",
+        "dj": "Big Boy",
+        "icon": {
+            "color": "Radio_Los_Santos.svg",
+            "cover": "Radio_Los_Santos_cover.png"
+        }
+    },
+    "common": {
+        "adverts": [
+            "general_adverts"
+        ]
+    },
+    "fileGroups": {
+        "track": [
+            {
+                "path": "adhd.m4a",
+                "duration": 198.83,
+                "audibleDuration": 198.4,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/adhd_01.m4a",
+                            "duration": 5.56
+                        },
+                        {
+                            "path": "intro/adhd_02.m4a",
+                            "duration": 3.33
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "A.D.H.D.",
+                            "artist": "KENDRICK LAMAR"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 150698,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 188138,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "ali_bomaye.m4a",
+                "duration": 273.4,
+                "audibleDuration": 273.02,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/ali_bomaye_01.m4a",
+                            "duration": 4.58
+                        },
+                        {
+                            "path": "intro/ali_bomaye_02.m4a",
+                            "duration": 6.11
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Ali Bomaye",
+                            "artist": "GAME FEAT. 2 CHAINZ & RICK ROSS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 229376,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 260309,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "bad_news.m4a",
+                "duration": 135.7,
+                "audibleDuration": 135.14,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/bad_news_01.m4a",
+                            "duration": 6.44
+                        },
+                        {
+                            "path": "intro/bad_news_02.m4a",
+                            "duration": 7.41
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Bad News",
+                            "artist": "DANNY BROWN & ACTION BRONSON"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4906,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 11605,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 115738,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 126784,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "bassheads.m4a",
+                "duration": 155.06,
+                "audibleDuration": 154.68,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/bassheads_01.m4a",
+                            "duration": 7.35
+                        },
+                        {
+                            "path": "intro/bassheads_02.m4a",
+                            "duration": 3.65
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 714,
+                            "title": "Bassheads",
+                            "artist": "GANGRENE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 6065,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 16356,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 127258,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 149296,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "bugatti.m4a",
+                "duration": 265.1,
+                "audibleDuration": 264.7,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/bugatti_01.m4a",
+                            "duration": 7.92
+                        },
+                        {
+                            "path": "intro/bugatti_02.m4a",
+                            "duration": 4.66
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Bugatti",
+                            "artist": "ACE HOOD FEAT. FUTURE & RICK ROSS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5502,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 12755,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 240339,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 260032,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "collard_greens.m4a",
+                "duration": 270.19,
+                "audibleDuration": 269.67,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/collard_greens_01.m4a",
+                            "duration": 4.06
+                        },
+                        {
+                            "path": "intro/collard_greens_02.m4a",
+                            "duration": 7.04
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Collard Greens",
+                            "artist": "SCHOOLBOY Q FEAT. KENDRICK LAMAR"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5101,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 12354,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 244309,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 261888,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "do_it_big.m4a",
+                "duration": 202.99,
+                "audibleDuration": 202.17,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/do_it_big_01.m4a",
+                            "duration": 3.44
+                        },
+                        {
+                            "path": "intro/do_it_big_02.m4a",
+                            "duration": 5.68
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Do It Big",
+                            "artist": "PROBLEM & IAMSU! FEAT. BAD LUCC & SAGE THE GEMINI"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4934,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 9115,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 176966,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 196848,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "easily.m4a",
+                "duration": 270.25,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/easily_01.m4a",
+                            "duration": 5.25
+                        },
+                        {
+                            "path": "intro/easily_02.m4a",
+                            "duration": 4.54
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Came Thru/Easily feat Mac Miller and Ab-Soul",
+                            "artist": "CHUCK INGLISH"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 243144,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 264777,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "everyday.m4a",
+                "duration": 173.42,
+                "audibleDuration": 171.96,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/everyday_01.m4a",
+                            "duration": 5.22
+                        },
+                        {
+                            "path": "intro/everyday_02.m4a",
+                            "duration": 6.28
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Everyday",
+                            "artist": "TROUBLE FT GUCCI MANE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5277,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 28147,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 147443,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 168702,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "hold_up.m4a",
+                "duration": 211.62,
+                "audibleDuration": 211.11,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Hold Up",
+                            "artist": "MARION BAND$ FEAT. NIPSEY HUSSLE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5371,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 23722,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 174933,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 203157,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "hood_gone_love_it.m4a",
+                "duration": 227.52,
+                "audibleDuration": 226.94,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/hood_gone_love_it_01.m4a",
+                            "duration": 3.51
+                        },
+                        {
+                            "path": "intro/hood_gone_love_it_02.m4a",
+                            "duration": 6.64
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 674,
+                            "title": "Hood Gone Love It",
+                            "artist": "JAY ROCK FEAT. KENDRICK LAMAR"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5665,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 15266,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 198101,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 219605,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "how_it_was.m4a",
+                "duration": 218.61,
+                "audibleDuration": 218.04,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/how_it_was_01.m4a",
+                            "duration": 3.09
+                        },
+                        {
+                            "path": "intro/how_it_was_02.m4a",
+                            "duration": 3.21
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 781,
+                            "title": "How It Was",
+                            "artist": "FUTURE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 6092,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 14488,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 191672,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 212266,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "hunnid_stax.m4a",
+                "duration": 187.34,
+                "audibleDuration": 186.49,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/hunnid_stax_01.m4a",
+                            "duration": 4.74
+                        },
+                        {
+                            "path": "intro/hunnid_stax_02.m4a",
+                            "duration": 4.71
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Hunnid Stax",
+                            "artist": "AB-SOUL FEAT. SCHOOLBOY Q"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5532,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 13895,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 156821,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 178602,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "i_cant_wait_scooter.m4a",
+                "duration": 176.5,
+                "audibleDuration": 175.78,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/i_cant_wait_scooter_01.m4a",
+                            "duration": 6.39
+                        },
+                        {
+                            "path": "intro/i_cant_wait_scooter_02.m4a",
+                            "duration": 4.33
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "I Can't Wait",
+                            "artist": "YOUNG SCOOTER FT TRINIDAD JAMES"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5162,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 12787,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 149717,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 171118,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "illuminate.m4a",
+                "duration": 273.08,
+                "audibleDuration": 272.59,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/illuminate_01.m4a",
+                            "duration": 2.85
+                        },
+                        {
+                            "path": "intro/illuminate_02.m4a",
+                            "duration": 3.5
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "ILLuminate",
+                            "artist": "AB-SOUL FEAT. KENDRICK LAMAR"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5824,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 14677,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 239530,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 259808,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "im_a_real_one.m4a",
+                "duration": 164.83,
+                "audibleDuration": 164.37,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/im_a_real_one_01.m4a",
+                            "duration": 5.82
+                        },
+                        {
+                            "path": "intro/im_a_real_one_02.m4a",
+                            "duration": 7.6
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "I'm A Real 1",
+                            "artist": "YG"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 117077,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 158250,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "kush_coma.m4a",
+                "duration": 240.84,
+                "audibleDuration": 240.21,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/kush_coma_01.m4a",
+                            "duration": 5.89
+                        },
+                        {
+                            "path": "intro/kush_coma_02.m4a",
+                            "duration": 5.06
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Kush Coma",
+                            "artist": "DANNY BROWN FEAT. A$AP ROCKY & ZELOOPERZ"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 208896,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 232170,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "life_of_a_mack.m4a",
+                "duration": 180.99,
+                "audibleDuration": 179.96,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/life_of_a_mack_01.m4a",
+                            "duration": 3.56
+                        },
+                        {
+                            "path": "intro/life_of_a_mack_02.m4a",
+                            "duration": 3.05
+                        },
+                        {
+                            "path": "intro/life_of_a_mack_03.m4a",
+                            "duration": 3.57
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 645,
+                            "title": "Life Of A Mack",
+                            "artist": "100S"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5986,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 25488,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 148101,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 170730,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "millions.m4a",
+                "duration": 236.44,
+                "audibleDuration": 235.32,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/millions_01.m4a",
+                            "duration": 3.85
+                        },
+                        {
+                            "path": "intro/millions_02.m4a",
+                            "duration": 5.97
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Millions",
+                            "artist": "SKEME"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4596,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 17310,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 204704,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 229248,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "r_cali.m4a",
+                "duration": 135.41,
+                "audibleDuration": 133.92,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/r_cali_01.m4a",
+                            "duration": 3.66
+                        },
+                        {
+                            "path": "intro/r_cali_02.m4a",
+                            "duration": 3.24
+                        },
+                        {
+                            "path": "intro/r_cali_03.m4a",
+                            "duration": 5.04
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "R-Cali",
+                            "artist": "A$AP ROCKY"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5172,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 12826,
+                            "value": "intro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "relaxin.m4a",
+                "duration": 175.52,
+                "audibleDuration": 174.4,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/relaxin_01.m4a",
+                            "duration": 4.18
+                        },
+                        {
+                            "path": "intro/relaxin_02.m4a",
+                            "duration": 4.72
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Relaxin",
+                            "artist": "G-SIDE FT G-MANE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 145371,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 170559,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "say_that_then.m4a",
+                "duration": 164.4,
+                "audibleDuration": 163.56,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/say_that_then_01.m4a",
+                            "duration": 3.7
+                        },
+                        {
+                            "path": "intro/say_that_then_02.m4a",
+                            "duration": 2.7
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 562,
+                            "title": "Say That Then",
+                            "artist": "PROBLEM FEAT. GLASSES MALONE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 134109,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 157106,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "sellin_dope.m4a",
+                "duration": 244.91,
+                "audibleDuration": 244.32,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Sellin' Dope",
+                            "artist": "FREDDIE GIBBS & MIKE DEAN"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4650,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 13098,
+                            "value": "intro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "slow_down.m4a",
+                "duration": 197.83,
+                "audibleDuration": 196.96,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/slow_down_01.m4a",
+                            "duration": 4.45
+                        },
+                        {
+                            "path": "intro/slow_down_02.m4a",
+                            "duration": 6.3
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 440,
+                            "title": "Slow Down",
+                            "artist": "CLYDE CARSON FEAT. THE TEAM"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5702,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 24210,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 165474,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 190562,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "smokin_and_ridin.m4a",
+                "duration": 200.4,
+                "audibleDuration": 198.97,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/smokin_and_ridin_01.m4a",
+                            "duration": 5.57
+                        },
+                        {
+                            "path": "intro/smokin_and_ridin_02.m4a",
+                            "duration": 6.19
+                        },
+                        {
+                            "path": "intro/smokin_and_ridin_03.m4a",
+                            "duration": 6.04
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Smoke And Ride",
+                            "artist": "BJ THE CHICAGO KID FEAT. FREDDIE GIBBS & PROBLEM"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 161792,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 194148,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "still_livin.m4a",
+                "duration": 193.91,
+                "audibleDuration": 192.89,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/still_livin_01.m4a",
+                            "duration": 3.22
+                        },
+                        {
+                            "path": "intro/still_livin_02.m4a",
+                            "duration": 3.62
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Still Livin'",
+                            "artist": "FREDDIE GIBBS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5313,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 27882,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 159658,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 185408,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "swimming_pools.m4a",
+                "duration": 209.02,
+                "audibleDuration": 207.99,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/swimming_pools_01.m4a",
+                            "duration": 5.32,
+                            "audibleDuration": 4.94
+                        },
+                        {
+                            "path": "intro/swimming_pools_02.m4a",
+                            "duration": 4.59
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Swimming Pools (Drank)",
+                            "artist": "KENDRICK LAMAR"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5818,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 25103,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 191317,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 208981,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "too_hood.m4a",
+                "duration": 206.46,
+                "audibleDuration": 205.5,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/too_hood_01.m4a",
+                            "duration": 2.34
+                        },
+                        {
+                            "path": "intro/too_hood_02.m4a",
+                            "duration": 5.44
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Too Hood",
+                            "artist": "GUCCI MANE FEAT. CIARA"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5392,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 33696,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 152234,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 196906,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "upper_echelon.m4a",
+                "duration": 171.42,
+                "audibleDuration": 170.66,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/upper_echelon_01.m4a",
+                            "duration": 6.11
+                        },
+                        {
+                            "path": "intro/upper_echelon_02.m4a",
+                            "duration": 4.34
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Upper Echelon feat T.I. and 2 Chainz",
+                            "artist": "TRAVI$ SCOTT"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5461,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 14837,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 142464,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 165290,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "work_ferg.m4a",
+                "duration": 166.0,
+                "audibleDuration": 165.54,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/work_ferg_01.m4a",
+                            "duration": 4.78
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Work",
+                            "artist": "A$AP FERG"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5093,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 12858,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 137322,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 159744,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "work_young_scooter.m4a",
+                "duration": 276.26,
+                "audibleDuration": 275.15,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/work_young_scooter_01.m4a",
+                            "duration": 4.46
+                        },
+                        {
+                            "path": "intro/work_young_scooter_02.m4a",
+                            "duration": 3.67
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Work",
+                            "artist": "YOUNG SCOOTER FEAT. GUCCI MANE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5376,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 28416,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 245898,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 270848,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            }
+        ],
+        "general": [
+            {
+                "path": "general/general_01.m4a",
+                "duration": 8.17
+            },
+            {
+                "path": "general/general_02.m4a",
+                "duration": 7.17
+            },
+            {
+                "path": "general/general_03.m4a",
+                "duration": 8.12
+            },
+            {
+                "path": "general/general_04.m4a",
+                "duration": 4.49
+            },
+            {
+                "path": "general/general_05.m4a",
+                "duration": 6.55
+            },
+            {
+                "path": "general/general_06.m4a",
+                "duration": 5.4
+            },
+            {
+                "path": "general/general_07.m4a",
+                "duration": 4.97
+            },
+            {
+                "path": "general/general_08.m4a",
+                "duration": 5.44
+            },
+            {
+                "path": "general/general_09.m4a",
+                "duration": 4.93
+            },
+            {
+                "path": "general/general_10.m4a",
+                "duration": 6.35
+            },
+            {
+                "path": "general/general_11.m4a",
+                "duration": 4.98,
+                "audibleDuration": 4.6706
+            },
+            {
+                "path": "general/general_12.m4a",
+                "duration": 3.69
+            },
+            {
+                "path": "general/general_13.m4a",
+                "duration": 3.43
+            },
+            {
+                "path": "general/general_14.m4a",
+                "duration": 3.09
+            },
+            {
+                "path": "general/general_15.m4a",
+                "duration": 6.0,
+                "audibleDuration": 5.58
+            },
+            {
+                "path": "general/general_16.m4a",
+                "duration": 6.12
+            },
+            {
+                "path": "general/general_17.m4a",
+                "duration": 4.83
+            },
+            {
+                "path": "general/general_18.m4a",
+                "duration": 3.42
+            },
+            {
+                "path": "general/general_19.m4a",
+                "duration": 4.76
+            },
+            {
+                "path": "general/general_20.m4a",
+                "duration": 5.68
+            },
+            {
+                "path": "general/general_21.m4a",
+                "duration": 4.99
+            },
+            {
+                "path": "general/general_22.m4a",
+                "duration": 7.42
+            },
+            {
+                "path": "general/general_23.m4a",
+                "duration": 7.35
+            },
+            {
+                "path": "general/general_24.m4a",
+                "duration": 5.72
+            },
+            {
+                "path": "general/general_25.m4a",
+                "duration": 12.46
+            },
+            {
+                "path": "general/general_26.m4a",
+                "duration": 6.66
+            },
+            {
+                "path": "general/general_27.m4a",
+                "duration": 10.77
+            },
+            {
+                "path": "general/general_28.m4a",
+                "duration": 6.2
+            },
+            {
+                "path": "general/general_29.m4a",
+                "duration": 1.83
+            },
+            {
+                "path": "general/general_30.m4a",
+                "duration": 4.76
+            },
+            {
+                "path": "general/general_31.m4a",
+                "duration": 8.0
+            },
+            {
+                "path": "general/general_32.m4a",
+                "duration": 5.62
+            },
+            {
+                "path": "general/general_33.m4a",
+                "duration": 7.93
+            },
+            {
+                "path": "general/general_34.m4a",
+                "duration": 4.75
+            },
+            {
+                "path": "general/general_35.m4a",
+                "duration": 6.26
+            },
+            {
+                "path": "general/general_36.m4a",
+                "duration": 6.09
+            },
+            {
+                "path": "general/general_37.m4a",
+                "duration": 7.68
+            },
+            {
+                "path": "general/general_38.m4a",
+                "duration": 7.99
+            },
+            {
+                "path": "general/general_39.m4a",
+                "duration": 5.45
+            },
+            {
+                "path": "general/general_40.m4a",
+                "duration": 10.8
+            },
+            {
+                "path": "general/general_41.m4a",
+                "duration": 7.05
+            },
+            {
+                "path": "general/general_42.m4a",
+                "duration": 6.48
+            },
+            {
+                "path": "general/general_43.m4a",
+                "duration": 10.5
+            },
+            {
+                "path": "general/general_44.m4a",
+                "duration": 3.2
+            },
+            {
+                "path": "general/general_45.m4a",
+                "duration": 5.86
+            }
+        ],
+        "id": [
+            {
+                "path": "id/id_01.m4a",
+                "duration": 9.35
+            },
+            {
+                "path": "id/id_02.m4a",
+                "duration": 10.54,
+                "audibleDuration": 10.19
+            },
+            {
+                "path": "id/id_03.m4a",
+                "duration": 7.16,
+                "audibleDuration": 6.6973
+            },
+            {
+                "path": "id/id_04.m4a",
+                "duration": 9.0
+            },
+            {
+                "path": "id/id_05.m4a",
+                "duration": 6.61
+            },
+            {
+                "path": "id/id_06.m4a",
+                "duration": 5.77,
+                "audibleDuration": 5.1
+            },
+            {
+                "path": "id/id_07.m4a",
+                "duration": 9.1,
+                "audibleDuration": 8.5746
+            },
+            {
+                "path": "id/id_08.m4a",
+                "duration": 8.14,
+                "audibleDuration": 7.0
+            },
+            {
+                "path": "id/id_09.m4a",
+                "duration": 7.39,
+                "audibleDuration": 6.8253
+            },
+            {
+                "path": "id/id_10.m4a",
+                "duration": 6.91,
+                "audibleDuration": 6.5053
+            },
+            {
+                "path": "id/id_11.m4a",
+                "duration": 8.53,
+                "audibleDuration": 8.08
+            },
+            {
+                "path": "id/id_12.m4a",
+                "duration": 6.36
+            },
+            {
+                "path": "id/id_13.m4a",
+                "duration": 4.49
+            },
+            {
+                "path": "id/id_14.m4a",
+                "duration": 8.85
+            }
+        ],
+        "mono_solo": [
+            {
+                "path": "mono_solo/mono_solo_01.m4a",
+                "duration": 22.73,
+                "audibleDuration": 21.673
+            },
+            {
+                "path": "mono_solo/mono_solo_02.m4a",
+                "duration": 30.9,
+                "audibleDuration": 29.609
+            },
+            {
+                "path": "mono_solo/mono_solo_03.m4a",
+                "duration": 22.77,
+                "audibleDuration": 21.63
+            },
+            {
+                "path": "mono_solo/mono_solo_04.m4a",
+                "duration": 26.23,
+                "audibleDuration": 25.278
+            },
+            {
+                "path": "mono_solo/mono_solo_05.m4a",
+                "duration": 24.87,
+                "audibleDuration": 23.0
+            },
+            {
+                "path": "mono_solo/mono_solo_06.m4a",
+                "duration": 19.45,
+                "audibleDuration": 18.409
+            },
+            {
+                "path": "mono_solo/mono_solo_07.m4a",
+                "duration": 15.26,
+                "audibleDuration": 13.97
+            },
+            {
+                "path": "mono_solo/mono_solo_08.m4a",
+                "duration": 18.62,
+                "audibleDuration": 17.49
+            },
+            {
+                "path": "mono_solo/mono_solo_09.m4a",
+                "duration": 14.61,
+                "audibleDuration": 13.246
+            },
+            {
+                "path": "mono_solo/mono_solo_10.m4a",
+                "duration": 14.56,
+                "audibleDuration": 13.4
+            },
+            {
+                "path": "mono_solo/mono_solo_11.m4a",
+                "duration": 16.5,
+                "audibleDuration": 15.337
+            },
+            {
+                "path": "mono_solo/mono_solo_12.m4a",
+                "duration": 14.21,
+                "audibleDuration": 13.033
+            },
+            {
+                "path": "mono_solo/mono_solo_13.m4a",
+                "duration": 19.1,
+                "audibleDuration": 17.918
+            },
+            {
+                "path": "mono_solo/mono_solo_14.m4a",
+                "duration": 19.99,
+                "audibleDuration": 18.0
+            },
+            {
+                "path": "mono_solo/mono_solo_15.m4a",
+                "duration": 26.0,
+                "audibleDuration": 24.702
+            },
+            {
+                "path": "mono_solo/mono_solo_16.m4a",
+                "duration": 23.87,
+                "audibleDuration": 22.441
+            },
+            {
+                "path": "mono_solo/mono_solo_17.m4a",
+                "duration": 21.44,
+                "audibleDuration": 20.265
+            },
+            {
+                "path": "mono_solo/mono_solo_18.m4a",
+                "duration": 19.01,
+                "audibleDuration": 17.87
+            },
+            {
+                "path": "mono_solo/mono_solo_19.m4a",
+                "duration": 28.56,
+                "audibleDuration": 27.28
+            },
+            {
+                "path": "mono_solo/mono_solo_20.m4a",
+                "duration": 30.14,
+                "audibleDuration": 28.798
+            },
+            {
+                "path": "mono_solo/mono_solo_21.m4a",
+                "duration": 20.76,
+                "audibleDuration": 19.561
+            }
+        ],
+        "time_evening": [
+            {
+                "path": "time_evening/evening_01.m4a",
+                "duration": 4.42
+            },
+            {
+                "path": "time_evening/evening_02.m4a",
+                "duration": 5.18
+            },
+            {
+                "path": "time_evening/evening_03.m4a",
+                "duration": 1.78
+            },
+            {
+                "path": "time_evening/evening_04.m4a",
+                "duration": 6.13,
+                "audibleDuration": 5.8226
+            },
+            {
+                "path": "time_evening/evening_05.m4a",
+                "duration": 4.62
+            },
+            {
+                "path": "time_evening/evening_06.m4a",
+                "duration": 6.42
+            }
+        ],
+        "time_morning": [
+            {
+                "path": "time_morning/morning_01.m4a",
+                "duration": 0.89
+            },
+            {
+                "path": "time_morning/morning_02.m4a",
+                "duration": 2.06
+            },
+            {
+                "path": "time_morning/morning_03.m4a",
+                "duration": 3.89
+            },
+            {
+                "path": "time_morning/morning_04.m4a",
+                "duration": 4.44
+            },
+            {
+                "path": "time_morning/morning_05.m4a",
+                "duration": 4.41
+            }
+        ],
+        "to_adverts": [
+            {
+                "path": "to_ad/to_ad_01.m4a",
+                "duration": 3.01
+            },
+            {
+                "path": "to_ad/to_ad_02.m4a",
+                "duration": 3.32
+            },
+            {
+                "path": "to_ad/to_ad_03.m4a",
+                "duration": 3.77
+            },
+            {
+                "path": "to_ad/to_ad_04.m4a",
+                "duration": 3.68
+            },
+            {
+                "path": "to_ad/to_ad_05.m4a",
+                "duration": 3.82
+            },
+            {
+                "path": "to_ad/to_ad_06.m4a",
+                "duration": 2.29
+            }
+        ],
+        "to_news": [
+            {
+                "path": "to_news/to_news_01.m4a",
+                "duration": 2.44
+            },
+            {
+                "path": "to_news/to_news_02.m4a",
+                "duration": 1.91
+            },
+            {
+                "path": "to_news/to_news_03.m4a",
+                "duration": 2.3
+            },
+            {
+                "path": "to_news/to_news_04.m4a",
+                "duration": 2.68
+            },
+            {
+                "path": "to_news/to_news_05.m4a",
+                "duration": 3.84
+            },
+            {
+                "path": "to_news/to_news_06.m4a",
+                "duration": 6.54
+            }
+        ]
+    }
+}
