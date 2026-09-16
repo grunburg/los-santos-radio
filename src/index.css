@@ -97,24 +97,25 @@
    * The document never scrolls: the app shell below does. That keeps the glow, painted on the
    * root background, perfectly still. --accent is set on <html> by the app.
    *
-   * The document is a *large* viewport tall, not the layout viewport: on iPhone the layout
-   * viewport stops where Safari's translucent bar begins, and only what the document renders
-   * beyond it shows through the bar. Sized to the small viewport, the page simply ended there.
+   * The document is a *large* viewport tall: on iPhone the layout viewport stops where Safari's
+   * translucent bar begins, and only what the document's own box covers is painted beneath the
+   * bar. The app shell inside is the *dynamic* viewport tall, so its content is centred in what's
+   * actually visible; the strip under the bar shows the glow.
    */
   html {
     height: 100lvh;
     overflow: hidden;
     background-color: var(--ground);
     /*
-     * The glows are anchored to the large viewport and the image runs on far past the box: the
-     * root background paints the whole canvas, so whatever Safari shows beyond the document,
-     * under its bar and the home indicator, gets the glow's tail rather than a bare black band.
+     * The glows are anchored to the viewport and the image runs on far past the box: the root
+     * background paints the whole canvas, so whatever the browser shows beyond the document,
+     * under its bars, gets the glow's tail rather than a bare band.
      */
     background-image:
-      radial-gradient(70% 45lvh at 50% -5lvh, color-mix(in oklch, var(--accent-glow) 55%, transparent), transparent 70%),
-      radial-gradient(90% 45lvh at 50% 108lvh, color-mix(in oklch, var(--accent-deep) 70%, transparent), transparent 70%);
+      radial-gradient(70% 45dvh at 50% -5dvh, color-mix(in oklch, var(--accent-glow) 55%, transparent), transparent 70%),
+      radial-gradient(90% 45dvh at 50% 108dvh, color-mix(in oklch, var(--accent-deep) 70%, transparent), transparent 70%);
     background-repeat: no-repeat;
-    background-size: 100% 250lvh;
+    background-size: 100% 250dvh;
     transition: --accent 600ms var(--ease-out);
   }
 
@@ -256,15 +257,19 @@
       [content-end] minmax(0, 1fr)
       [full-end];
     grid-template-rows: auto 1fr;
-    height: 100%;
-    /* Room at the end for the island, and for the part of the page that sits under the bar. */
-    padding-block:
-      max(20px, env(safe-area-inset-top))
-      calc(var(--island-height) + max(28px, env(safe-area-inset-bottom)) + (100lvh - 100svh));
+    height: 100dvh;
+    /* Room at the end for the island. */
+    padding-block: max(20px, env(safe-area-inset-top)) calc(var(--island-height) + max(28px, env(safe-area-inset-bottom)));
     /* The one thing that scrolls, with no rubber-banding or pull-to-refresh. */
     overflow-y: auto;
     overscroll-behavior: none;
     -webkit-overflow-scrolling: touch;
+    /* No scrollbar, like the deck: one would narrow the column and leave the fixed island off-centre. */
+    scrollbar-width: none;
+  }
+
+  .app::-webkit-scrollbar {
+    display: none;
   }
 
   .app > * {
