@@ -852,7 +852,6 @@
 
   .island__play {
     flex: 0 0 auto;
-    margin-inline-end: 0.25rem;
     display: grid;
     place-items: center;
     width: 48px;
@@ -877,9 +876,8 @@
     height: 22px;
   }
 
-  /* The play triangle reads as centred when nudged right a touch. */
   .island__play-icon {
-    translate: 2px 0;
+    translate: -1px 0;
   }
 
   .island__play:hover {
