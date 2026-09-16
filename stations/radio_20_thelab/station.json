@@ -1,0 +1,160 @@
+{
+    "id": "radio_20_thelab",
+    "type": "static",
+    "info": {
+        "title": "The Lab",
+        "genre": "Hip hop",
+        "dj": "Oh no and The Alchemist",
+        "icon": {
+            "monochrome": "The_Lab.svg",
+            "cover": "The_Lab_cover.png"
+        }
+    },
+    "common": {},
+    "fileGroups": {
+        "track": [
+            {
+                "path": "lab_p1.m4a",
+                "duration": 2157.909,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Play It Cool",
+                            "artist": "GANGRENE FEAT. SAMUEL T. HERRING & EARL SWEATSHIRT"
+                        },
+                        {
+                            "offset": 227352,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 262256,
+                            "title": "Trouble",
+                            "artist": "AB SOUL FEAT. ALOE BLACC"
+                        },
+                        {
+                            "offset": 473344,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 512278,
+                            "title": "Speedline Miracle Masterpiece",
+                            "artist": "TUNDE ADEBIMPE FEAT. SAL P & SINKANE"
+                        },
+                        {
+                            "offset": 758186,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 787626,
+                            "title": "Welcome To Los Santos",
+                            "artist": "MC EIHT & FREDDIE GIBBS FEAT. KOKANE"
+                        },
+                        {
+                            "offset": 1011916,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 1043498,
+                            "title": "K.Y.S.A.",
+                            "artist": "PHANTOGRAM"
+                        },
+                        {
+                            "offset": 1301461,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 1385898,
+                            "title": "Fast Life",
+                            "artist": "VYBZ KARTEL"
+                        },
+                        {
+                            "offset": 1591722,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 1620480,
+                            "title": "20's 50's 100's",
+                            "artist": "KING AVRIEL FEAT. A$AP FERG"
+                        },
+                        {
+                            "offset": 1879381,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 1943722,
+                            "title": "Lock & Load",
+                            "artist": "MNDR FEAT. KILLER MIKE"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "lab_p2.m4a",
+                "duration": 1298.066,
+                "audibleDuration": 1297.023,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 1898,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 46997,
+                            "title": "Born Bad",
+                            "artist": "POPCAAN FEAT. FREDDIE GIBBS"
+                        },
+                        {
+                            "offset": 252714,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 288512,
+                            "title": "California",
+                            "artist": "E-40 FEAT. DaM-FunK & ARIEL PINK"
+                        },
+                        {
+                            "offset": 519253,
+                            "title": "Leave",
+                            "artist": "WAVVES"
+                        },
+                        {
+                            "offset": 701646,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 717141,
+                            "title": "Fetti",
+                            "artist": "CURREN$Y & FREDDIE GIBBS"
+                        },
+                        {
+                            "offset": 971776,
+                            "title": null,
+                            "artist": null
+                        },
+                        {
+                            "offset": 1022122,
+                            "title": "Wanderer",
+                            "artist": "LITTLE DRAGON"
+                        },
+                        {
+                            "offset": 1259631,
+                            "title": null,
+                            "artist": null
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
