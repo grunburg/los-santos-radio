@@ -1,0 +1,528 @@
+{
+    "id": "radio_13_jazz",
+    "type": "static",
+    "info": {
+        "title": "Worldwide FM",
+        "genre": "Lounge, chillwave, jazz-funk and world",
+        "dj": "Gilles Peterson",
+        "icon": {
+            "color": "Worldwide_FM.svg",
+            "cover": "Worldwide_FM_cover.png"
+        }
+    },
+    "common": {},
+    "fileGroups": {
+        "track": [
+            {
+                "path": "wwfm_p1.m4a",
+                "duration": 1600.62,
+                "audibleDuration": 1599.8,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Mirror Maru",
+                            "artist": "CASHMERE CAT"
+                        },
+                        {
+                            "offset": 163379,
+                            "title": "Cold Air",
+                            "artist": "THE HICS"
+                        },
+                        {
+                            "offset": 304639,
+                            "title": "The Place",
+                            "artist": "INC."
+                        },
+                        {
+                            "offset": 520636,
+                            "title": "Beginning",
+                            "artist": "TRICKSKI"
+                        },
+                        {
+                            "offset": 784602,
+                            "title": "Ghost",
+                            "artist": "MALA"
+                        },
+                        {
+                            "offset": 991350,
+                            "title": "Forest Funk",
+                            "artist": "SWINDLE"
+                        },
+                        {
+                            "offset": 1156373,
+                            "title": "Throw Down",
+                            "artist": "TOM BROWNE"
+                        },
+                        {
+                            "offset": 1323630,
+                            "title": "You And The Music",
+                            "artist": "DONALD BYRD"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "wwfm_p2.m4a",
+                "duration": 1484.93,
+                "audibleDuration": 1484.1,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Thousand Finger Man",
+                            "artist": "CANDIDO"
+                        },
+                        {
+                            "offset": 225778,
+                            "title": "Harm In Change",
+                            "artist": "TORO Y MOI"
+                        },
+                        {
+                            "offset": 330381,
+                            "title": "Breaking",
+                            "artist": "KYODAI"
+                        },
+                        {
+                            "offset": 558393,
+                            "title": "Waveforms",
+                            "artist": "DJANGO DJANGO"
+                        },
+                        {
+                            "offset": 736762,
+                            "title": "Nissim",
+                            "artist": "THE GASLAMP KILLER"
+                        },
+                        {
+                            "offset": 967962,
+                            "title": "Harpoon Land",
+                            "artist": "OWINY SIGOMA BAND"
+                        },
+                        {
+                            "offset": 1140192,
+                            "title": "Brand New Revolution",
+                            "artist": "GUTS"
+                        },
+                        {
+                            "offset": 1322795,
+                            "title": "Live Your Life (MeLo-X Motherland God Mix)",
+                            "artist": "YUNA"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "wwfm_p3.m4a",
+                "duration": 2137.51,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 2507,
+                            "title": "Lovery (Slow Cuban Vibe Mix)",
+                            "artist": "KIKO NAVARRO & TUCCILLO FEAT. AMOR"
+                        },
+                        {
+                            "offset": 297462,
+                            "title": "1759 (Outro)",
+                            "artist": "RICHARD SPAVEN"
+                        },
+                        {
+                            "offset": 518862,
+                            "title": "Forgotten Notes",
+                            "artist": "HACKMAN"
+                        },
+                        {
+                            "offset": 787249,
+                            "title": "Shark Week",
+                            "artist": "SINKANE"
+                        },
+                        {
+                            "offset": 922585,
+                            "title": "Body & Soul",
+                            "artist": "WILLIAM ONYEABOR"
+                        },
+                        {
+                            "offset": 1098357,
+                            "title": "Kool FM",
+                            "artist": "FOUR TET"
+                        },
+                        {
+                            "offset": 1283861,
+                            "title": "Made To Stray",
+                            "artist": "MOUNT KIMBIE"
+                        },
+                        {
+                            "offset": 1445400,
+                            "title": "World In A Room",
+                            "artist": "ANUSHKA"
+                        },
+                        {
+                            "offset": 1623409,
+                            "title": "Why You Wanna See My Bad Side?",
+                            "artist": "SMOKEY ROBINSON"
+                        },
+                        {
+                            "offset": 1833171,
+                            "title": "Street Life",
+                            "artist": "RANDY CRAWFORD"
+                        },
+                        {
+                            "offset": 2111814,
+                            "title": "What You Need",
+                            "artist": "FLUME"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "wwfm_p4.m4a",
+                "duration": 2009.96,
+                "audibleDuration": 2008.9,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "What You Need",
+                            "artist": "FLUME"
+                        },
+                        {
+                            "offset": 193724,
+                            "title": "Hive",
+                            "artist": "EARL SWEATSHIRT FT. VINCE STAPLES & CASEY VEGGIES"
+                        },
+                        {
+                            "offset": 467849,
+                            "title": "Numb",
+                            "artist": "PORTISHEAD"
+                        },
+                        {
+                            "offset": 646815,
+                            "title": "Black Magic",
+                            "artist": "JON WAYNE"
+                        },
+                        {
+                            "offset": 757075,
+                            "title": "I69",
+                            "artist": "ROMAN GIANARTHUR"
+                        },
+                        {
+                            "offset": 902539,
+                            "title": "Treat Me Like Fire",
+                            "artist": "LION BABE"
+                        },
+                        {
+                            "offset": 999342,
+                            "title": "Killdat",
+                            "artist": "DAM-FUNK"
+                        },
+                        {
+                            "offset": 1113774,
+                            "title": "Run Away",
+                            "artist": "JAMIE LIDELL"
+                        },
+                        {
+                            "offset": 1295875,
+                            "title": "Recover (CID RIM REMIX)",
+                            "artist": "CHVRCHES"
+                        },
+                        {
+                            "offset": 1457843,
+                            "title": "Let Yrself Be",
+                            "artist": "JIMMY EDGAR"
+                        },
+                        {
+                            "offset": 1645598,
+                            "title": "Viarejo",
+                            "artist": "CLAP! CLAP!"
+                        },
+                        {
+                            "offset": 1775459,
+                            "title": "No Balanço Da Canoa",
+                            "artist": "MAGA BO"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "wwfm_island_update_part_1.m4a",
+                "duration": 2332.66,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 290,
+                            "title": "The Message (GP And 2bo4 Remix)",
+                            "artist": "KAMASI WASHINGTON"
+                        },
+                        {
+                            "offset": 279656,
+                            "title": "Birthright",
+                            "artist": "SARATHY KORWAR"
+                        },
+                        {
+                            "offset": 517406,
+                            "title": "Lost Touch",
+                            "artist": "MR. MITCH FEAT. DUVAL TIMOTHY"
+                        },
+                        {
+                            "offset": 525338,
+                            "title": "Sandman",
+                            "artist": "THE UNDISPUTED TRUTH"
+                        },
+                        {
+                            "offset": 675201,
+                            "title": "The People",
+                            "artist": "PHOTAY"
+                        },
+                        {
+                            "offset": 900610,
+                            "title": "Could Heaven Ever Be Like This",
+                            "artist": "IDRIS MUHAMMAD"
+                        },
+                        {
+                            "offset": 1092283,
+                            "title": "Jazz Carnival",
+                            "artist": "AZYMUTH"
+                        },
+                        {
+                            "offset": 1356026,
+                            "title": "Azaa (Branko Edit)",
+                            "artist": "GAFACCI"
+                        },
+                        {
+                            "offset": 1483502,
+                            "title": "Bim Bam Bam",
+                            "artist": "KOKOKO!"
+                        },
+                        {
+                            "offset": 1643894,
+                            "title": "Labyrinth",
+                            "artist": "TSVI"
+                        },
+                        {
+                            "offset": 1841497,
+                            "title": "Riesling Pour Robert (Rhythm Heavy Version)",
+                            "artist": "JAHARI MASSAMBA UNIT"
+                        },
+                        {
+                            "offset": 2003934,
+                            "title": "Self:Love",
+                            "artist": "JOE ARMON-JONES FEAT. OBONGJAYAR"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "wwfm_island_update_part_2.m4a",
+                "duration": 2026.73,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 998,
+                            "title": "Self:Love",
+                            "artist": "JOE ARMON-JONES FEAT. OBONGJAYAR"
+                        },
+                        {
+                            "offset": 25361,
+                            "title": "Baba Ayoola",
+                            "artist": "KOKOROKO"
+                        },
+                        {
+                            "offset": 251587,
+                            "title": "Time (You And I) (Original And GP Dub)",
+                            "artist": "KHRUANGBIN"
+                        },
+                        {
+                            "offset": 504494,
+                            "title": "Fight For Your Rights",
+                            "artist": "ARTHUR ADAMS"
+                        },
+                        {
+                            "offset": 654152,
+                            "title": "Mysteries Of The World",
+                            "artist": "MFSB"
+                        },
+                        {
+                            "offset": 871076,
+                            "title": "Aspects (Demus Dub)",
+                            "artist": "STR4TA"
+                        },
+                        {
+                            "offset": 1139828,
+                            "title": "Emergency On Planet Earth (London Rican Mix)",
+                            "artist": "JAMIROQUAI"
+                        },
+                        {
+                            "offset": 1470017,
+                            "title": "Natural Thing",
+                            "artist": "RONI SIZE"
+                        },
+                        {
+                            "offset": 1689905,
+                            "title": "Worldwide FM (Dubplate Special)",
+                            "artist": "DRS & DYNAMITE MC"
+                        },
+                        {
+                            "offset": 1863587,
+                            "title": "Fusion Swirl",
+                            "artist": "JEFF PARKER"
+                        },
+                        {
+                            "offset": 2026730,
+                            "title": "Fusion Swirl",
+                            "artist": "JEFF PARKER"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "wwfm_island_update_part_3.m4a",
+                "duration": 1572.41,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 1000,
+                            "title": "Fusion Swirl",
+                            "artist": "JEFF PARKER"
+                        },
+                        {
+                            "offset": 28713,
+                            "title": "Wax & Buff",
+                            "artist": "SAUCE & DOGS"
+                        },
+                        {
+                            "offset": 250338,
+                            "title": "THE CHOCOLATE CONQUISTADORS",
+                            "artist": "BADBADNOTGOOD FEAT. MF DOOM"
+                        },
+                        {
+                            "offset": 667113,
+                            "title": "The Beat",
+                            "artist": "ESG"
+                        },
+                        {
+                            "offset": 801131,
+                            "title": "Kimchi King Kong",
+                            "artist": "THE DIABOLICAL LIBERTIES"
+                        },
+                        {
+                            "offset": 942919,
+                            "title": "What More",
+                            "artist": "SWINDLE FEAT. GREENTEA PENG"
+                        },
+                        {
+                            "offset": 1085524,
+                            "title": "Times Up",
+                            "artist": "FUSELAGE"
+                        },
+                        {
+                            "offset": 1306638,
+                            "title": "Muslem & Christian",
+                            "artist": "MADLIB"
+                        },
+                        {
+                            "offset": 1438408,
+                            "title": "Pure Agony",
+                            "artist": "KAYTRANADA"
+                        },
+                        {
+                            "offset": 1538180,
+                            "title": "Why Don't I Feel",
+                            "artist": "LYAM"
+                        },
+                        {
+                            "offset": 1572410,
+                            "title": "Why Don't I Feel",
+                            "artist": "LYAM"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "wwfm_island_update_part_4.m4a",
+                "duration": 1021.936,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 1000,
+                            "title": "Why Don't I Feel",
+                            "artist": "LYAM"
+                        },
+                        {
+                            "offset": 113463,
+                            "title": "Directions",
+                            "artist": "JAB"
+                        },
+                        {
+                            "offset": 444777,
+                            "title": "Desire (Moodymann Remix)",
+                            "artist": "JOSÉ JAMES"
+                        },
+                        {
+                            "offset": 704942,
+                            "title": "Ekkles",
+                            "artist": "CALL SUPER"
+                        },
+                        {
+                            "offset": 867277,
+                            "title": "Ascending",
+                            "artist": "JONNY FAITH"
+                        },
+                        {
+                            "offset": 1017754,
+                            "title": "State Of Mind (Alex Patchwork Remix)",
+                            "artist": "ZARA MCFARLANE"
+                        },
+                        {
+                            "offset": 1021936,
+                            "title": "State Of Mind (Alex Patchwork Remix)",
+                            "artist": "ZARA MCFARLANE"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "wwfm_island_update_part_5.m4a",
+                "duration": 1592.776,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 1000,
+                            "title": "State Of Mind (Alex Patchwork Remix)",
+                            "artist": "ZARA MCFARLANE"
+                        },
+                        {
+                            "offset": 177757,
+                            "title": "New Gods (Ron Basejam Remix)",
+                            "artist": "CATCHING FLIES"
+                        },
+                        {
+                            "offset": 459900,
+                            "title": "Full Moon (Full Length Version)",
+                            "artist": "DELE SOSIMI & MEDLAR"
+                        },
+                        {
+                            "offset": 720576,
+                            "title": "Movementt",
+                            "artist": "EMMA-JEAN THACKRAY"
+                        },
+                        {
+                            "offset": 922779,
+                            "title": "Grand Hi",
+                            "artist": "BRUISE"
+                        },
+                        {
+                            "offset": 1072949,
+                            "title": "Landline",
+                            "artist": "KASSA OVERALL FEAT. CARLOS OVERALL"
+                        },
+                        {
+                            "offset": 1150819,
+                            "title": "The Sun (Full Length Mix)",
+                            "artist": "SECRET NIGHT GANG"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
