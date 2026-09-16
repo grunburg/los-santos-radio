@@ -1,0 +1,118 @@
+{
+    "id": "radio_07_dance_01",
+    "type": "static",
+    "info": {
+        "title": "Soulwax FM",
+        "genre": "Electronic music",
+        "dj": "Soulwax",
+        "icon": {
+            "monochrome": "Soulwax_FM.svg",
+            "full": "Soulwax_FM_full.svg",
+            "cover": "Soulwax_FM_full_cover.png"
+        }
+    },
+    "common": {},
+    "fileGroups": {
+        "track": [
+            {
+                "path": "soulwax_fm_final_mix_32k.m4a",
+                "duration": 2566.67,
+                "audibleDuration": 2565.9,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 16642,
+                            "title": "Stock (Soulwax Remix)",
+                            "artist": "PALMBOMEN"
+                        },
+                        {
+                            "offset": 161990,
+                            "title": "Fatal Error",
+                            "artist": "FATAL ERROR"
+                        },
+                        {
+                            "offset": 292574,
+                            "title": "Let's Beam Him Up",
+                            "artist": "SUPERSEMPFFT"
+                        },
+                        {
+                            "offset": 370458,
+                            "title": "Mingi",
+                            "artist": "MIM SULEIMAN"
+                        },
+                        {
+                            "offset": 556928,
+                            "title": "The Strange Art (Inflagranti Remix)",
+                            "artist": "FK CLUB"
+                        },
+                        {
+                            "offset": 654607,
+                            "title": "El Sucu Tucu",
+                            "artist": "MATIAS AGUAYO"
+                        },
+                        {
+                            "offset": 870451,
+                            "title": "Naive Reception",
+                            "artist": "DANIEL AVERY"
+                        },
+                        {
+                            "offset": 966663,
+                            "title": "Gabriel (Soulwax Remix)",
+                            "artist": "JOE GODDARD"
+                        },
+                        {
+                            "offset": 1150571,
+                            "title": "Body Music (Original Mix)",
+                            "artist": "DANIEL MALASO"
+                        },
+                        {
+                            "offset": 1278518,
+                            "title": "Lazer Beams",
+                            "artist": "GREEN VELVET & HARVARD BASS"
+                        },
+                        {
+                            "offset": 1368580,
+                            "title": "Tryouts",
+                            "artist": "ZOMBIE NATION"
+                        },
+                        {
+                            "offset": 1494681,
+                            "title": "Nothing But Pleasure",
+                            "artist": "TOM ROWLANDS"
+                        },
+                        {
+                            "offset": 1644531,
+                            "title": "Arp #1",
+                            "artist": "JACKSON AND HIS COMPUTER BAND"
+                        },
+                        {
+                            "offset": 1826544,
+                            "title": "Synrise (Soulwax Remix)",
+                            "artist": "GOOSE"
+                        },
+                        {
+                            "offset": 1976320,
+                            "title": "Mr. Croissant Taker",
+                            "artist": "TRANSISTORCAKE"
+                        },
+                        {
+                            "offset": 2097775,
+                            "title": "Plush (Jaques Lu Cont Remix)",
+                            "artist": "TIGA"
+                        },
+                        {
+                            "offset": 2234531,
+                            "title": "Shockwave (Gesaffelstein Remix)",
+                            "artist": "THE HACKER"
+                        },
+                        {
+                            "offset": 2339735,
+                            "title": "After You (Soulwax Remix)",
+                            "artist": "PULP"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
