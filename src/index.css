@@ -325,18 +325,6 @@
     outline-offset: 2px;
   }
 
-  .counter {
-    font-variant-numeric: tabular-nums;
-    font-size: 0.8125rem;
-    font-weight: 600;
-    color: var(--ink);
-  }
-
-  .counter__of {
-    margin-inline-start: 2px;
-    color: var(--ink-faint);
-  }
-
   .stage {
     grid-column: full;
     display: grid;

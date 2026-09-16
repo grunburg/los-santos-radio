@@ -94,12 +94,6 @@ export default function App() {
       <header className="top">
         <h1 className="brand">Los Santos Radio</h1>
         <div className="top__tools">
-          {view === 'cards' && (
-            <p className="counter">
-              <span>{index + 1}</span>
-              <span className="counter__of">/ {stations.length}</span>
-            </p>
-          )}
           <div className="views" role="radiogroup" aria-label="View">
             <button
               type="button"
