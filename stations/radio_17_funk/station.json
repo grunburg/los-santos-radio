@@ -1,0 +1,1148 @@
+{
+    "id": "radio_17_funk",
+    "info": {
+        "title": "Space 103.2",
+        "genre": "Funk and R&B",
+        "dj": "Bootsy Collins",
+        "icon": {
+            "color": "Space.svg",
+            "cover": "Space_cover.png"
+        }
+    },
+    "common": {
+        "adverts": [
+            "general_adverts"
+        ]
+    },
+    "fileGroups": {
+        "track": [
+            {
+                "path": "back_and_forth.m4a",
+                "duration": 217.64,
+                "audibleDuration": 216.83,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/back_and_forth_01.m4a",
+                            "duration": 1.72
+                        },
+                        {
+                            "path": "intro/back_and_forth_02.m4a",
+                            "duration": 3.16
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Back And Forth",
+                            "artist": "CAMEO"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5290,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 26368,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 191573,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 214469,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "cant_hold_back.m4a",
+                "duration": 232.45,
+                "audibleDuration": 232.12,
+                "voiceovers": [
+                    {
+                        "path": "intro/cant_hold_back_01.m4a",
+                        "duration": 3.76
+                    },
+                    {
+                        "path": "intro/cant_hold_back_02.m4a",
+                        "duration": 2.17
+                    }
+                ]
+            },
+            {
+                "path": "cutie_pie.m4a",
+                "duration": 200.42,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/cutie_pie_01.m4a",
+                            "duration": 4.22
+                        },
+                        {
+                            "path": "intro/cutie_pie_02.m4a",
+                            "duration": 4.67
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Cutie Pie",
+                            "artist": "ONE WAY"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 8704,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 32800,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 153173,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 191584,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "do_it_roger.m4a",
+                "duration": 301.98,
+                "audibleDuration": 300.92,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/do_it_roger_01.m4a",
+                            "duration": 7.9
+                        },
+                        {
+                            "path": "intro/do_it_roger_02.m4a",
+                            "duration": 10.0
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Do It Roger",
+                            "artist": "ZAPP & ROGER"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5205,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 30142,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 276117,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 296896,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "flashback.m4a",
+                "duration": 248.73,
+                "audibleDuration": 248.08,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Flashback",
+                            "artist": "IMAGINATION"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4129,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 8566,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 224374,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 244120,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "flashlight.m4a",
+                "duration": 252.18,
+                "audibleDuration": 251.34,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Flashlight",
+                            "artist": "PARLIAMENT"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5462,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 17750,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 224086,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 247669,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "funkasize_you.m4a",
+                "duration": 158.46,
+                "audibleDuration": 158.12,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 546,
+                            "title": "Funkasize You",
+                            "artist": "SHO-NUFF"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 10146,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 19901,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 121642,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 145408,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "give_it_to_me_baby.m4a",
+                "duration": 236.44,
+                "audibleDuration": 235.77,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/give_it_to_me_baby_01.m4a",
+                            "duration": 3.14
+                        },
+                        {
+                            "path": "intro/give_it_to_me_baby_02.m4a",
+                            "duration": 5.21
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Give It To Me Baby",
+                            "artist": "RICK JAMES"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 6321,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 23426,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 208390,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 226524,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "gotta_get_my_hands_on_some_money.m4a",
+                "duration": 238.19,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/gotta_get_my_hands_on_some_money_01.m4a",
+                            "duration": 3.46
+                        },
+                        {
+                            "path": "intro/gotta_get_my_hands_on_some_money_02.m4a",
+                            "duration": 2.46
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Gotta Get My Hands On Some (Money)",
+                            "artist": "FATBACK BAND"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5069,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 16248,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 209954,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 232653,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "haboglabotribin.m4a",
+                "duration": 224.81,
+                "audibleDuration": 224.46,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Haboglabotribin'",
+                            "artist": "BERNARD WRIGHT"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5429,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 30122,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 183040,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 217557,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "heart_beat.m4a",
+                "duration": 227.42,
+                "audibleDuration": 227.02,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/heart_beat_01.m4a",
+                            "duration": 4.06
+                        },
+                        {
+                            "path": "intro/heart_beat_02.m4a",
+                            "duration": 3.52
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Heartbeat",
+                            "artist": "TAANA GARDNER"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5401,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 40608,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 188074,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 214442,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "heartbreaker.m4a",
+                "duration": 242.12,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Heartbreaker, Pts. 1-2",
+                            "artist": "ZAPP"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 7765,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 20341,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 213674,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 232320,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "id_rather_be_with_you.m4a",
+                "duration": 221.89,
+                "audibleDuration": 221.33,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/id_rather_be_with_you_01.m4a",
+                            "duration": 10.37
+                        },
+                        {
+                            "path": "intro/id_rather_be_with_you_02.m4a",
+                            "duration": 5.54
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "I'd Rather Be With You",
+                            "artist": "BOOTSY COLLINS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 8533,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 25194,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 192170,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 209920,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "im_in_love.m4a",
+                "duration": 250.05,
+                "audibleDuration": 249.72,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/im_in_love_01.m4a",
+                            "duration": 5.77
+                        },
+                        {
+                            "path": "intro/im_in_love_02.m4a",
+                            "duration": 6.57
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "I'm In Love (12\" Dance Mix)",
+                            "artist": "EVELYN CHAMPAGNE KING"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5565,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 34901,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 217429,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 238933,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "joystick.m4a",
+                "duration": 219.06,
+                "audibleDuration": 218.47,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/joystick_01.m4a",
+                            "duration": 4.92
+                        },
+                        {
+                            "path": "intro/joystick_02.m4a",
+                            "duration": 4.21
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Joystick",
+                            "artist": "DAZZ BAND"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5257,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 43572,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 173108,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 195465,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "mothership_connection.m4a",
+                "duration": 253.89,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Mothership Connection",
+                            "artist": "PARLIAMENT"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5797,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 29775,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 225615,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 248909,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "nights_feel_like.m4a",
+                "duration": 270.8,
+                "audibleDuration": 270.29,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Nights (Feel Like Getting Down)",
+                            "artist": "BILLY OCEAN"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 245152,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 265728,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "party_all_the_time.m4a",
+                "duration": 210.77,
+                "audibleDuration": 210.3,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 56,
+                            "title": "Party All The Time",
+                            "artist": "EDDIE MURPHY"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 15672,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 46842,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 179264,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 200064,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "skeletons.m4a",
+                "duration": 229.31,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/skeletons_01.m4a",
+                            "duration": 3.11
+                        },
+                        {
+                            "path": "intro/skeletons_02.m4a",
+                            "duration": 5.16
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 34,
+                            "title": "Skeletons",
+                            "artist": "STEVIE WONDER"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 13773,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 38626,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 195984,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 222010,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "tonight.m4a",
+                "duration": 219.01,
+                "audibleDuration": 218.64,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Tonight",
+                            "artist": "KLEEER"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 9216,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 28352,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 187477,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 209045,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "walking_into_sunshine.m4a",
+                "duration": 246.09,
+                "audibleDuration": 244.9,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Walking Into Sunshine",
+                            "artist": "CENTRAL LINE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5205,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 15431,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 211445,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 241034,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "youre_the_one_for_me.m4a",
+                "duration": 255.34,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/youre_the_one_for_me_01.m4a",
+                            "duration": 5.36
+                        },
+                        {
+                            "path": "intro/youre_the_one_for_me_02.m4a",
+                            "duration": 4.26
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 445,
+                            "title": "You're The One For Me",
+                            "artist": "D TRAIN"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 220544,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 246698,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            }
+        ],
+        "general": [
+            {
+                "path": "general/general_01.m4a",
+                "duration": 11.96
+            },
+            {
+                "path": "general/general_02.m4a",
+                "duration": 7.13
+            },
+            {
+                "path": "general/general_03.m4a",
+                "duration": 13.74
+            },
+            {
+                "path": "general/general_04.m4a",
+                "duration": 11.34
+            },
+            {
+                "path": "general/general_05.m4a",
+                "duration": 12.4
+            },
+            {
+                "path": "general/general_06.m4a",
+                "duration": 10.11
+            },
+            {
+                "path": "general/general_07.m4a",
+                "duration": 11.69
+            },
+            {
+                "path": "general/general_08.m4a",
+                "duration": 11.05
+            },
+            {
+                "path": "general/general_09.m4a",
+                "duration": 12.11
+            },
+            {
+                "path": "general/general_10.m4a",
+                "duration": 8.59
+            },
+            {
+                "path": "general/general_11.m4a",
+                "duration": 8.29,
+                "audibleDuration": 7.9773
+            },
+            {
+                "path": "general/general_12.m4a",
+                "duration": 9.95
+            },
+            {
+                "path": "general/general_13.m4a",
+                "duration": 8.9
+            },
+            {
+                "path": "general/general_14.m4a",
+                "duration": 7.98
+            },
+            {
+                "path": "general/general_15.m4a",
+                "duration": 12.22,
+                "audibleDuration": 11.774
+            },
+            {
+                "path": "general/general_16.m4a",
+                "duration": 6.34
+            },
+            {
+                "path": "general/general_17.m4a",
+                "duration": 6.05
+            },
+            {
+                "path": "general/general_18.m4a",
+                "duration": 11.68
+            },
+            {
+                "path": "general/general_19.m4a",
+                "duration": 7.6,
+                "audibleDuration": 7.2733
+            },
+            {
+                "path": "general/general_20.m4a",
+                "duration": 4.4
+            },
+            {
+                "path": "general/general_21.m4a",
+                "duration": 1.65
+            },
+            {
+                "path": "general/general_22.m4a",
+                "duration": 2.81
+            },
+            {
+                "path": "general/general_23.m4a",
+                "duration": 3.69
+            },
+            {
+                "path": "general/general_24.m4a",
+                "duration": 6.17
+            },
+            {
+                "path": "general/general_25.m4a",
+                "duration": 5.69
+            },
+            {
+                "path": "general/general_26.m4a",
+                "duration": 2.02
+            },
+            {
+                "path": "general/general_27.m4a",
+                "duration": 2.39
+            }
+        ],
+        "id": [
+            {
+                "path": "id/id_01.m4a",
+                "duration": 12.22,
+                "audibleDuration": 11.646
+            },
+            {
+                "path": "id/id_02.m4a",
+                "duration": 9.62,
+                "audibleDuration": 9.0
+            },
+            {
+                "path": "id/id_03.m4a",
+                "duration": 11.36,
+                "audibleDuration": 11.02
+            },
+            {
+                "path": "id/id_04.m4a",
+                "duration": 10.65,
+                "audibleDuration": 10.13
+            },
+            {
+                "path": "id/id_05.m4a",
+                "duration": 11.09,
+                "audibleDuration": 10.51
+            },
+            {
+                "path": "id/id_06.m4a",
+                "duration": 11.69
+            },
+            {
+                "path": "id/id_07.m4a",
+                "duration": 11.34,
+                "audibleDuration": 10.942
+            },
+            {
+                "path": "id/id_08.m4a",
+                "duration": 14.01,
+                "audibleDuration": 13.63
+            },
+            {
+                "path": "id/id_09.m4a",
+                "duration": 13.57
+            },
+            {
+                "path": "id/id_10.m4a",
+                "duration": 13.49,
+                "audibleDuration": 13.118
+            },
+            {
+                "path": "id/id_11.m4a",
+                "duration": 9.57,
+                "audibleDuration": 9.1
+            },
+            {
+                "path": "id/id_12.m4a",
+                "duration": 8.37,
+                "audibleDuration": 7.0813
+            },
+            {
+                "path": "id/id_13.m4a",
+                "duration": 7.49,
+                "audibleDuration": 6.86
+            },
+            {
+                "path": "id/id_14.m4a",
+                "duration": 5.32,
+                "audibleDuration": 4.8413
+            }
+        ],
+        "mono_solo": [
+            {
+                "path": "mono_solo/mono_solo_01.m4a",
+                "duration": 33.71,
+                "audibleDuration": 32.3
+            },
+            {
+                "path": "mono_solo/mono_solo_02.m4a",
+                "duration": 25.29,
+                "audibleDuration": 24.041
+            },
+            {
+                "path": "mono_solo/mono_solo_03.m4a",
+                "duration": 32.0,
+                "audibleDuration": 30.889
+            },
+            {
+                "path": "mono_solo/mono_solo_04.m4a",
+                "duration": 32.03,
+                "audibleDuration": 31.18
+            },
+            {
+                "path": "mono_solo/mono_solo_05.m4a",
+                "duration": 19.12,
+                "audibleDuration": 17.87
+            },
+            {
+                "path": "mono_solo/mono_solo_06.m4a",
+                "duration": 18.17,
+                "audibleDuration": 17.47
+            },
+            {
+                "path": "mono_solo/mono_solo_07.m4a",
+                "duration": 24.72,
+                "audibleDuration": 23.721
+            },
+            {
+                "path": "mono_solo/mono_solo_08.m4a",
+                "duration": 32.01,
+                "audibleDuration": 30.761
+            },
+            {
+                "path": "mono_solo/mono_solo_09.m4a",
+                "duration": 23.2,
+                "audibleDuration": 22.249
+            },
+            {
+                "path": "mono_solo/mono_solo_10.m4a",
+                "duration": 28.76,
+                "audibleDuration": 27.561
+            },
+            {
+                "path": "mono_solo/mono_solo_11.m4a",
+                "duration": 29.45,
+                "audibleDuration": 28.094
+            },
+            {
+                "path": "mono_solo/mono_solo_12.m4a",
+                "duration": 36.16,
+                "audibleDuration": 34.7
+            },
+            {
+                "path": "mono_solo/mono_solo_13.m4a",
+                "duration": 32.57,
+                "audibleDuration": 31.465
+            }
+        ],
+        "time_evening": [
+            {
+                "path": "time_evening/evening_01.m4a",
+                "duration": 8.63
+            },
+            {
+                "path": "time_evening/evening_02.m4a",
+                "duration": 3.92
+            },
+            {
+                "path": "time_evening/evening_03.m4a",
+                "duration": 2.09
+            },
+            {
+                "path": "time_evening/evening_04.m4a",
+                "duration": 5.94
+            }
+        ],
+        "time_morning": [
+            {
+                "path": "time_morning/morning_01.m4a",
+                "duration": 1.78
+            },
+            {
+                "path": "time_morning/morning_02.m4a",
+                "duration": 7.33
+            },
+            {
+                "path": "time_morning/morning_03.m4a",
+                "duration": 8.86
+            },
+            {
+                "path": "time_morning/morning_04.m4a",
+                "duration": 1.67
+            }
+        ],
+        "to_adverts": [
+            {
+                "path": "to_ad/to_ad_01.m4a",
+                "duration": 5.27
+            },
+            {
+                "path": "to_ad/to_ad_02.m4a",
+                "duration": 3.95
+            },
+            {
+                "path": "to_ad/to_ad_03.m4a",
+                "duration": 6.08
+            },
+            {
+                "path": "to_ad/to_ad_04.m4a",
+                "duration": 1.92
+            },
+            {
+                "path": "to_ad/to_ad_05.m4a",
+                "duration": 4.05
+            }
+        ],
+        "to_news": [
+            {
+                "path": "to_news/to_news_01.m4a",
+                "duration": 3.54
+            },
+            {
+                "path": "to_news/to_news_02.m4a",
+                "duration": 2.93
+            },
+            {
+                "path": "to_news/to_news_03.m4a",
+                "duration": 7.1
+            },
+            {
+                "path": "to_news/to_news_04.m4a",
+                "duration": 3.57
+            },
+            {
+                "path": "to_news/to_news_05.m4a",
+                "duration": 7.03
+            }
+        ]
+    }
+}
