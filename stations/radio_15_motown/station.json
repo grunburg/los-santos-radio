@@ -1,0 +1,1209 @@
+{
+    "id": "radio_15_motown",
+    "info": {
+        "title": "The Lowdown 91.1",
+        "genre": "Classic soul, disco, gospel",
+        "dj": "Pam Grier",
+        "icon": {
+            "color": "The_Low_Down.svg",
+            "cover": "The_Low_Down_cover.png"
+        }
+    },
+    "common": {
+        "adverts": [
+            "general_adverts"
+        ]
+    },
+    "fileGroups": {
+        "track": [
+            {
+                "path": "ashleys_roachclip.m4a",
+                "duration": 254.23,
+                "audibleDuration": 253.86,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/ashleys_roachclip_01.m4a",
+                            "duration": 5.84
+                        },
+                        {
+                            "path": "intro/ashleys_roachclip_02.m4a",
+                            "duration": 3.96
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 170,
+                            "title": "Ashley's Roachclip",
+                            "artist": "THE SOUL SEARCHERS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5396,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 19936,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 224469,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 245994,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "bouncy_lady.m4a",
+                "duration": 210.26,
+                "audibleDuration": 209.74,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Bouncy Lady",
+                            "artist": "PLEASURE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4913,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 10545,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 185514,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 205152,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "california_soul.m4a",
+                "duration": 171.24,
+                "audibleDuration": 170.92,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/california_soul_01.m4a",
+                            "duration": 3.62
+                        },
+                        {
+                            "path": "intro/california_soul_02.m4a",
+                            "duration": 3.38
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 50,
+                            "title": "California Soul",
+                            "artist": "MARLENA SHAW"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4978,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 10453,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 148114,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 166525,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "changin.m4a",
+                "duration": 313.8,
+                "audibleDuration": 312.8,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Changin'",
+                            "artist": "BRASS CONSTRUCTION"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4998,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 25033,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 288134,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 308501,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "climax.m4a",
+                "duration": 237.91,
+                "audibleDuration": 236.54,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/climax_01.m4a",
+                            "duration": 4.31
+                        },
+                        {
+                            "path": "intro/climax_02.m4a",
+                            "duration": 7.64
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Climax",
+                            "artist": "OHIO PLAYERS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5161,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 23269,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 211626,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 233258,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "cruisin.m4a",
+                "duration": 236.46,
+                "audibleDuration": 236.11,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/cruisin_01.m4a",
+                            "duration": 5.09,
+                            "audibleDuration": 4.7773
+                        },
+                        {
+                            "path": "intro/cruisin_02.m4a",
+                            "duration": 5.41
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Cruisin'",
+                            "artist": "SMOKEY ROBINSON"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 10581,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 25045,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 194901,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 229152,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "do_it_til_youre_satisfied.m4a",
+                "duration": 207.85,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/do_it_til_youre_satisfied_01.m4a",
+                            "duration": 4.34
+                        },
+                        {
+                            "path": "intro/do_it_til_youre_satisfied_02.m4a",
+                            "duration": 7.61
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 264,
+                            "title": "Do It ('Til You're Satisfied)",
+                            "artist": "BT EXPRESS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5682,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 18504,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 178282,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 200554,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "funny_feeling.m4a",
+                "duration": 136.95,
+                "audibleDuration": 135.67,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/funny_feeling_01.m4a",
+                            "duration": 4.81
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Funny Feeling",
+                            "artist": "THE DELFONICS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4949,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 20736,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 92757,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 126976,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "hercules.m4a",
+                "duration": 207.95,
+                "audibleDuration": 207.29,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/hercules_01.m4a",
+                            "duration": 4.12
+                        },
+                        {
+                            "path": "intro/hercules_02.m4a",
+                            "duration": 2.87
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Hercules",
+                            "artist": "AARON NEVILLE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 9538,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 23370,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 176578,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 200597,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "i_believe_in_miracles.m4a",
+                "duration": 172.99,
+                "audibleDuration": 172.26,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/i_believe_in_miracles_01.m4a",
+                            "duration": 2.7
+                        },
+                        {
+                            "path": "intro/i_believe_in_miracles_02.m4a",
+                            "duration": 4.2
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "I Believe In Miracles",
+                            "artist": "JACKSON SISTERS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4829,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 24832,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 148214,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 167936,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "i_get_lifted.m4a",
+                "duration": 156.18,
+                "audibleDuration": 155.51,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/i_get_lifted_01.m4a",
+                            "duration": 3.16
+                        },
+                        {
+                            "path": "intro/i_get_lifted_02.m4a",
+                            "duration": 3.07
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "I Get Lifted",
+                            "artist": "GEORGE MCCRAE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 9216,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 24128,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 125013,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 149269,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "magic_mountain.m4a",
+                "duration": 166.28,
+                "audibleDuration": 165.43,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/magic_mountain_01.m4a",
+                            "duration": 2.22
+                        },
+                        {
+                            "path": "intro/magic_mountain_02.m4a",
+                            "duration": 3.94
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Magic Mountain",
+                            "artist": "WAR"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5507,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 23086,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 141621,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 161210,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "o_o_h_child.m4a",
+                "duration": 187.67,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/o_o_h_child_01.m4a",
+                            "duration": 5.08
+                        },
+                        {
+                            "path": "intro/o_o_h_child_02.m4a",
+                            "duration": 6.1
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "O-O-H Child",
+                            "artist": "THE FIVE STAIRSTEPS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5280,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 14245,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 161408,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 180597,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "ready_or_not.m4a",
+                "duration": 113.71,
+                "audibleDuration": 113.34,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/ready_or_not_01.m4a",
+                            "duration": 4.4
+                        },
+                        {
+                            "path": "intro/ready_or_not_02.m4a",
+                            "duration": 4.8
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Ready Or Not Here I Come (Can't Hide From Love)",
+                            "artist": "THE DELFONICS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 7018,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 22954,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 82517,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 106240,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "rubber_band.m4a",
+                "duration": 254.59,
+                "audibleDuration": 254.24,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/rubber_band_01.m4a",
+                            "duration": 6.73
+                        },
+                        {
+                            "path": "intro/rubber_band_02.m4a",
+                            "duration": 2.7
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 197,
+                            "title": "Rubber Band",
+                            "artist": "THE TRAMMPS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 14234,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 27977,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 220501,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 245333,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "smiling_faces.m4a",
+                "duration": 189.14,
+                "audibleDuration": 188.8,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/smiling_faces_01.m4a",
+                            "duration": 2.65
+                        },
+                        {
+                            "path": "intro/smiling_faces_02.m4a",
+                            "duration": 10.88
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 306,
+                            "title": "Smiling Faces Sometimes",
+                            "artist": "THE UNDISPUTED TRUTH"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5485,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 14658,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 169877,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 178613,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "stories.m4a",
+                "duration": 138.53,
+                "audibleDuration": 137.1,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Stories",
+                            "artist": "THE CHAKACHAS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5787,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 20635,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 113888,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 133376,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "superman_lover.m4a",
+                "duration": 215.74,
+                "audibleDuration": 215.25,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/superman_lover_01.m4a",
+                            "duration": 4.02
+                        },
+                        {
+                            "path": "intro/superman_lover_02.m4a",
+                            "duration": 3.09
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Superman Lover",
+                            "artist": "JOHNNY \"GUITAR\" WATSON"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5632,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 21845,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 192658,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 210113,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "the_cisco_kid.m4a",
+                "duration": 192.75,
+                "audibleDuration": 192.4,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/the_cisco_kid_01.m4a",
+                            "duration": 6.35
+                        },
+                        {
+                            "path": "intro/the_cisco_kid_02.m4a",
+                            "duration": 3.41
+                        },
+                        {
+                            "path": "intro/the_cisco_kid_03.m4a",
+                            "duration": 4.47
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "The Cisco Kid",
+                            "artist": "WAR"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5004,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 17045,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 162602,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 181632,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "viva_tirado.m4a",
+                "duration": 210.0,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro/viva_tirado_01.m4a",
+                            "duration": 3.61
+                        },
+                        {
+                            "path": "intro/viva_tirado_02.m4a",
+                            "duration": 6.55
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 597,
+                            "title": "Viva Tirado - Part 1",
+                            "artist": "EL CHICANO"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 13992,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 36306,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 187304,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 204056,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            }
+        ],
+        "general": [
+            {
+                "path": "general/general_01.m4a",
+                "duration": 13.3
+            },
+            {
+                "path": "general/general_02.m4a",
+                "duration": 10.77
+            },
+            {
+                "path": "general/general_03.m4a",
+                "duration": 12.86
+            },
+            {
+                "path": "general/general_04.m4a",
+                "duration": 8.16
+            },
+            {
+                "path": "general/general_05.m4a",
+                "duration": 12.97
+            },
+            {
+                "path": "general/general_06.m4a",
+                "duration": 10.73
+            },
+            {
+                "path": "general/general_07.m4a",
+                "duration": 12.42
+            },
+            {
+                "path": "general/general_08.m4a",
+                "duration": 9.32
+            },
+            {
+                "path": "general/general_09.m4a",
+                "duration": 7.47
+            },
+            {
+                "path": "general/general_10.m4a",
+                "duration": 9.34
+            },
+            {
+                "path": "general/general_11.m4a",
+                "duration": 5.57
+            },
+            {
+                "path": "general/general_12.m4a",
+                "duration": 10.05
+            },
+            {
+                "path": "general/general_13.m4a",
+                "duration": 10.43
+            },
+            {
+                "path": "general/general_14.m4a",
+                "duration": 10.97
+            },
+            {
+                "path": "general/general_15.m4a",
+                "duration": 7.86
+            },
+            {
+                "path": "general/general_16.m4a",
+                "duration": 7.3
+            },
+            {
+                "path": "general/general_17.m4a",
+                "duration": 7.92
+            },
+            {
+                "path": "general/general_18.m4a",
+                "duration": 9.32
+            },
+            {
+                "path": "general/general_19.m4a",
+                "duration": 12.05,
+                "audibleDuration": 11.71
+            },
+            {
+                "path": "general/general_20.m4a",
+                "duration": 4.78
+            },
+            {
+                "path": "general/general_21.m4a",
+                "duration": 13.25
+            },
+            {
+                "path": "general/general_22.m4a",
+                "duration": 9.54
+            },
+            {
+                "path": "general/general_23.m4a",
+                "duration": 6.36
+            },
+            {
+                "path": "general/general_24.m4a",
+                "duration": 5.18
+            },
+            {
+                "path": "general/general_25.m4a",
+                "duration": 3.62
+            },
+            {
+                "path": "general/general_26.m4a",
+                "duration": 2.98
+            },
+            {
+                "path": "general/general_27.m4a",
+                "duration": 2.81
+            },
+            {
+                "path": "general/general_28.m4a",
+                "duration": 2.02
+            },
+            {
+                "path": "general/general_29.m4a",
+                "duration": 4.2
+            },
+            {
+                "path": "general/general_30.m4a",
+                "duration": 4.4
+            },
+            {
+                "path": "general/general_31.m4a",
+                "duration": 4.06
+            },
+            {
+                "path": "general/general_32.m4a",
+                "duration": 4.49
+            },
+            {
+                "path": "general/general_33.m4a",
+                "duration": 3.7
+            },
+            {
+                "path": "general/general_34.m4a",
+                "duration": 3.26
+            },
+            {
+                "path": "general/general_35.m4a",
+                "duration": 2.83
+            },
+            {
+                "path": "general/general_36.m4a",
+                "duration": 3.68
+            }
+        ],
+        "id": [
+            {
+                "path": "id/id_01.m4a",
+                "duration": 6.9,
+                "audibleDuration": 6.2706
+            },
+            {
+                "path": "id/id_02.m4a",
+                "duration": 7.53,
+                "audibleDuration": 6.99
+            },
+            {
+                "path": "id/id_03.m4a",
+                "duration": 7.43,
+                "audibleDuration": 7.0813
+            },
+            {
+                "path": "id/id_04.m4a",
+                "duration": 7.2,
+                "audibleDuration": 6.54
+            },
+            {
+                "path": "id/id_05.m4a",
+                "duration": 4.96,
+                "audibleDuration": 4.4573
+            },
+            {
+                "path": "id/id_06.m4a",
+                "duration": 11.12,
+                "audibleDuration": 10.7
+            },
+            {
+                "path": "id/id_07.m4a",
+                "duration": 7.67,
+                "audibleDuration": 6.99
+            },
+            {
+                "path": "id/id_08.m4a",
+                "duration": 8.16,
+                "audibleDuration": 7.3
+            },
+            {
+                "path": "id/id_09.m4a",
+                "duration": 9.96,
+                "audibleDuration": 9.0226
+            },
+            {
+                "path": "id/id_10.m4a",
+                "duration": 7.96,
+                "audibleDuration": 7.31
+            },
+            {
+                "path": "id/id_11.m4a",
+                "duration": 6.76,
+                "audibleDuration": 6.16
+            },
+            {
+                "path": "id/id_12.m4a",
+                "duration": 8.24
+            },
+            {
+                "path": "id/id_13.m4a",
+                "duration": 4.82,
+                "audibleDuration": 4.2653
+            }
+        ],
+        "mono_solo": [
+            {
+                "path": "mono_solo/mono_solo_01.m4a",
+                "duration": 29.74,
+                "audibleDuration": 28.606
+            },
+            {
+                "path": "mono_solo/mono_solo_02.m4a",
+                "duration": 33.87,
+                "audibleDuration": 32.6
+            },
+            {
+                "path": "mono_solo/mono_solo_03.m4a",
+                "duration": 31.2,
+                "audibleDuration": 30.03
+            },
+            {
+                "path": "mono_solo/mono_solo_04.m4a",
+                "duration": 31.33,
+                "audibleDuration": 30.54
+            },
+            {
+                "path": "mono_solo/mono_solo_05.m4a",
+                "duration": 35.24
+            },
+            {
+                "path": "mono_solo/mono_solo_06.m4a",
+                "duration": 29.25,
+                "audibleDuration": 28.05
+            },
+            {
+                "path": "mono_solo/mono_solo_07.m4a",
+                "duration": 24.91,
+                "audibleDuration": 23.57
+            },
+            {
+                "path": "mono_solo/mono_solo_08.m4a",
+                "duration": 13.09,
+                "audibleDuration": 12.073
+            },
+            {
+                "path": "mono_solo/mono_solo_09.m4a",
+                "duration": 22.82,
+                "audibleDuration": 21.84
+            },
+            {
+                "path": "mono_solo/mono_solo_10.m4a",
+                "duration": 17.97,
+                "audibleDuration": 16.809
+            },
+            {
+                "path": "mono_solo/mono_solo_11.m4a",
+                "duration": 26.74,
+                "audibleDuration": 25.641
+            },
+            {
+                "path": "mono_solo/mono_solo_12.m4a",
+                "duration": 24.59,
+                "audibleDuration": 23.657
+            }
+        ],
+        "time_evening": [
+            {
+                "path": "time_evening/evening_01.m4a",
+                "duration": 3.23
+            },
+            {
+                "path": "time_evening/evening_02.m4a",
+                "duration": 6.43,
+                "audibleDuration": 5.9506
+            },
+            {
+                "path": "time_evening/evening_03.m4a",
+                "duration": 3.45
+            },
+            {
+                "path": "time_evening/evening_04.m4a",
+                "duration": 8.06
+            },
+            {
+                "path": "time_evening/evening_05.m4a",
+                "duration": 12.42,
+                "audibleDuration": 12.073
+            }
+        ],
+        "time_morning": [
+            {
+                "path": "time_morning/morning_01.m4a",
+                "duration": 5.94
+            },
+            {
+                "path": "time_morning/morning_02.m4a",
+                "duration": 4.19
+            },
+            {
+                "path": "time_morning/morning_03.m4a",
+                "duration": 3.0
+            },
+            {
+                "path": "time_morning/morning_04.m4a",
+                "duration": 4.79
+            },
+            {
+                "path": "time_morning/morning_05.m4a",
+                "duration": 2.54
+            },
+            {
+                "path": "time_morning/morning_06.m4a",
+                "duration": 6.53
+            }
+        ],
+        "to_adverts": [
+            {
+                "path": "to_ad/to_ad_01.m4a",
+                "duration": 5.91
+            },
+            {
+                "path": "to_ad/to_ad_02.m4a",
+                "duration": 3.09
+            },
+            {
+                "path": "to_ad/to_ad_03.m4a",
+                "duration": 3.0
+            },
+            {
+                "path": "to_ad/to_ad_04.m4a",
+                "duration": 4.75
+            },
+            {
+                "path": "to_ad/to_ad_05.m4a",
+                "duration": 3.73
+            }
+        ]
+    }
+}
