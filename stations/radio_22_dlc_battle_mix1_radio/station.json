@@ -1,0 +1,479 @@
+{
+    "id": "radio_22_dlc_battle_mix1_radio",
+    "type": "static",
+    "info": {
+        "title": "Los Santos Underground Radio",
+        "genre": "House, techno and electronic",
+        "dj": "Donna Frank",
+        "icon": {
+            "monochrome": "Los_Santos_Underground.svg",
+            "cover": "Los_Santos_Underground_cover.png"
+        }
+    },
+    "common": {},
+    "fileGroups": {
+        "track": [
+            {
+                "path": "battle_mix1_radio_01.m4a",
+                "duration": 1704.526,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 45,
+                            "title": "The Plan",
+                            "artist": "AM$TRAD BILLIONAIRE"
+                        },
+                        {
+                            "offset": 273599,
+                            "title": "Natural States (Edit)",
+                            "artist": "ARA KOUFAX"
+                        },
+                        {
+                            "offset": 619098,
+                            "title": "In The Car Crash (Headgear's Always Crashing In The Same Car Mix)",
+                            "artist": "SWAYZAK"
+                        },
+                        {
+                            "offset": 976036,
+                            "title": "Bitcoins (Original Mix)",
+                            "artist": "D. LYNNWOOD"
+                        },
+                        {
+                            "offset": 1173322,
+                            "title": "Don't Stop The Dance (Todd Terje Remix)",
+                            "artist": "BRYAN FERRY"
+                        },
+                        {
+                            "offset": 1517692,
+                            "title": "Madness Of Many",
+                            "artist": "DENIS HORVAT"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix1_radio_02.m4a",
+                "duration": 2308.447,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Madness Of Many",
+                            "artist": "DENIS HORVAT"
+                        },
+                        {
+                            "offset": 126416,
+                            "title": "Incoherence",
+                            "artist": "JOHANNES BRECHT"
+                        },
+                        {
+                            "offset": 471523,
+                            "title": "Ich Muss Los",
+                            "artist": "SOLOMUN"
+                        },
+                        {
+                            "offset": 751396,
+                            "title": "Monster",
+                            "artist": "MATTHEW DEAR"
+                        },
+                        {
+                            "offset": 961032,
+                            "title": "WRKTRX3",
+                            "artist": "TRUNCATE"
+                        },
+                        {
+                            "offset": 1200043,
+                            "title": "Spin (Original Mix)",
+                            "artist": "FLOORPLAN"
+                        },
+                        {
+                            "offset": 1488049,
+                            "title": "The Freaks Come Out (Original 2000 Freaks Mix)",
+                            "artist": "CEVIN FISHER"
+                        },
+                        {
+                            "offset": 1779967,
+                            "title": "You're Mine (Clean Version)",
+                            "artist": "CHRIS LUM"
+                        },
+                        {
+                            "offset": 1979211,
+                            "title": "The Q",
+                            "artist": "ALEX METRIC & TEN VEN"
+                        },
+                        {
+                            "offset": 2285436,
+                            "title": "Customer Is King",
+                            "artist": "SOLOMUN"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix1_radio_03.m4a",
+                "duration": 1211.157,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Customer Is King",
+                            "artist": "SOLOMUN"
+                        },
+                        {
+                            "offset": 207889,
+                            "title": "Planet 9",
+                            "artist": "ADAM PORT"
+                        },
+                        {
+                            "offset": 453169,
+                            "title": "The End To My Beginning",
+                            "artist": "DUBFIRE"
+                        },
+                        {
+                            "offset": 876529,
+                            "title": "You Want It Darker (Solomun Remix)",
+                            "artist": "LEONARD COHEN"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix2_radio_01.m4a",
+                "duration": 1006.471,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 25,
+                            "title": "Overture",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 61901,
+                            "title": "1911",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 288618,
+                            "title": "Trevor's Dream",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 437428,
+                            "title": "Vinewood Blues",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 642747,
+                            "title": "Anywhere",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 874828,
+                            "title": "Symphony Of The Night",
+                            "artist": "TALE OF US"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix2_radio_02.m4a",
+                "duration": 1350.033,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 21,
+                            "title": "Symphony Of The Night",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 39011,
+                            "title": "Another World",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 239912,
+                            "title": "The Portal",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 449926,
+                            "title": "Solitude",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 728129,
+                            "title": "Morgan's Fate",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 1018092,
+                            "title": "Fisherman's Horizon",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 1208688,
+                            "title": "Myst",
+                            "artist": "TALE OF US"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix2_radio_03.m4a",
+                "duration": 1223.074,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 452,
+                            "title": "Myst",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 24224,
+                            "title": "Seeds",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 204922,
+                            "title": "Endless Journey",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 391898,
+                            "title": "Valkyr",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 560004,
+                            "title": "In Hyrule",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 709049,
+                            "title": "Disgracelands",
+                            "artist": "TALE OF US"
+                        },
+                        {
+                            "offset": 944111,
+                            "title": "Heart Of Darkness",
+                            "artist": "TALE OF US"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix3_radio_01.m4a",
+                "duration": 1173.841,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Convergence",
+                            "artist": "CARL FINLOW"
+                        },
+                        {
+                            "offset": 257069,
+                            "title": "Yes I Do",
+                            "artist": "CARAVACA"
+                        },
+                        {
+                            "offset": 482360,
+                            "title": "The Atmospherian (Tornado Wallace Remix)",
+                            "artist": "WARP FACTOR 9"
+                        },
+                        {
+                            "offset": 744932,
+                            "title": "Roman (Bas Ibellini Mix)",
+                            "artist": "MASHROU' LEILA"
+                        },
+                        {
+                            "offset": 980259,
+                            "title": "Connection (I-Cube Rework)",
+                            "artist": "FUTURE FOUR"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix3_radio_02.m4a",
+                "duration": 1391.811,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 28,
+                            "title": "Connection (I-Cube Rework)",
+                            "artist": "FUTURE FOUR"
+                        },
+                        {
+                            "offset": 33315,
+                            "title": "Quinquerime",
+                            "artist": "RITE DE PASSAGE"
+                        },
+                        {
+                            "offset": 234936,
+                            "title": "Electro Pharaoh (Instrumental)",
+                            "artist": "THE EGYPTIAN LOVER"
+                        },
+                        {
+                            "offset": 396313,
+                            "title": "Telstar",
+                            "artist": "MARCUS L."
+                        },
+                        {
+                            "offset": 653956,
+                            "title": "Bring U Up (Deetron Edit)",
+                            "artist": "ROMANTHONY"
+                        },
+                        {
+                            "offset": 936883,
+                            "title": "5 Seconds",
+                            "artist": "SOLAR"
+                        },
+                        {
+                            "offset": 1259468,
+                            "title": "And Dance",
+                            "artist": "SHARIF LAFFREY"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix3_radio_03.m4a",
+                "duration": 1260.625,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 34,
+                            "title": "And Dance",
+                            "artist": "SHARIF LAFFREY"
+                        },
+                        {
+                            "offset": 190607,
+                            "title": "Sensation (Dub Version)",
+                            "artist": "RON HARDY"
+                        },
+                        {
+                            "offset": 343880,
+                            "title": "Sharivari (Digital Original Aux 88 Mix)",
+                            "artist": "AUX 88"
+                        },
+                        {
+                            "offset": 592088,
+                            "title": "OAR03-B",
+                            "artist": "ONI AYHUN"
+                        },
+                        {
+                            "offset": 909452,
+                            "title": "Reach Out Your Hand (Erol Alkan Rework) - GTA Edit",
+                            "artist": "TCK FT. JG"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix4_radio_01.m4a",
+                "duration": 923.496,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 13,
+                            "title": "Sensation",
+                            "artist": "RON HARDY"
+                        },
+                        {
+                            "offset": 212530,
+                            "title": "Where Ya At",
+                            "artist": "DERRICK CARTER"
+                        },
+                        {
+                            "offset": 372516,
+                            "title": "Bugatti",
+                            "artist": "TIGA"
+                        },
+                        {
+                            "offset": 682532,
+                            "title": "Miura",
+                            "artist": "METRO AREA"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix4_radio_02.m4a",
+                "duration": 1772.747,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 3,
+                            "title": "Miura",
+                            "artist": "METRO AREA"
+                        },
+                        {
+                            "offset": 127944,
+                            "title": "A Jealous Heart Never Rests",
+                            "artist": "THE BLACK MADONNA"
+                        },
+                        {
+                            "offset": 287201,
+                            "title": "Beat Box",
+                            "artist": "ART OF NOISE"
+                        },
+                        {
+                            "offset": 564480,
+                            "title": "We Still Believe",
+                            "artist": "THE BLACK MADONNA FT. JAMIE PRINCIPLE"
+                        },
+                        {
+                            "offset": 932485,
+                            "title": "Can't Believe",
+                            "artist": "NANCY MARTIN"
+                        },
+                        {
+                            "offset": 1250776,
+                            "title": "Hydraulic Pump Pt. 3",
+                            "artist": "P-FUNK ALL STARS"
+                        },
+                        {
+                            "offset": 1419752,
+                            "title": "Computer Madness",
+                            "artist": "STEVE POINDEXTER"
+                        },
+                        {
+                            "offset": 1575907,
+                            "title": "Devotion",
+                            "artist": "TEN CITY"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "battle_mix4_radio_03.m4a",
+                "duration": 1407.922,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 12,
+                            "title": "Devotion",
+                            "artist": "TEN CITY"
+                        },
+                        {
+                            "offset": 161006,
+                            "title": "We Can Never Be Apart",
+                            "artist": "THE BLACK MADONNA"
+                        },
+                        {
+                            "offset": 614127,
+                            "title": "Steppin' Out",
+                            "artist": "JOE JACKSON"
+                        },
+                        {
+                            "offset": 861734,
+                            "title": "He Is The Voice I Hear",
+                            "artist": "THE BLACK MADONNA"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
