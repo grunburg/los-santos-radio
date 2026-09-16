@@ -1,0 +1,1927 @@
+{
+    "id": "radio_34_dlc_hei4_kult",
+    "info": {
+        "title": "Kult FM",
+        "genre": "Experimental rock, underground pop",
+        "dj": "Julian Casablancas",
+        "icon": {
+            "monochrome": "Kult_FM.svg",
+            "cover": "Kult_FM_cover.png"
+        }
+    },
+    "common": {},
+    "fileGroups": {
+        "track": [
+            {
+                "path": "age_of_consent.m4a",
+                "duration": 311.304,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/age_of_consent_01.m4a",
+                            "duration": 2.64075
+                        },
+                        {
+                            "path": "intro_2/age_of_consent_01.m4a",
+                            "duration": 3.504
+                        },
+                        {
+                            "path": "intro_1/age_of_consent_02.m4a",
+                            "duration": 4.23775
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Age Of Consent",
+                            "artist": "NEW ORDER"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4951,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 28531,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 289322,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 306138,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "alien_crime_lord.m4a",
+                "duration": 258.864,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/alien_crime_lord_01.m4a",
+                            "duration": 5.42925
+                        },
+                        {
+                            "path": "intro_2/alien_crime_lord_01.m4a",
+                            "duration": 5.448
+                        },
+                        {
+                            "path": "intro_1/alien_crime_lord_02.m4a",
+                            "duration": 7.13625
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Alien Crime Lord",
+                            "artist": "THE VOIDZ"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4640,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 24160,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 234750,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 253540,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "baby_i_love_you_so.m4a",
+                "duration": 399.392,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/baby_i_love_you_so_01.m4a",
+                            "duration": 3.03425
+                        },
+                        {
+                            "path": "intro_2/baby_i_love_you_so_01.m4a",
+                            "duration": 4.272
+                        },
+                        {
+                            "path": "intro_1/baby_i_love_you_so_02.m4a",
+                            "duration": 3.422
+                        },
+                        {
+                            "path": "intro_1/baby_i_love_you_so_03.m4a",
+                            "duration": 4.20575
+                        },
+                        {
+                            "path": "intro_1/baby_i_love_you_so_04.m4a",
+                            "duration": 5.14875
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Baby I Love You So",
+                            "artist": "COLOURBOX"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4996,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 29910,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 379990,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 394382,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "cycle.m4a",
+                "duration": 187.828,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/cycle_01.m4a",
+                            "duration": 2.787
+                        },
+                        {
+                            "path": "intro_2/cycle_01.m4a",
+                            "duration": 3.504
+                        },
+                        {
+                            "path": "intro_1/cycle_02.m4a",
+                            "duration": 3.91525
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Cycle",
+                            "artist": "ICKY BLOSSOMS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4788,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 17200,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 170972,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 182330,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "deep.m4a",
+                "duration": 228.245,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/deep_01.m4a",
+                            "duration": 3.584
+                        },
+                        {
+                            "path": "intro_2/deep_01.m4a",
+                            "duration": 3.312
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Deep",
+                            "artist": "DANZIG"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5250,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 11640,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 210730,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 222710,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "down_on_the_street.m4a",
+                "duration": 222.583,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/down_on_the_street_01.m4a",
+                            "duration": 2.824
+                        },
+                        {
+                            "path": "intro_2/down_on_the_street_01.m4a",
+                            "duration": 3.6
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Down On The Street",
+                            "artist": "THE STOOGES"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5150,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 14890,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 208581,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 217450,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "drab_measure.m4a",
+                "duration": 271.991,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/drab_measure_01.m4a",
+                            "duration": 3.16175
+                        },
+                        {
+                            "path": "intro_2/drab_measure_01.m4a",
+                            "duration": 3.864
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Drab Measure",
+                            "artist": "CRACK CLOUD"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5140,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 22170,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 259890,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 266880,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "eisbar.m4a",
+                "duration": 260.59,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/eisbar_01.m4a",
+                            "duration": 5.0535
+                        },
+                        {
+                            "path": "intro_2/eisbar_01.m4a",
+                            "duration": 3.456
+                        },
+                        {
+                            "path": "intro_1/eisbar_02.m4a",
+                            "duration": 4.80575
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Eisbar",
+                            "artist": "GRAUZONE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5923,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 13412,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 228551,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 255476,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "faceless.m4a",
+                "duration": 137.823,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/faceless_01.m4a",
+                            "duration": 3.6695
+                        },
+                        {
+                            "path": "intro_2/faceless_01.m4a",
+                            "duration": 3.912
+                        },
+                        {
+                            "path": "intro_1/faceless_02.m4a",
+                            "duration": 2.61375
+                        },
+                        {
+                            "path": "intro_1/faceless_03.m4a",
+                            "duration": 5.03125
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Faceless",
+                            "artist": "A CERTAIN RATIO"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 11390,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 21830,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 121790,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 132590,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "four_shadows.m4a",
+                "duration": 215.347,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/four_shadows_01.m4a",
+                            "duration": 2.604
+                        },
+                        {
+                            "path": "intro_2/four_shadows_01.m4a",
+                            "duration": 3.888
+                        },
+                        {
+                            "path": "intro_1/four_shadows_02.m4a",
+                            "duration": 3.656
+                        },
+                        {
+                            "path": "intro_1/four_shadows_03.m4a",
+                            "duration": 4.44425
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Four Shadows",
+                            "artist": "ARIEL PINK"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4021,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 9430,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 204599,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 210027,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "girls_and_boys.m4a",
+                "duration": 277.333,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/girls_and_boys_01.m4a",
+                            "duration": 7.71925
+                        },
+                        {
+                            "path": "intro_2/girls_and_boys_01.m4a",
+                            "duration": 4.104
+                        },
+                        {
+                            "path": "intro_1/girls_and_boys_02.m4a",
+                            "duration": 5.14025
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Girls & Boys",
+                            "artist": "VIAGRA BOYS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5165,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 10584,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 253528,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 272150,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "hard_to_explain.m4a",
+                "duration": 224.025,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/hard_to_explain_01.m4a",
+                            "duration": 4.3265
+                        },
+                        {
+                            "path": "intro_2/hard_to_explain_01.m4a",
+                            "duration": 4.368
+                        },
+                        {
+                            "path": "intro_1/hard_to_explain_02.m4a",
+                            "duration": 6.05175
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Hard To Explain",
+                            "artist": "THE STROKES"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5860,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 31965,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 212174,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 218832,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "human_fly.m4a",
+                "duration": 131.0,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/human_fly_01.m4a",
+                            "duration": 3.12775
+                        },
+                        {
+                            "path": "intro_2/human_fly_01.m4a",
+                            "duration": 3.456
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Human Fly",
+                            "artist": "THE CRAMPS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 14130,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 33306,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 122316,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 125842,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "its_yours.m4a",
+                "duration": 260.293,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/its_yours_01.m4a",
+                            "duration": 5.37125
+                        },
+                        {
+                            "path": "intro_2/its_yours_01.m4a",
+                            "duration": 3.696
+                        },
+                        {
+                            "path": "intro_1/its_yours_02.m4a",
+                            "duration": 11.2935
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "It's Yours",
+                            "artist": "T LA ROCK"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4774,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 14106,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 240617,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 254644,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "liebe_auf_den_ersten_blick.m4a",
+                "duration": 233.167,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/liebe_auf_den_ersten_blick_01.m4a",
+                            "duration": 8.73425
+                        },
+                        {
+                            "path": "intro_2/liebe_auf_den_ersten_blick_01.m4a",
+                            "duration": 4.92
+                        },
+                        {
+                            "path": "intro_1/liebe_auf_den_ersten_blick_02.m4a",
+                            "duration": 5.4135
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Liebe Auf Den Ersten Blick",
+                            "artist": "DAF"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 216929,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 228056,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "many_tears_ago.m4a",
+                "duration": 114.12,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/many_tears_ago_01.m4a",
+                            "duration": 3.90175
+                        },
+                        {
+                            "path": "intro_2/many_tears_ago_01.m4a",
+                            "duration": 4.2
+                        },
+                        {
+                            "path": "intro_1/many_tears_ago_02.m4a",
+                            "duration": 3.6185
+                        },
+                        {
+                            "path": "intro_1/many_tears_ago_03.m4a",
+                            "duration": 5.1615
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Many Tears Ago",
+                            "artist": "CONNIE FRANCIS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 2872,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 7488,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 91412,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 102448,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "nightclubbing.m4a",
+                "duration": 246.624,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/nightclubbing_01.m4a",
+                            "duration": 3.836
+                        },
+                        {
+                            "path": "intro_2/nightclubbing_01.m4a",
+                            "duration": 3.552
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Nightclubbing",
+                            "artist": "IGGY POP"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4827,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 16840,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 225500,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 241087,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "on_the_level.m4a",
+                "duration": 217.018,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/on_the_level_01.m4a",
+                            "duration": 5.096
+                        },
+                        {
+                            "path": "intro_2/on_the_level_01.m4a",
+                            "duration": 3.96
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "On The Level",
+                            "artist": "MAC DEMARCO"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5334,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 23590,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 198211,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 211808,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "pool_song.m4a",
+                "duration": 197.0,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/pool_song_01.m4a",
+                            "duration": 3.4095
+                        },
+                        {
+                            "path": "intro_2/pool_song_01.m4a",
+                            "duration": 3.552
+                        },
+                        {
+                            "path": "intro_1/pool_song_02.m4a",
+                            "duration": 3.5375
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Pool Song",
+                            "artist": "LEA PORCELAIN"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5095,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 10795,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 179969,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 191173,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "raga_madhuvanti.m4a",
+                "duration": 299.25,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/raga_madhuvanti_01.m4a",
+                            "duration": 4.90675
+                        },
+                        {
+                            "path": "intro_2/raga_madhuvanti_01.m4a",
+                            "duration": 4.368
+                        },
+                        {
+                            "path": "intro_1/raga_madhuvanti_02.m4a",
+                            "duration": 4.5735
+                        },
+                        {
+                            "path": "intro_1/raga_madhuvanti_03.m4a",
+                            "duration": 6.8315
+                        },
+                        {
+                            "path": "intro_1/raga_madhuvanti_04.m4a",
+                            "duration": 9.484
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Raga Madhuvanti",
+                            "artist": "CHARANJIT SINGH"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4996,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 23689,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 278118,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 293756,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "rock_and_roll.m4a",
+                "duration": 279.895,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/rock_and_roll_01.m4a",
+                            "duration": 4.70125
+                        },
+                        {
+                            "path": "intro_2/rock_and_roll_01.m4a",
+                            "duration": 3.936
+                        },
+                        {
+                            "path": "intro_1/rock_and_roll_02.m4a",
+                            "duration": 5.6685
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Rock And Roll",
+                            "artist": "THE VELVET UNDERGROUND"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5510,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 14240,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 259140,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 274670,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "shes_lost_control.m4a",
+                "duration": 228.872,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/shes_lost_control_01.m4a",
+                            "duration": 3.26025
+                        },
+                        {
+                            "path": "intro_2/shes_lost_control_01.m4a",
+                            "duration": 5.88
+                        },
+                        {
+                            "path": "intro_1/shes_lost_control_02.m4a",
+                            "duration": 3.61675
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "She's Lost Control",
+                            "artist": "JOY DIVISION"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 6656,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 19435,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 213058,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 223143,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "so_it_goes.m4a",
+                "duration": 147.924,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/so_it_goes_01.m4a",
+                            "duration": 4.1015
+                        },
+                        {
+                            "path": "intro_2/so_it_goes_01.m4a",
+                            "duration": 3.648
+                        },
+                        {
+                            "path": "intro_1/so_it_goes_02.m4a",
+                            "duration": 4.35875
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "So It Goes",
+                            "artist": "NICK LOWE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 131847,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 142812,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "tainted_love.m4a",
+                "duration": 125.091,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/tainted_love_01.m4a",
+                            "duration": 3.39575
+                        },
+                        {
+                            "path": "intro_2/tainted_love_01.m4a",
+                            "duration": 3.864
+                        },
+                        {
+                            "path": "intro_1/tainted_love_02.m4a",
+                            "duration": 3.375
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Tainted Love",
+                            "artist": "GLORIA JONES"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 2786,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 7952,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 109465,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 119839,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "take_down_the_house.m4a",
+                "duration": 187.436,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/take_down_the_house_01.m4a",
+                            "duration": 7.5955
+                        },
+                        {
+                            "path": "intro_2/take_down_the_house_01.m4a",
+                            "duration": 4.272
+                        },
+                        {
+                            "path": "intro_1/take_down_the_house_02.m4a",
+                            "duration": 7.8215
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Take Down The House",
+                            "artist": "PROMISELAND"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5278,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 16032,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 179786,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 184037,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "the_adults_are_talking.m4a",
+                "duration": 308.696,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/the_adults_are_talking_01.m4a",
+                            "duration": 3.9955
+                        },
+                        {
+                            "path": "intro_2/the_adults_are_talking_01.m4a",
+                            "duration": 4.248
+                        },
+                        {
+                            "path": "intro_1/the_adults_are_talking_02.m4a",
+                            "duration": 3.18025
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "The Adults Are Talking",
+                            "artist": "THE STROKES"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4319,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 21813,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 275189,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 302886,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "this_is_the_day.m4a",
+                "duration": 280.0,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/this_is_the_day_01.m4a",
+                            "duration": 5.33375
+                        },
+                        {
+                            "path": "intro_2/this_is_the_day_01.m4a",
+                            "duration": 4.32
+                        },
+                        {
+                            "path": "intro_1/this_is_the_day_02.m4a",
+                            "duration": 8.135
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "This Is The Day",
+                            "artist": "THE THE"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5824,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 18088,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 256486,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 274753,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "time_bomb.m4a",
+                "duration": 128.64,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/time_bomb_01.m4a",
+                            "duration": 2.7245
+                        },
+                        {
+                            "path": "intro_2/time_bomb_01.m4a",
+                            "duration": 3.624
+                        },
+                        {
+                            "path": "intro_1/time_bomb_02.m4a",
+                            "duration": 4.144
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Time Bomb",
+                            "artist": "RAMONES"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 119310,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 123570,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "too_much_money.m4a",
+                "duration": 134.966,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/too_much_money_01.m4a",
+                            "duration": 2.3815
+                        },
+                        {
+                            "path": "intro_2/too_much_money_01.m4a",
+                            "duration": 4.104
+                        },
+                        {
+                            "path": "intro_1/too_much_money_02.m4a",
+                            "duration": 3.1735
+                        },
+                        {
+                            "path": "intro_1/too_much_money_03.m4a",
+                            "duration": 3.4165
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Too Much Money",
+                            "artist": "AUTOMATIC"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 10777,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 20822,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 114731,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 130363,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "tv_casualty.m4a",
+                "duration": 145.6,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/tv_casualty_01.m4a",
+                            "duration": 4.1305
+                        },
+                        {
+                            "path": "intro_2/tv_casualty_01.m4a",
+                            "duration": 4.56
+                        },
+                        {
+                            "path": "intro_1/tv_casualty_02.m4a",
+                            "duration": 5.12
+                        },
+                        {
+                            "path": "intro_1/tv_casualty_03.m4a",
+                            "duration": 2.35075
+                        },
+                        {
+                            "path": "intro_1/tv_casualty_04.m4a",
+                            "duration": 2.35075
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "TV Casualty",
+                            "artist": "MISFITS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 3570,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 6780,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 127570,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 140570,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "typical_girls.m4a",
+                "duration": 220.943,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/typical_girls_01.m4a",
+                            "duration": 2.8985
+                        },
+                        {
+                            "path": "intro_2/typical_girls_01.m4a",
+                            "duration": 3.912
+                        },
+                        {
+                            "path": "intro_1/typical_girls_02.m4a",
+                            "duration": 4.044
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Typical Girls",
+                            "artist": "THE SLITS"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 203662,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 216907,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "lft_me_lonely.m4a",
+                "duration": 318.733,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_1/lft_me_lonely_01.m4a",
+                            "duration": 3.14675
+                        },
+                        {
+                            "path": "intro_2/lft_me_lonely_01.m4a",
+                            "duration": 2.4
+                        },
+                        {
+                            "path": "intro_1/lft_me_lonely_02.m4a",
+                            "duration": 4.5175
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Left Me Lonely",
+                            "artist": "MC SHAN FEAT. TJ SWAN"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 4800,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 9250,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 302010,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 313310,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "going_back_to_cali.m4a",
+                "duration": 250.24,
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Going Back To Cali",
+                            "artist": "LL COOL J"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5568,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 26752,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 214144,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 244949,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "where_no_eagles_fly.m4a",
+                "duration": 223.285,
+                "attachments": {
+                    "intro": [
+                        {
+                            "path": "intro_2/where_no_eagles_fly_01.m4a",
+                            "duration": 5.088
+                        }
+                    ]
+                },
+                "markers": {
+                    "track": [
+                        {
+                            "offset": 0,
+                            "title": "Where No Eagles Fly",
+                            "artist": "THE VOIDZ"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "offset": 5840,
+                            "value": "intro_start"
+                        },
+                        {
+                            "offset": 24992,
+                            "value": "intro_end"
+                        },
+                        {
+                            "offset": 194384,
+                            "value": "outro_start"
+                        },
+                        {
+                            "offset": 217904,
+                            "value": "outro_end"
+                        }
+                    ]
+                }
+            }
+        ],
+        "adverts": [
+            {
+                "path": "promos/kult_ad001_aquarius.m4a",
+                "duration": 50.592
+            },
+            {
+                "path": "promos/kult_ad002_aries.m4a",
+                "duration": 54.171
+            },
+            {
+                "path": "promos/kult_ad003_cancer.m4a",
+                "duration": 55.712
+            },
+            {
+                "path": "promos/kult_ad004_capricorn.m4a",
+                "duration": 42.806
+            },
+            {
+                "path": "promos/kult_ad005_gemini.m4a",
+                "duration": 54.5
+            },
+            {
+                "path": "promos/kult_ad006_leo.m4a",
+                "duration": 50.575
+            },
+            {
+                "path": "promos/kult_ad007_libra.m4a",
+                "duration": 46.812
+            },
+            {
+                "path": "promos/kult_ad008_pisces.m4a",
+                "duration": 51.15
+            },
+            {
+                "path": "promos/kult_ad009_sagitarius.m4a",
+                "duration": 52.445
+            },
+            {
+                "path": "promos/kult_ad010_scorpio.m4a",
+                "duration": 55.767
+            },
+            {
+                "path": "promos/kult_ad011_taurus.m4a",
+                "duration": 53.164
+            },
+            {
+                "path": "promos/kult_ad012_virgo.m4a",
+                "duration": 48.511
+            }
+        ],
+        "general": [
+            {
+                "path": "general/general_01.m4a",
+                "duration": 15.888
+            },
+            {
+                "path": "general/general_02.m4a",
+                "duration": 19.08
+            },
+            {
+                "path": "general/general_03.m4a",
+                "duration": 19.224
+            },
+            {
+                "path": "general/general_04.m4a",
+                "duration": 16.608
+            },
+            {
+                "path": "general/general_05.m4a",
+                "duration": 7.368
+            },
+            {
+                "path": "general/general_06.m4a",
+                "duration": 13.488
+            },
+            {
+                "path": "general/general_07.m4a",
+                "duration": 14.904
+            },
+            {
+                "path": "general/general_08.m4a",
+                "duration": 14.952
+            },
+            {
+                "path": "general/general_09.m4a",
+                "duration": 16.416
+            },
+            {
+                "path": "general/general_10.m4a",
+                "duration": 11.64
+            },
+            {
+                "path": "general/general_11.m4a",
+                "duration": 14.808
+            }
+        ],
+        "id": [
+            {
+                "path": "id/id_01.m4a",
+                "duration": 6.986
+            },
+            {
+                "path": "id/id_02.m4a",
+                "duration": 5.641
+            },
+            {
+                "path": "id/id_03.m4a",
+                "duration": 5.181
+            },
+            {
+                "path": "id/id_04.m4a",
+                "duration": 5.59
+            },
+            {
+                "path": "id/id_05.m4a",
+                "duration": 5.602
+            },
+            {
+                "path": "id/id_06.m4a",
+                "duration": 5.511
+            },
+            {
+                "path": "id/id_07.m4a",
+                "duration": 5.317
+            },
+            {
+                "path": "id/id_08.m4a",
+                "duration": 4.477
+            },
+            {
+                "path": "id/id_09.m4a",
+                "duration": 6.556
+            },
+            {
+                "path": "id/id_10.m4a",
+                "duration": 4.581
+            },
+            {
+                "path": "id/id_11.m4a",
+                "duration": 6.504
+            },
+            {
+                "path": "id/id_12.m4a",
+                "duration": 7.857
+            },
+            {
+                "path": "id/id_13.m4a",
+                "duration": 5.715
+            },
+            {
+                "path": "id/id_14.m4a",
+                "duration": 6.532
+            },
+            {
+                "path": "id/id_16.m4a",
+                "duration": 5.435
+            },
+            {
+                "path": "id/id_17.m4a",
+                "duration": 5.776
+            },
+            {
+                "path": "id/id_18.m4a",
+                "duration": 5.271
+            },
+            {
+                "path": "id/id_19.m4a",
+                "duration": 8.685
+            },
+            {
+                "path": "id/id_20.m4a",
+                "duration": 4.23
+            },
+            {
+                "path": "id/id_21.m4a",
+                "duration": 2.973
+            },
+            {
+                "path": "id/id_22.m4a",
+                "duration": 5.535
+            },
+            {
+                "path": "id/id_23.m4a",
+                "duration": 6.3
+            },
+            {
+                "path": "id/id_24.m4a",
+                "duration": 4.522
+            },
+            {
+                "path": "id/id_25.m4a",
+                "duration": 4.612
+            },
+            {
+                "path": "id/id_26.m4a",
+                "duration": 4.095
+            },
+            {
+                "path": "id/id_27.m4a",
+                "duration": 8.415
+            },
+            {
+                "path": "id/id_28.m4a",
+                "duration": 6.615
+            },
+            {
+                "path": "id/id_29.m4a",
+                "duration": 5.13
+            },
+            {
+                "path": "id/id_30.m4a",
+                "duration": 7.762
+            },
+            {
+                "path": "id/id_36.m4a",
+                "duration": 19.62
+            },
+            {
+                "path": "id/id_37.m4a",
+                "duration": 14.017
+            },
+            {
+                "path": "id/id_38.m4a",
+                "duration": 19.755
+            },
+            {
+                "path": "id/id_39.m4a",
+                "duration": 15.705
+            },
+            {
+                "path": "id/id_40.m4a",
+                "duration": 18.09
+            },
+            {
+                "path": "id/id_41.m4a",
+                "duration": 19.755
+            },
+            {
+                "path": "id/id_43.m4a",
+                "duration": 15.525
+            },
+            {
+                "path": "id/id_36.m4a",
+                "duration": 19.62
+            },
+            {
+                "path": "id/id_37.m4a",
+                "duration": 14.017
+            },
+            {
+                "path": "id/id_38.m4a",
+                "duration": 19.755
+            },
+            {
+                "path": "id/id_39.m4a",
+                "duration": 15.705
+            },
+            {
+                "path": "id/id_40.m4a",
+                "duration": 18.09
+            },
+            {
+                "path": "id/id_41.m4a",
+                "duration": 19.755
+            },
+            {
+                "path": "id/id_43.m4a",
+                "duration": 15.525
+            },
+            {
+                "path": "id/id_36.m4a",
+                "duration": 19.62
+            },
+            {
+                "path": "id/id_37.m4a",
+                "duration": 14.017
+            },
+            {
+                "path": "id/id_38.m4a",
+                "duration": 19.755
+            },
+            {
+                "path": "id/id_39.m4a",
+                "duration": 15.705
+            },
+            {
+                "path": "id/id_40.m4a",
+                "duration": 18.09
+            },
+            {
+                "path": "id/id_41.m4a",
+                "duration": 19.755
+            },
+            {
+                "path": "id/id_43.m4a",
+                "duration": 15.525
+            }
+        ],
+        "mono_solo": [
+            {
+                "path": "mono_solo/mono_solo_01.m4a",
+                "duration": 22.747
+            },
+            {
+                "path": "mono_solo/mono_solo_02.m4a",
+                "duration": 118.904
+            },
+            {
+                "path": "mono_solo/mono_solo_03.m4a",
+                "duration": 35.114
+            },
+            {
+                "path": "mono_solo/mono_solo_04.m4a",
+                "duration": 38.7
+            }
+        ],
+        "time_evening": [
+            {
+                "path": "time_evening/evening_01.m4a",
+                "duration": 3.624
+            },
+            {
+                "path": "time_evening/evening_02.m4a",
+                "duration": 3.024
+            },
+            {
+                "path": "time_evening/evening_03.m4a",
+                "duration": 5.208
+            },
+            {
+                "path": "time_evening/evening_04.m4a",
+                "duration": 4.704
+            }
+        ],
+        "time_morning": [
+            {
+                "path": "time_morning/morning_01.m4a",
+                "duration": 2.136
+            },
+            {
+                "path": "time_morning/morning_02.m4a",
+                "duration": 3.0
+            },
+            {
+                "path": "time_morning/morning_03.m4a",
+                "duration": 2.184
+            },
+            {
+                "path": "time_morning/morning_04.m4a",
+                "duration": 5.784
+            }
+        ]
+    }
+}
